@@ -15204,7 +15204,7 @@
           },
           "top_provider": {
             "context_length": 163840,
-            "max_completion_tokens": 65536,
+            "max_completion_tokens": 163840,
             "is_moderated": false
           },
           "per_request_limits": null,
@@ -16031,7 +16031,10 @@
           "default_parameters": {
             "temperature": null,
             "top_p": null,
-            "frequency_penalty": null
+            "top_k": null,
+            "frequency_penalty": null,
+            "presence_penalty": null,
+            "repetition_penalty": null
           },
           "expiration_date": null
         },
@@ -16530,12 +16533,9 @@
           },
           "per_request_limits": null,
           "supported_parameters": [
-            "frequency_penalty",
             "max_tokens",
-            "presence_penalty",
             "response_format",
             "seed",
-            "stop",
             "temperature",
             "top_p"
           ],
@@ -16614,12 +16614,9 @@
           },
           "per_request_limits": null,
           "supported_parameters": [
-            "frequency_penalty",
             "max_tokens",
-            "presence_penalty",
             "response_format",
             "seed",
-            "stop",
             "temperature",
             "top_p"
           ],
@@ -17256,7 +17253,7 @@
           },
           "top_provider": {
             "context_length": 131072,
-            "max_completion_tokens": 32768,
+            "max_completion_tokens": 131072,
             "is_moderated": false
           },
           "per_request_limits": null,
@@ -18254,7 +18251,7 @@
           },
           "top_provider": {
             "context_length": 196608,
-            "max_completion_tokens": 65536,
+            "max_completion_tokens": 196608,
             "is_moderated": false
           },
           "per_request_limits": null,
@@ -25441,13 +25438,10 @@
           },
           "per_request_limits": null,
           "supported_parameters": [
-            "frequency_penalty",
             "max_tokens",
-            "presence_penalty",
             "repetition_penalty",
             "response_format",
             "seed",
-            "stop",
             "structured_outputs",
             "temperature",
             "tool_choice",
