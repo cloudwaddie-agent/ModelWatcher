@@ -26144,17 +26144,21 @@
           },
           "per_request_limits": null,
           "supported_parameters": [
+            "frequency_penalty",
             "include_reasoning",
             "logprobs",
             "max_tokens",
             "presence_penalty",
             "reasoning",
+            "repetition_penalty",
             "response_format",
             "seed",
+            "stop",
             "structured_outputs",
             "temperature",
             "tool_choice",
             "tools",
+            "top_k",
             "top_logprobs",
             "top_p"
           ],
@@ -26196,17 +26200,21 @@
           },
           "per_request_limits": null,
           "supported_parameters": [
+            "frequency_penalty",
             "include_reasoning",
             "logprobs",
             "max_tokens",
             "presence_penalty",
             "reasoning",
+            "repetition_penalty",
             "response_format",
             "seed",
+            "stop",
             "structured_outputs",
             "temperature",
             "tool_choice",
             "tools",
+            "top_k",
             "top_logprobs",
             "top_p"
           ],
@@ -27333,9 +27341,12 @@
           "default_parameters": {
             "temperature": null,
             "top_p": null,
-            "frequency_penalty": null
+            "top_k": null,
+            "frequency_penalty": null,
+            "presence_penalty": null,
+            "repetition_penalty": null
           },
-          "expiration_date": "2026-03-22"
+          "expiration_date": "2026-03-02"
         },
         {
           "id": "writer/palmyra-x5",
