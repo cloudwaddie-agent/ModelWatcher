@@ -13778,53 +13778,6 @@
           "expiration_date": null
         },
         {
-          "id": "arcee-ai/trinity-mini",
-          "name": "Arcee AI: Trinity Mini",
-          "canonical_slug": "arcee-ai/trinity-mini-20251201",
-          "hugging_face_id": "arcee-ai/Trinity-Mini",
-          "description": "Trinity Mini is a 26B-parameter (3B active) sparse mixture-of-experts language model featuring 128 experts with 8 active per token. Engineered for efficient reasoning over long contexts (131k) with robust function calling and multi-step agent workflows.",
-          "context_length": 131072,
-          "architecture": {
-            "modality": "text->text",
-            "input_modalities": [
-              "text"
-            ],
-            "output_modalities": [
-              "text"
-            ],
-            "tokenizer": "Other",
-            "instruct_type": null
-          },
-          "pricing": {
-            "prompt": "0.000000045",
-            "completion": "0.00000015"
-          },
-          "top_provider": {
-            "context_length": 131072,
-            "max_completion_tokens": 131072,
-            "is_moderated": false
-          },
-          "per_request_limits": null,
-          "supported_parameters": [
-            "include_reasoning",
-            "max_tokens",
-            "reasoning",
-            "response_format",
-            "stop",
-            "structured_outputs",
-            "temperature",
-            "tool_choice",
-            "tools",
-            "top_p"
-          ],
-          "default_parameters": {
-            "temperature": 0.15,
-            "top_p": 0.75,
-            "frequency_penalty": null
-          },
-          "expiration_date": null
-        },
-        {
           "id": "arcee-ai/trinity-mini:free",
           "name": "Arcee AI: Trinity Mini (free)",
           "canonical_slug": "arcee-ai/trinity-mini-20251201",
