@@ -13787,6 +13787,53 @@
           "expiration_date": null
         },
         {
+          "id": "arcee-ai/trinity-mini",
+          "name": "Arcee AI: Trinity Mini",
+          "canonical_slug": "arcee-ai/trinity-mini-20251201",
+          "hugging_face_id": "arcee-ai/Trinity-Mini",
+          "description": "Trinity Mini is a 26B-parameter (3B active) sparse mixture-of-experts language model featuring 128 experts with 8 active per token. Engineered for efficient reasoning over long contexts (131k) with robust function calling and multi-step agent workflows.",
+          "context_length": 131072,
+          "architecture": {
+            "modality": "text->text",
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Other",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0.000000045",
+            "completion": "0.00000015"
+          },
+          "top_provider": {
+            "context_length": 131072,
+            "max_completion_tokens": 131072,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "include_reasoning",
+            "max_tokens",
+            "reasoning",
+            "response_format",
+            "stop",
+            "structured_outputs",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_p"
+          ],
+          "default_parameters": {
+            "temperature": 0.15,
+            "top_p": 0.75,
+            "frequency_penalty": null
+          },
+          "expiration_date": null
+        },
+        {
           "id": "arcee-ai/trinity-mini:free",
           "name": "Arcee AI: Trinity Mini (free)",
           "canonical_slug": "arcee-ai/trinity-mini-20251201",
@@ -15993,6 +16040,66 @@
             "stop",
             "structured_outputs",
             "temperature",
+            "top_p"
+          ],
+          "default_parameters": {
+            "temperature": null,
+            "top_p": null,
+            "top_k": null,
+            "frequency_penalty": null,
+            "presence_penalty": null,
+            "repetition_penalty": null
+          },
+          "expiration_date": null
+        },
+        {
+          "id": "google/gemini-3.1-flash-lite-preview",
+          "name": "Google: Gemini 3.1 Flash Lite Preview",
+          "canonical_slug": "google/gemini-3.1-flash-lite-preview-20260303",
+          "hugging_face_id": "",
+          "description": "Gemini 3.1 Flash Lite Preview is Google's high-efficiency model optimized for high-volume use cases. It outperforms Gemini 2.5 Flash Lite on overall quality and approaches Gemini 2.5 Flash performance across key capabilities. Improvements span audio input/ASR, RAG snippet ranking, translation, data extraction, and code completion. Supports full thinking levels (minimal, low, medium, high) for fine-grained cost/performance trade-offs. Priced at half the cost of Gemini 3 Flash.",
+          "context_length": 1048576,
+          "architecture": {
+            "modality": "text+image+file+audio+video->text",
+            "input_modalities": [
+              "text",
+              "image",
+              "video",
+              "file",
+              "audio"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Gemini",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0.00000025",
+            "completion": "0.0000015",
+            "image": "0.00000025",
+            "audio": "0.0000005",
+            "internal_reasoning": "0.0000015",
+            "input_cache_read": "0.000000025",
+            "input_cache_write": "0.00000008333333333333334"
+          },
+          "top_provider": {
+            "context_length": 1048576,
+            "max_completion_tokens": 65536,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "include_reasoning",
+            "max_tokens",
+            "reasoning",
+            "response_format",
+            "seed",
+            "stop",
+            "structured_outputs",
+            "temperature",
+            "tool_choice",
+            "tools",
             "top_p"
           ],
           "default_parameters": {
