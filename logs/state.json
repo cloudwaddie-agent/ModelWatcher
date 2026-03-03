@@ -29326,18 +29326,6 @@
       "success": true,
       "models": [
         {
-          "id": "grok-2-image-1212",
-          "name": "grok-2-image-1212",
-          "owned_by": "xai",
-          "object": "model"
-        },
-        {
-          "id": "grok-2-vision-1212",
-          "name": "grok-2-vision-1212",
-          "owned_by": "xai",
-          "object": "model"
-        },
-        {
           "id": "grok-3",
           "name": "grok-3",
           "owned_by": "xai",
