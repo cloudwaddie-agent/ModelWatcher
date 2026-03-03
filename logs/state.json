@@ -4840,7 +4840,7 @@
           "name": "meta-llama/Meta-Llama-3.1-70B-Instruct",
           "object": "model",
           "running": false,
-          "display_name": "Meta Llama 3.1 70B Instruct Turbo",
+          "display_name": "Meta Llama 3.1 70B Instruct",
           "config": {
             "chat_template": null,
             "stop": [],
@@ -7178,26 +7178,6 @@
             ],
             "bos_token": null,
             "eos_token": "<|im_end|>"
-          },
-          "pricing": {
-            "hourly": 0,
-            "input": 0,
-            "output": 0,
-            "base": 0,
-            "finetune": 0
-          }
-        },
-        {
-          "id": "Qwen/Qwen3.5-9B",
-          "name": "Qwen/Qwen3.5-9B",
-          "object": "model",
-          "running": false,
-          "display_name": "Qwen3.5 9B",
-          "config": {
-            "chat_template": null,
-            "stop": [],
-            "bos_token": null,
-            "eos_token": null
           },
           "pricing": {
             "hourly": 0,
