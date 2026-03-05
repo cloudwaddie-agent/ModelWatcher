@@ -8213,7 +8213,7 @@
           "name": "moonshotai/kimi-k2-instruct",
           "owned_by": "Moonshot AI",
           "object": "model",
-          "active": true,
+          "active": false,
           "context_window": 131072,
           "public_apps": null,
           "max_completion_tokens": 16384
