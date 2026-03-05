@@ -3987,8 +3987,8 @@
           },
           "pricing": {
             "hourly": 0,
-            "input": 0.27,
-            "output": 0.85,
+            "input": 4,
+            "output": 0,
             "base": 0,
             "finetune": 0
           }
@@ -8326,17 +8326,6 @@
           "supports_chat": true,
           "supports_image_input": false,
           "supports_tools": false,
-          "context_length": 163840
-        },
-        {
-          "id": "accounts/fireworks/models/deepseek-v3p2",
-          "name": "accounts/fireworks/models/deepseek-v3p2",
-          "owned_by": "fireworks",
-          "object": "model",
-          "kind": "HF_BASE_MODEL",
-          "supports_chat": true,
-          "supports_image_input": false,
-          "supports_tools": true,
           "context_length": 163840
         },
         {
@@ -13576,7 +13565,7 @@
           "canonical_slug": "anthropic/claude-4-sonnet-20250522",
           "hugging_face_id": "",
           "description": "Claude Sonnet 4 significantly enhances the capabilities of its predecessor, Sonnet 3.7, excelling in both coding and reasoning tasks with improved precision and controllability. Achieving state-of-the-art performance on SWE-bench (72.7%), Sonnet 4 balances capability and computational efficiency, making it suitable for a broad range of applications from routine coding tasks to complex software development projects. Key enhancements include improved autonomous codebase navigation, reduced error rates in agent-driven workflows, and increased reliability in following intricate instructions. Sonnet 4 is optimized for practical everyday use, providing advanced reasoning capabilities while maintaining efficiency and responsiveness in diverse internal and external scenarios.\n\nRead more at the [blog post here](https://www.anthropic.com/news/claude-4)",
-          "context_length": 1000000,
+          "context_length": 200000,
           "architecture": {
             "modality": "text+image+file->text",
             "input_modalities": [
@@ -13598,9 +13587,9 @@
             "input_cache_write": "0.00000375"
           },
           "top_provider": {
-            "context_length": 1000000,
+            "context_length": 200000,
             "max_completion_tokens": 64000,
-            "is_moderated": false
+            "is_moderated": true
           },
           "per_request_limits": null,
           "supported_parameters": [
