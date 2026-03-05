@@ -8213,7 +8213,7 @@
           "name": "moonshotai/kimi-k2-instruct",
           "owned_by": "Moonshot AI",
           "object": "model",
-          "active": false,
+          "active": true,
           "context_window": 131072,
           "public_apps": null,
           "max_completion_tokens": 16384
@@ -24945,7 +24945,6 @@
             "tool_choice",
             "tools",
             "top_k",
-            "top_logprobs",
             "top_p"
           ],
           "default_parameters": {},
