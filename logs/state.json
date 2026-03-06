@@ -9530,7 +9530,7 @@
             "pricing": {
               "input_tokens": 0.27,
               "output_tokens": 0.95,
-              "cache_read_tokens": 0.029999999700000002
+              "cache_read_tokens": 0.0290000007
             },
             "tags": [
               "prompt_cache"
@@ -18566,7 +18566,7 @@
           "pricing": {
             "prompt": "0.00000027",
             "completion": "0.00000095",
-            "input_cache_read": "0.0000000299999997"
+            "input_cache_read": "0.0000000290000007"
           },
           "top_provider": {
             "context_length": 196608,
