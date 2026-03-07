@@ -7210,6 +7210,26 @@
           }
         },
         {
+          "id": "Qwen/Qwen3.5-35B-A3B",
+          "name": "Qwen/Qwen3.5-35B-A3B",
+          "object": "model",
+          "running": false,
+          "display_name": "Qwen3.5 35B A3b",
+          "config": {
+            "chat_template": null,
+            "stop": [],
+            "bos_token": null,
+            "eos_token": null
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0,
+            "output": 0,
+            "base": 0,
+            "finetune": 0
+          }
+        },
+        {
           "id": "Qwen/Qwen3.5-397B-A17B",
           "name": "Qwen/Qwen3.5-397B-A17B",
           "object": "model",
@@ -9692,6 +9712,27 @@
             },
             "tags": [
               "vision",
+              "prompt_cache"
+            ]
+          }
+        },
+        {
+          "id": "moonshotai/Kimi-K2.5-Turbo",
+          "name": "moonshotai/Kimi-K2.5-Turbo",
+          "owned_by": "deepinfra",
+          "root": "moonshotai/Kimi-K2.5-Turbo",
+          "parent": null,
+          "object": "model",
+          "metadata": {
+            "description": "",
+            "context_length": 262144,
+            "max_tokens": 262144,
+            "pricing": {
+              "input_tokens": 0.6,
+              "output_tokens": 2.9999999999999996,
+              "cache_read_tokens": 0.10000000199999999
+            },
+            "tags": [
               "prompt_cache"
             ]
           }
