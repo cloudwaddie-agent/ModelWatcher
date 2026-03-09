@@ -3600,33 +3600,6 @@
           }
         },
         {
-          "id": "google/gemma-2b-it-Ishan",
-          "name": "google/gemma-2b-it-Ishan",
-          "object": "model",
-          "type": "chat",
-          "running": false,
-          "display_name": "Gemma 2B It",
-          "organization": "Google",
-          "link": "https://huggingface.co/api/models/google/gemma-2b-it",
-          "license": "gemma",
-          "context_length": 8192,
-          "config": {
-            "chat_template": "{{ bos_token }}{% if messages[0]['role'] == 'system' %}{{ raise_exception('System role not supported') }}{% endif %}{% for message in messages %}{% if (message['role'] == 'user') != (loop.index0 % 2 == 0) %}{{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }}{% endif %}{% if (message['role'] == 'assistant') %}{% set role = 'model' %}{% else %}{% set role = message['role'] %}{% endif %}{{ '<start_of_turn>' + role + '\n' + message['content'] | trim + '<end_of_turn>\n' }}{% endfor %}{% if add_generation_prompt %}{{'<start_of_turn>model\n'}}{% endif %}",
-            "stop": [
-              "<eos>"
-            ],
-            "bos_token": "<bos>",
-            "eos_token": "<eos>"
-          },
-          "pricing": {
-            "hourly": 0,
-            "input": 0,
-            "output": 0,
-            "base": 0,
-            "finetune": 0
-          }
-        },
-        {
           "id": "google/gemma-3-12b-it",
           "name": "google/gemma-3-12b-it",
           "object": "model",
