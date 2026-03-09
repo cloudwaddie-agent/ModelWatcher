@@ -3943,15 +3943,15 @@
           }
         },
         {
-          "id": "hexgrad/Kokoro-82M",
-          "name": "hexgrad/Kokoro-82M",
+          "id": "hexgrad/kokoro-82m",
+          "name": "hexgrad/kokoro-82m",
           "object": "model",
-          "type": "audio",
+          "type": "chat",
           "running": false,
           "display_name": "Kokoro 82M",
           "organization": "Hexgrad",
-          "link": "https://huggingface.co/hexgrad/Kokoro-82M",
-          "license": "apache2",
+          "link": "https://huggingface.co/api/models/hexgrad/Kokoro-82M",
+          "license": "apache-2.0",
           "config": {
             "chat_template": null,
             "stop": [],
@@ -3960,7 +3960,7 @@
           },
           "pricing": {
             "hourly": 0,
-            "input": 4,
+            "input": 0,
             "output": 0,
             "base": 0,
             "finetune": 0
