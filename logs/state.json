@@ -5434,55 +5434,21 @@
           }
         },
         {
-          "id": "mixedbread-ai/Mxbai-Rerank-Large-V2",
-          "name": "mixedbread-ai/Mxbai-Rerank-Large-V2",
-          "object": "model",
-          "type": "rerank",
-          "running": false,
-          "display_name": "Mxbai Rerank Large V2",
-          "organization": "Mixedbread AI",
-          "link": "https://huggingface.co/api/models/mixedbread-ai/mxbai-rerank-large-v2",
-          "license": "apache-2.0",
-          "context_length": 32768,
-          "config": {
-            "chat_template": "{%- if tools %}\n    {{- '<|im_start|>system\\n' }}\n    {%- if messages[0]['role'] == 'system' %}\n        {{- messages[0]['content'] }}\n    {%- else %}\n        {{- 'You are Qwen, created by Alibaba Cloud. You are a helpful assistant.' }}\n    {%- endif %}\n    {{- \"\\n\\n# Tools\\n\\nYou may call one or more functions to assist with the user query.\\n\\nYou are provided with function signatures within <tools></tools> XML tags:\\n<tools>\" }}\n    {%- for tool in tools %}\n        {{- \"\\n\" }}\n        {{- tool | tojson }}\n    {%- endfor %}\n    {{- \"\\n</tools>\\n\\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\\n<tool_call>\\n{\\\"name\\\": <function-name>, \\\"arguments\\\": <args-json-object>}\\n</tool_call><|im_end|>\\n\" }}\n{%- else %}\n    {%- if messages[0]['role'] == 'system' %}\n        {{- '<|im_start|>system\\n' + messages[0]['content'] + '<|im_end|>\\n' }}\n    {%- else %}\n        {{- '<|im_start|>system\\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\\n' }}\n    {%- endif %}\n{%- endif %}\n{%- for message in messages %}\n    {%- if (message.role == \"user\") or (message.role == \"system\" and not loop.first) or (message.role == \"assistant\" and not message.tool_calls) %}\n        {{- '<|im_start|>' + message.role + '\\n' + message.content + '<|im_end|>' + '\\n' }}\n    {%- elif message.role == \"assistant\" %}\n        {{- '<|im_start|>' + message.role }}\n        {%- if message.content %}\n            {{- '\\n' + message.content }}\n        {%- endif %}\n        {%- for tool_call in message.tool_calls %}\n            {%- if tool_call.function is defined %}\n                {%- set tool_call = tool_call.function %}\n            {%- endif %}\n            {{- '\\n<tool_call>\\n{\"name\": \"' }}\n            {{- tool_call.name }}\n            {{- '\", \"arguments\": ' }}\n            {{- tool_call.arguments | tojson }}\n            {{- '}\\n</tool_call>' }}\n        {%- endfor %}\n        {{- '<|im_end|>\\n' }}\n    {%- elif message.role == \"tool\" %}\n        {%- if (loop.index0 == 0) or (messages[loop.index0 - 1].role != \"tool\") %}\n            {{- '<|im_start|>user' }}\n        {%- endif %}\n        {{- '\\n<tool_response>\\n' }}\n        {{- message.content }}\n        {{- '\\n</tool_response>' }}\n        {%- if loop.last or (messages[loop.index0 + 1].role != \"tool\") %}\n            {{- '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\\n' }}\n{%- endif %}\n",
-            "stop": [
-              "<|im_end|>"
-            ],
-            "bos_token": "<|endoftext|>",
-            "eos_token": "<|im_end|>"
-          },
-          "pricing": {
-            "hourly": 0,
-            "input": 0.1,
-            "output": 0.1,
-            "base": 0,
-            "finetune": 0
-          }
-        },
-        {
           "id": "moonshotai/Kimi-K2-Thinking",
           "name": "moonshotai/Kimi-K2-Thinking",
           "object": "model",
-          "type": "chat",
           "running": false,
           "display_name": "Kimi K2 Thinking",
-          "organization": "Moonshotai",
-          "link": "",
-          "license": "",
-          "context_length": 262144,
           "config": {
             "chat_template": null,
-            "stop": [
-              "[EOS]"
-            ],
-            "bos_token": "[BOS]",
-            "eos_token": "[EOS]"
+            "stop": [],
+            "bos_token": null,
+            "eos_token": null
           },
           "pricing": {
             "hourly": 0,
-            "input": 1.2,
-            "output": 4,
+            "input": 0,
+            "output": 0,
             "base": 0,
             "finetune": 0
           }
@@ -9743,7 +9709,7 @@
           "parent": null,
           "object": "model",
           "metadata": {
-            "description": "NVIDIA Nemotron 3 Nano is an open reasoning model optimized for fast, cost-efficient inference. Built with a hybrid MoE and Mamba architecture and trained on NVIDIA-curated synthetic reasoning data, it delivers strong multi-step reasoning with stable latency and predictable performance for agentic and production workloads.",
+            "description": "NVIDIA Nemotron 3 Nano is an open small reasoning model optimized for fast, cost-efficient inference in agentic and production workloads. Built with a hybrid Mixture-of-Experts (MoE) and Mamba-Transformer architecture, it delivers strong multi-step reasoning, high token throughput, stable latency with predictable cost, and efficient deployment for agent-based systems. Designed for real-world AI systems where reasoning can generate significantly more tokens per prompt, Nemotron Nano reduces compute cost while maintaining strong reasoning quality.",
             "context_length": 262144,
             "max_tokens": 262144,
             "pricing": {
@@ -28356,13 +28322,12 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.0000008",
-            "completion": "0.00000256",
-            "input_cache_read": "0.00000016"
+            "prompt": "0.00000072",
+            "completion": "0.0000023"
           },
           "top_provider": {
             "context_length": 202752,
-            "max_completion_tokens": null,
+            "max_completion_tokens": 131072,
             "is_moderated": false
           },
           "per_request_limits": null,
