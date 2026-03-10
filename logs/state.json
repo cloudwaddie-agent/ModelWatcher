@@ -3919,15 +3919,15 @@
           }
         },
         {
-          "id": "hexgrad/kokoro-82m",
-          "name": "hexgrad/kokoro-82m",
+          "id": "hexgrad/Kokoro-82M",
+          "name": "hexgrad/Kokoro-82M",
           "object": "model",
           "type": "audio",
           "running": false,
           "display_name": "Kokoro 82M",
           "organization": "Hexgrad",
-          "link": "https://huggingface.co/api/models/hexgrad/Kokoro-82M",
-          "license": "apache-2.0",
+          "link": "https://huggingface.co/hexgrad/Kokoro-82M",
+          "license": "apache2",
           "config": {
             "chat_template": null,
             "stop": [],
@@ -29332,24 +29332,6 @@
       "success": true,
       "models": [
         {
-          "id": "grok-3",
-          "name": "grok-3",
-          "owned_by": "xai",
-          "object": "model"
-        },
-        {
-          "id": "grok-3-mini",
-          "name": "grok-3-mini",
-          "owned_by": "xai",
-          "object": "model"
-        },
-        {
-          "id": "grok-4-0709",
-          "name": "grok-4-0709",
-          "owned_by": "xai",
-          "object": "model"
-        },
-        {
           "id": "grok-4-1-fast-non-reasoning",
           "name": "grok-4-1-fast-non-reasoning",
           "owned_by": "xai",
@@ -29358,18 +29340,6 @@
         {
           "id": "grok-4-1-fast-reasoning",
           "name": "grok-4-1-fast-reasoning",
-          "owned_by": "xai",
-          "object": "model"
-        },
-        {
-          "id": "grok-4-fast-non-reasoning",
-          "name": "grok-4-fast-non-reasoning",
-          "owned_by": "xai",
-          "object": "model"
-        },
-        {
-          "id": "grok-4-fast-reasoning",
-          "name": "grok-4-fast-reasoning",
           "owned_by": "xai",
           "object": "model"
         },
