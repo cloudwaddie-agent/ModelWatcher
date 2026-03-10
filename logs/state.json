@@ -8128,16 +8128,6 @@
           "max_completion_tokens": 32768
         },
         {
-          "id": "meta-llama/llama-4-maverick-17b-128e-instruct",
-          "name": "meta-llama/llama-4-maverick-17b-128e-instruct",
-          "owned_by": "Meta",
-          "object": "model",
-          "active": true,
-          "context_window": 131072,
-          "public_apps": null,
-          "max_completion_tokens": 8192
-        },
-        {
           "id": "meta-llama/llama-4-scout-17b-16e-instruct",
           "name": "meta-llama/llama-4-scout-17b-16e-instruct",
           "owned_by": "Meta",
