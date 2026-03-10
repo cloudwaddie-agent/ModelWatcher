@@ -14347,6 +14347,59 @@
           "expiration_date": null
         },
         {
+          "id": "bytedance-seed/seed-2.0-lite",
+          "name": "ByteDance Seed: Seed-2.0-Lite",
+          "canonical_slug": "bytedance-seed/seed-2.0-lite-20260309",
+          "hugging_face_id": null,
+          "description": "Seed-2.0-Lite is a balanced model designed for high-frequency enterprise workloads, optimizing for both capability and cost. Its overall performance surpasses the previous-generation Seed-1.8. It is well-suited for production tasks such as unstructured information processing, text content creation, search and recommendation, and data analysis. The model supports long-context processing, multi-source information fusion, multi-step instruction execution, and high-fidelity structured outputs—delivering stable quality while significantly reducing cost.",
+          "context_length": 262144,
+          "architecture": {
+            "modality": "text+image+video->text",
+            "input_modalities": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Other",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0.00000025",
+            "completion": "0.000002"
+          },
+          "top_provider": {
+            "context_length": 262144,
+            "max_completion_tokens": 131072,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "frequency_penalty",
+            "include_reasoning",
+            "max_tokens",
+            "reasoning",
+            "response_format",
+            "stop",
+            "structured_outputs",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_p"
+          ],
+          "default_parameters": {
+            "temperature": null,
+            "top_p": null,
+            "top_k": null,
+            "frequency_penalty": null,
+            "presence_penalty": null,
+            "repetition_penalty": null
+          },
+          "expiration_date": null
+        },
+        {
           "id": "bytedance-seed/seed-2.0-mini",
           "name": "ByteDance Seed: Seed-2.0-Mini",
           "canonical_slug": "bytedance-seed/seed-2.0-mini-20260224",
@@ -16085,7 +16138,7 @@
             "top_p": null,
             "frequency_penalty": null
           },
-          "expiration_date": "2026-03-09"
+          "expiration_date": "2026-03-26"
         },
         {
           "id": "google/gemini-3.1-flash-image-preview",
@@ -20119,90 +20172,6 @@
           "expiration_date": null
         },
         {
-          "id": "neversleep/llama-3.1-lumimaid-8b",
-          "name": "NeverSleep: Lumimaid v0.2 8B",
-          "canonical_slug": "neversleep/llama-3.1-lumimaid-8b",
-          "hugging_face_id": "NeverSleep/Lumimaid-v0.2-8B",
-          "description": "Lumimaid v0.2 8B is a finetune of [Llama 3.1 8B](/models/meta-llama/llama-3.1-8b-instruct) with a \"HUGE step up dataset wise\" compared to Lumimaid v0.1. Sloppy chats output were purged.\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-          "context_length": 32768,
-          "architecture": {
-            "modality": "text->text",
-            "input_modalities": [
-              "text"
-            ],
-            "output_modalities": [
-              "text"
-            ],
-            "tokenizer": "Llama3",
-            "instruct_type": "llama3"
-          },
-          "pricing": {
-            "prompt": "0.00000009",
-            "completion": "0.0000006"
-          },
-          "top_provider": {
-            "context_length": 32768,
-            "max_completion_tokens": 4096,
-            "is_moderated": false
-          },
-          "per_request_limits": null,
-          "supported_parameters": [
-            "frequency_penalty",
-            "logprobs",
-            "max_tokens",
-            "presence_penalty",
-            "response_format",
-            "stop",
-            "structured_outputs",
-            "temperature",
-            "top_logprobs",
-            "top_p"
-          ],
-          "default_parameters": {},
-          "expiration_date": null
-        },
-        {
-          "id": "neversleep/noromaid-20b",
-          "name": "Noromaid 20B",
-          "canonical_slug": "neversleep/noromaid-20b",
-          "hugging_face_id": "NeverSleep/Noromaid-20b-v0.1.1",
-          "description": "A collab between IkariDev and Undi. This merge is suitable for RP, ERP, and general knowledge.\n\n#merge #uncensored",
-          "context_length": 4096,
-          "architecture": {
-            "modality": "text->text",
-            "input_modalities": [
-              "text"
-            ],
-            "output_modalities": [
-              "text"
-            ],
-            "tokenizer": "Llama2",
-            "instruct_type": "alpaca"
-          },
-          "pricing": {
-            "prompt": "0.000001",
-            "completion": "0.00000175"
-          },
-          "top_provider": {
-            "context_length": 4096,
-            "max_completion_tokens": 2048,
-            "is_moderated": false
-          },
-          "per_request_limits": null,
-          "supported_parameters": [
-            "frequency_penalty",
-            "max_tokens",
-            "presence_penalty",
-            "response_format",
-            "stop",
-            "structured_outputs",
-            "temperature",
-            "top_p"
-          ],
-          "default_parameters": {},
-          "expiration_date": null
-        },
-        {
           "id": "nex-agi/deepseek-v3.1-nex-n1",
           "name": "Nex AGI: DeepSeek V3.1 Nex N1",
           "canonical_slug": "nex-agi/deepseek-v3.1-nex-n1",
@@ -20381,7 +20350,7 @@
           "canonical_slug": "nousresearch/hermes-3-llama-3.1-70b",
           "hugging_face_id": "NousResearch/Hermes-3-Llama-3.1-70B",
           "description": "Hermes 3 is a generalist language model with many improvements over [Hermes 2](/models/nousresearch/nous-hermes-2-mistral-7b-dpo), including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the board.\n\nHermes 3 70B is a competitive, if not superior finetune of the [Llama-3.1 70B foundation model](/models/meta-llama/llama-3.1-70b-instruct), focused on aligning LLMs to the user, with powerful steering capabilities and control given to the end user.\n\nThe Hermes 3 series builds and expands on the Hermes 2 set of capabilities, including more powerful and reliable function calling and structured output capabilities, generalist assistant capabilities, and improved code generation skills.",
-          "context_length": 65536,
+          "context_length": 131072,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -20398,14 +20367,13 @@
             "completion": "0.0000003"
           },
           "top_provider": {
-            "context_length": 65536,
-            "max_completion_tokens": 65536,
+            "context_length": 131072,
+            "max_completion_tokens": null,
             "is_moderated": false
           },
           "per_request_limits": null,
           "supported_parameters": [
             "frequency_penalty",
-            "logprobs",
             "max_tokens",
             "min_p",
             "presence_penalty",
@@ -20413,10 +20381,8 @@
             "response_format",
             "seed",
             "stop",
-            "structured_outputs",
             "temperature",
             "top_k",
-            "top_logprobs",
             "top_p"
           ],
           "default_parameters": {},
@@ -27052,7 +27018,7 @@
           "canonical_slug": "sao10k/l3.1-euryale-70b",
           "hugging_face_id": "Sao10K/L3.1-70B-Euryale-v2.2",
           "description": "Euryale L3.1 70B v2.2 is a model focused on creative roleplay from [Sao10k](https://ko-fi.com/sao10k). It is the successor of [Euryale L3 70B v2.1](/models/sao10k/l3-euryale-70b).",
-          "context_length": 32768,
+          "context_length": 131072,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -27065,18 +27031,17 @@
             "instruct_type": "llama3"
           },
           "pricing": {
-            "prompt": "0.00000065",
-            "completion": "0.00000075"
+            "prompt": "0.00000085",
+            "completion": "0.00000085"
           },
           "top_provider": {
-            "context_length": 32768,
-            "max_completion_tokens": 32768,
+            "context_length": 131072,
+            "max_completion_tokens": 16384,
             "is_moderated": false
           },
           "per_request_limits": null,
           "supported_parameters": [
             "frequency_penalty",
-            "logprobs",
             "max_tokens",
             "min_p",
             "presence_penalty",
@@ -27089,7 +27054,6 @@
             "tool_choice",
             "tools",
             "top_k",
-            "top_logprobs",
             "top_p"
           ],
           "default_parameters": {},
