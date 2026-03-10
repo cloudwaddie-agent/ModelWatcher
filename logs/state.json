@@ -2848,8 +2848,8 @@
           },
           "pricing": {
             "hourly": 0,
-            "input": 0.27,
-            "output": 0.85,
+            "input": 15,
+            "output": 0,
             "base": 0,
             "finetune": 0
           }
