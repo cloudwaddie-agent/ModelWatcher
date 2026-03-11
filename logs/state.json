@@ -9702,7 +9702,7 @@
           "parent": null,
           "object": "model",
           "metadata": {
-            "description": "The model is an auto-regressive vision language model that uses an optimized transformer architecture. The model enables multi-image reasoning and video understanding, along with strong document intelligence, visual Q&A and summarization capabilities.",
+            "description": "NVIDIA Nemotron 2 Nano VL extends the Nemotron family into multi-modal reasoning and document intelligence. This auto-regressive vision-language model enables multi-image reasoning, video understanding, visual Q&A and document analysis and summarization. Optimized for enterprise AI workflows, it powers multimodal agentic systems such as visual copilots, document assistants, and knowledge automation pipelines.",
             "context_length": 131072,
             "max_tokens": 131072,
             "pricing": {
