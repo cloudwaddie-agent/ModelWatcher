@@ -29281,6 +29281,24 @@
           "object": "model"
         },
         {
+          "id": "grok-4.20-beta-0309-non-reasoning",
+          "name": "grok-4.20-beta-0309-non-reasoning",
+          "owned_by": "xai",
+          "object": "model"
+        },
+        {
+          "id": "grok-4.20-beta-0309-reasoning",
+          "name": "grok-4.20-beta-0309-reasoning",
+          "owned_by": "xai",
+          "object": "model"
+        },
+        {
+          "id": "grok-4.20-multi-agent-beta-0309",
+          "name": "grok-4.20-multi-agent-beta-0309",
+          "owned_by": "xai",
+          "object": "model"
+        },
+        {
           "id": "grok-code-fast-1",
           "name": "grok-code-fast-1",
           "owned_by": "xai",
