@@ -3494,6 +3494,28 @@
           }
         },
         {
+          "id": "google/flash-image-3.1",
+          "name": "google/flash-image-3.1",
+          "object": "model",
+          "type": "image",
+          "running": false,
+          "display_name": "Gemini 3.1 Flash Image (Nano Banana 2)",
+          "organization": "Google",
+          "config": {
+            "chat_template": null,
+            "stop": [],
+            "bos_token": null,
+            "eos_token": null
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0,
+            "output": 0,
+            "base": 0,
+            "finetune": 0
+          }
+        },
+        {
           "id": "google/gemini-3-pro-image",
           "name": "google/gemini-3-pro-image",
           "object": "model",
