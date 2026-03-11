@@ -7155,7 +7155,7 @@
           "type": "chat",
           "running": false,
           "display_name": "Qwen3.5 9B FP8",
-          "organization": "Qwen",
+          "organization": "Togethercomputer",
           "link": "https://huggingface.co/api/models/togethercomputer/Qwen3.5-9B-FP8-MLP",
           "context_length": 262144,
           "config": {
@@ -17830,13 +17830,10 @@
           "per_request_limits": null,
           "supported_parameters": [
             "frequency_penalty",
-            "logit_bias",
             "max_tokens",
-            "min_p",
             "presence_penalty",
             "repetition_penalty",
             "seed",
-            "stop",
             "temperature",
             "top_k",
             "top_p"
