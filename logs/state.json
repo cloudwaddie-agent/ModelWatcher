@@ -23909,7 +23909,7 @@
           },
           "top_provider": {
             "context_length": 262144,
-            "max_completion_tokens": 65536,
+            "max_completion_tokens": 32000,
             "is_moderated": false
           },
           "per_request_limits": null,
@@ -23964,7 +23964,7 @@
           },
           "top_provider": {
             "context_length": 1048576,
-            "max_completion_tokens": 65536,
+            "max_completion_tokens": 32000,
             "is_moderated": false
           },
           "per_request_limits": null,
