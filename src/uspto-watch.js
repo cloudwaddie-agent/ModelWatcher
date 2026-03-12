@@ -11,7 +11,7 @@ const LOGO_URL = 'https://raw.githubusercontent.com/CloudWaddie/ModelWatcher/mas
  * Load configuration from uspto-config.json
  */
 function loadConfig() {
-  const configPath = './uspto-config.json';
+  const configPath = join(__dirname, '..', 'uspto-config.json');
   const configContent = readFileSync(configPath, 'utf-8');
   return JSON.parse(configContent);
 }
