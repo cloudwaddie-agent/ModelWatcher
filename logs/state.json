@@ -5213,7 +5213,8 @@
             "input": 0.3,
             "output": 1.2,
             "base": 0,
-            "finetune": 0
+            "finetune": 0,
+            "cached_input": 0.1
           }
         },
         {
