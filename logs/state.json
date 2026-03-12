@@ -18903,8 +18903,10 @@
           "per_request_limits": null,
           "supported_parameters": [
             "frequency_penalty",
+            "logprobs",
             "max_tokens",
             "presence_penalty",
+            "repetition_penalty",
             "response_format",
             "seed",
             "stop",
@@ -18912,6 +18914,7 @@
             "temperature",
             "tool_choice",
             "tools",
+            "top_logprobs",
             "top_p"
           ],
           "default_parameters": {
