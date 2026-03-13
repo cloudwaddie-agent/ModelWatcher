@@ -6011,6 +6011,50 @@
           }
         },
         {
+          "id": "Qwen/Qwen-Image-2.0",
+          "name": "Qwen/Qwen-Image-2.0",
+          "object": "model",
+          "type": "image",
+          "running": false,
+          "display_name": "Qwen Image 2.0",
+          "organization": "Qwen",
+          "config": {
+            "chat_template": null,
+            "stop": [],
+            "bos_token": null,
+            "eos_token": null
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0,
+            "output": 0,
+            "base": 0,
+            "finetune": 0
+          }
+        },
+        {
+          "id": "Qwen/Qwen-Image-2.0-Pro",
+          "name": "Qwen/Qwen-Image-2.0-Pro",
+          "object": "model",
+          "type": "image",
+          "running": false,
+          "display_name": "Qwen Image 2.0 Pro",
+          "organization": "Qwen",
+          "config": {
+            "chat_template": null,
+            "stop": [],
+            "bos_token": null,
+            "eos_token": null
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0,
+            "output": 0,
+            "base": 0,
+            "finetune": 0
+          }
+        },
+        {
           "id": "Qwen/Qwen2-1.5B",
           "name": "Qwen/Qwen2-1.5B",
           "object": "model",
