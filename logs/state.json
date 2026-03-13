@@ -9776,6 +9776,15 @@
           }
         },
         {
+          "id": "nvidia/llama-nemotron-embed-vl-1b-v2",
+          "name": "nvidia/llama-nemotron-embed-vl-1b-v2",
+          "owned_by": "deepinfra",
+          "root": "nvidia/llama-nemotron-embed-vl-1b-v2",
+          "parent": null,
+          "object": "model",
+          "metadata": null
+        },
+        {
           "id": "nvidia/Nemotron-3-Nano-30B-A3B",
           "name": "nvidia/Nemotron-3-Nano-30B-A3B",
           "owned_by": "deepinfra",
