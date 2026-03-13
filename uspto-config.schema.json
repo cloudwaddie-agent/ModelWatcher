@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "USPTO Watcher Configuration",
+  "type": "object",
+  "properties": {
+    "companies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "slug"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Display name for the company"
+          },
+          "slug": {
+            "type": "string",
+            "description": "USPTO report URL slug (e.g., 'Google-L-L-C')"
+          }
+        }
+      }
+    },
+    "webhook": {
+      "type": "object",
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "default": true
+        },
+        "webhookEnv": {
+          "type": "string",
+          "default": "USPTO_WEBHOOK",
+          "description": "Environment variable name containing the Discord webhook URL"
+        }
+      }
+    },
+    "state": {
+      "type": "object",
+      "properties": {
+        "file": {
+          "type": "string",
+          "default": "./logs/uspto-state.json",
+          "description": "Path to store state file"
+        }
+      }
+    },
+    "scan": {
+      "type": "object",
+      "properties": {
+        "intervalMinutes": {
+          "type": "number",
+          "default": 60
+        },
+        "timeout": {
+          "type": "number",
+          "default": 30000,
+          "description": "Request timeout in milliseconds"
+        }
+      }
+    },
+    "proxy": {
+      "type": "object",
+      "description": "Proxy configuration for USPTO requests",
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "default": false,
+          "description": "Enable proxy for USPTO requests"
+        },
+        "url": {
+          "type": "string",
+          "description": "Proxy URL (e.g., from webshare.io)"
+        },
+        "usernameEnv": {
+          "type": "string",
+          "description": "Environment variable name containing proxy username"
+        },
+        "passwordEnv": {
+          "type": "string",
+          "description": "Environment variable name containing proxy password"
+        }
+      }
+    }
+  }
+}

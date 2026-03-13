@@ -44,5 +44,11 @@
   "scan": {
     "intervalMinutes": 60,
     "timeout": 30000
+  },
+  "proxy": {
+    "enabled": false,
+    "url": "http://127.0.0.1:8080",
+    "usernameEnv": "USPTO_PROXY_USERNAME",
+    "passwordEnv": "USPTO_PROXY_PASSWORD"
   }
 }

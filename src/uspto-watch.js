@@ -58,12 +58,13 @@ function saveState(statePath, state) {
 /**
  * Fetch trademark filings using Camoufox browser with DOM parsing
  */
-async function fetchCompanyFilings(companySlug) {
+async function fetchCompanyFilings(companySlug, proxyConfig = null) {
   console.log(`Fetching USPTO data for ${companySlug}...`);
 
   let browser;
   try {
-    browser = await Camoufox({
+    // Build Camoufox launch options
+    const launchOptions = {
       headless: true,
       args: [
         '--no-sandbox',
@@ -71,7 +72,26 @@ async function fetchCompanyFilings(companySlug) {
         '--disable-dev-shm-usage',
         '--disable-gpu'
       ]
-    });
+    };
+
+    // Add proxy configuration if enabled
+    if (proxyConfig && proxyConfig.enabled && proxyConfig.url) {
+      console.log(`Using proxy: ${proxyConfig.url}`);
+      
+      const proxy = {
+        server: proxyConfig.url
+      };
+
+      // Add authentication if credentials are provided
+      if (proxyConfig.username && proxyConfig.password) {
+        proxy.username = proxyConfig.username;
+        proxy.password = proxyConfig.password;
+      }
+
+      launchOptions.proxy = proxy;
+    }
+
+    browser = await Camoufox(launchOptions);
 
     const page = await browser.newPage();
     
@@ -263,10 +283,22 @@ async function main() {
   const companies = config.companies || [];
   console.log(`Watching ${companies.length} company(ies): ${companies.map(c => c.name).join(', ')}`);
 
+  // Build proxy config from environment variables
+  let proxyConfig = null;
+  if (config.proxy?.enabled) {
+    proxyConfig = {
+      enabled: true,
+      url: config.proxy.url,
+      username: config.proxy.usernameEnv ? process.env[config.proxy.usernameEnv] : null,
+      password: config.proxy.passwordEnv ? process.env[config.proxy.passwordEnv] : null
+    };
+    console.log(`Proxy enabled: ${proxyConfig.url}`);
+  }
+
   let totalNewFilings = 0;
 
   for (const company of companies) {
-    const filings = await fetchCompanyFilings(company.slug);
+    const filings = await fetchCompanyFilings(company.slug, proxyConfig);
 
     if (filings.length === 0) {
       console.log(`No filings found for ${company.name}`);
