@@ -11919,6 +11919,62 @@
           "type": "base"
         },
         {
+          "id": "voxtral-mini-realtime-2602",
+          "name": "voxtral-mini-transcribe-realtime-2602",
+          "owned_by": "mistralai",
+          "object": "model",
+          "capabilities": {
+            "completion_chat": false,
+            "function_calling": true,
+            "completion_fim": false,
+            "fine_tuning": false,
+            "vision": false,
+            "ocr": false,
+            "classification": false,
+            "moderation": false,
+            "audio": true,
+            "audio_transcription": true
+          },
+          "description": "A realtime transcription model released in January 2026",
+          "max_context_length": 16384,
+          "aliases": [
+            "voxtral-mini-transcribe-realtime-2602",
+            "voxtral-mini-realtime-latest"
+          ],
+          "deprecation": null,
+          "deprecation_replacement_model": null,
+          "default_model_temperature": 0,
+          "type": "base"
+        },
+        {
+          "id": "voxtral-mini-realtime-latest",
+          "name": "voxtral-mini-transcribe-realtime-2602",
+          "owned_by": "mistralai",
+          "object": "model",
+          "capabilities": {
+            "completion_chat": false,
+            "function_calling": true,
+            "completion_fim": false,
+            "fine_tuning": false,
+            "vision": false,
+            "ocr": false,
+            "classification": false,
+            "moderation": false,
+            "audio": true,
+            "audio_transcription": true
+          },
+          "description": "A realtime transcription model released in January 2026",
+          "max_context_length": 16384,
+          "aliases": [
+            "voxtral-mini-transcribe-realtime-2602",
+            "voxtral-mini-realtime-2602"
+          ],
+          "deprecation": null,
+          "deprecation_replacement_model": null,
+          "default_model_temperature": 0,
+          "type": "base"
+        },
+        {
           "id": "voxtral-mini-transcribe-2507",
           "name": "voxtral-mini-transcribe-2507",
           "owned_by": "mistralai",
@@ -11942,6 +11998,34 @@
           ],
           "deprecation": "2026-05-31T12:00:00Z",
           "deprecation_replacement_model": "voxtral-mini-latest",
+          "default_model_temperature": 0,
+          "type": "base"
+        },
+        {
+          "id": "voxtral-mini-transcribe-realtime-2602",
+          "name": "voxtral-mini-transcribe-realtime-2602",
+          "owned_by": "mistralai",
+          "object": "model",
+          "capabilities": {
+            "completion_chat": false,
+            "function_calling": true,
+            "completion_fim": false,
+            "fine_tuning": false,
+            "vision": false,
+            "ocr": false,
+            "classification": false,
+            "moderation": false,
+            "audio": true,
+            "audio_transcription": true
+          },
+          "description": "A realtime transcription model released in January 2026",
+          "max_context_length": 16384,
+          "aliases": [
+            "voxtral-mini-realtime-2602",
+            "voxtral-mini-realtime-latest"
+          ],
+          "deprecation": null,
+          "deprecation_replacement_model": null,
           "default_model_temperature": 0,
           "type": "base"
         },
