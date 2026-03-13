@@ -5723,6 +5723,26 @@
           }
         },
         {
+          "id": "nim/nvidia/nemotron-3-super-120b-a12b",
+          "name": "nim/nvidia/nemotron-3-super-120b-a12b",
+          "object": "model",
+          "running": false,
+          "display_name": "nim/nvidia/nemotron-3-super-120b-a12b",
+          "config": {
+            "chat_template": null,
+            "stop": [],
+            "bos_token": null,
+            "eos_token": null
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0,
+            "output": 0,
+            "base": 0,
+            "finetune": 0
+          }
+        },
+        {
           "id": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
           "name": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
           "object": "model",
