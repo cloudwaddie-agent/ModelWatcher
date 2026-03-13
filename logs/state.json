@@ -3712,6 +3712,26 @@
           }
         },
         {
+          "id": "google/gemma-3-1b-pt",
+          "name": "google/gemma-3-1b-pt",
+          "object": "model",
+          "running": false,
+          "display_name": "Gemma 3 1B Pt",
+          "config": {
+            "chat_template": null,
+            "stop": [],
+            "bos_token": null,
+            "eos_token": null
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0,
+            "output": 0,
+            "base": 0,
+            "finetune": 0
+          }
+        },
+        {
           "id": "google/gemma-3-270m-it",
           "name": "google/gemma-3-270m-it",
           "object": "model",
@@ -26160,6 +26180,7 @@
           "supported_parameters": [
             "frequency_penalty",
             "logit_bias",
+            "logprobs",
             "max_tokens",
             "min_p",
             "presence_penalty",
@@ -26172,6 +26193,7 @@
             "tool_choice",
             "tools",
             "top_k",
+            "top_logprobs",
             "top_p"
           ],
           "default_parameters": {
@@ -26721,7 +26743,7 @@
           "canonical_slug": "qwen/qwen3.5-9b-20260310",
           "hugging_face_id": "Qwen/Qwen3.5-9B",
           "description": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language design with early fusion of multimodal tokens, allowing the model to process and reason across text and images within the same context.",
-          "context_length": 262144,
+          "context_length": 256000,
           "architecture": {
             "modality": "text+image+video->text",
             "input_modalities": [
@@ -26736,11 +26758,11 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.0000001",
+            "prompt": "0.00000005",
             "completion": "0.00000015"
           },
           "top_provider": {
-            "context_length": 262144,
+            "context_length": 256000,
             "max_completion_tokens": null,
             "is_moderated": false
           },
@@ -26749,6 +26771,7 @@
             "frequency_penalty",
             "include_reasoning",
             "logit_bias",
+            "logprobs",
             "max_tokens",
             "min_p",
             "presence_penalty",
@@ -26761,6 +26784,7 @@
             "tool_choice",
             "tools",
             "top_k",
+            "top_logprobs",
             "top_p"
           ],
           "default_parameters": {
