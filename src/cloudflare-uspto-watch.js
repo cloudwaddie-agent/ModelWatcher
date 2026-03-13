@@ -62,7 +62,7 @@ function saveState(statePath, state) {
  * @param {string} apiToken - Cloudflare API Token
  * @param {string} url - URL to crawl
  * @param {Object} options - Crawl options
- * @returns {Promise<string>} - Job ID
+ * @returns {Promise<Object>} - Job result object
  */
 async function initiateCrawl(accountId, apiToken, url, options = {}) {
   const endpoint = `${CLOUDFLARE_API_BASE}/${accountId}/browser-rendering/crawl`;
