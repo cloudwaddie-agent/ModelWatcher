@@ -292,7 +292,7 @@ async function main() {
       username: config.proxy.usernameEnv ? process.env[config.proxy.usernameEnv] : null,
       password: config.proxy.passwordEnv ? process.env[config.proxy.passwordEnv] : null
     };
-    console.log(`Proxy enabled: ${proxyConfig.url}`);
+    console.log(`Proxy enabled: ${proxyConfig.url.replace(/\/\/.*@/, '//')}`);
   }
 
   let totalNewFilings = 0;
