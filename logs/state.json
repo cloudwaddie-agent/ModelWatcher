@@ -3925,6 +3925,26 @@
           }
         },
         {
+          "id": "google/medgemma-27b-text-it",
+          "name": "google/medgemma-27b-text-it",
+          "object": "model",
+          "running": false,
+          "display_name": "Medgemma 27B Text It",
+          "config": {
+            "chat_template": null,
+            "stop": [],
+            "bos_token": null,
+            "eos_token": null
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0,
+            "output": 0,
+            "base": 0,
+            "finetune": 0
+          }
+        },
+        {
           "id": "google/veo-2.0",
           "name": "google/veo-2.0",
           "object": "model",
