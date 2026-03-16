@@ -55,24 +55,18 @@ async function waitForCloudflareChallenge(page, timeout = 30000) {
 async function handleCaptcha(page) {
   try {
     // Check for Turnstile (Cloudflare CAPTCHA)
-    const turnstileSelector = '[class*="turnstile"], iframe[src*="turnstile"], .cf-turnstile';
-    
-    // Try to find and click Turnstile challenge
-    const hasTurnstile = await page.locator(turnstileSelector).count();
-    if (hasTurnstile > 0) {
-      console.log('Detected Turnstile CAPTCHA, attempting to click...');
-      
-      // Try to click any Turnstile checkbox
-      try {
-        await page.locator(turnstileSelector).first().click({ timeout: 5000 });
+    try {
+      const turnstileFrame = page.frameLocator('iframe[src*="turnstile"]');
+      // The clickable element inside the Turnstile iframe. This may need adjustment.
+      const turnstileElement = turnstileFrame.locator('input[type="checkbox"], #challenge-stage');
+      if (await turnstileElement.count() > 0) {
+        console.log('Detected Turnstile CAPTCHA, attempting to click...');
+        await turnstileElement.first().click({ timeout: 5000 });
         console.log('Clicked Turnstile element');
-      } catch (e) {
-        // If direct click fails, try iframe approach
-        console.log('Trying Turnstile iframe approach...');
+        await page.waitForTimeout(2000);
       }
-      
-      // Wait a moment for challenge to resolve
-      await page.waitForTimeout(2000);
+    } catch (e) {
+      // No Turnstile found or an error occurred, which is acceptable.
     }
     
     // Check for hCaptcha
