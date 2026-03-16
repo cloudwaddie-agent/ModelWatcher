@@ -12233,6 +12233,33 @@
           "type": "base"
         },
         {
+          "id": "voxtral-mini-tts-260213",
+          "name": "voxtral-mini-tts-260213",
+          "owned_by": "mistralai",
+          "object": "model",
+          "capabilities": {
+            "completion_chat": false,
+            "function_calling": false,
+            "completion_fim": false,
+            "fine_tuning": false,
+            "vision": false,
+            "ocr": false,
+            "classification": false,
+            "moderation": false,
+            "audio": false,
+            "audio_transcription": false,
+            "audio_transcription_realtime": false,
+            "audio_speech": false
+          },
+          "description": "Official voxtral-mini-tts-260213 Mistral AI model",
+          "max_context_length": 32768,
+          "aliases": [],
+          "deprecation": null,
+          "deprecation_replacement_model": null,
+          "default_model_temperature": null,
+          "type": "base"
+        },
+        {
           "id": "voxtral-small-2507",
           "name": "voxtral-small-2507",
           "owned_by": "mistralai",
@@ -23048,18 +23075,12 @@
           },
           "per_request_limits": null,
           "supported_parameters": [
-            "frequency_penalty",
-            "logit_bias",
-            "logprobs",
             "max_tokens",
-            "presence_penalty",
             "response_format",
             "seed",
-            "stop",
             "structured_outputs",
             "tool_choice",
-            "tools",
-            "top_logprobs"
+            "tools"
           ],
           "default_parameters": {
             "temperature": null,
@@ -23079,10 +23100,11 @@
           "description": "GPT-5.3-Codex is OpenAI’s most advanced agentic coding model, combining the frontier software engineering performance of GPT-5.2-Codex with the broader reasoning and professional knowledge capabilities of GPT-5.2. It achieves state-of-the-art results on SWE-Bench Pro and strong performance on Terminal-Bench 2.0 and OSWorld-Verified, reflecting improved multi-language coding, terminal proficiency, and real-world computer-use skills. The model is optimized for long-running, tool-using workflows and supports interactive steering during execution, making it suitable for complex development tasks, debugging, deployment, and iterative product work.\n\nBeyond coding, GPT-5.3-Codex performs strongly on structured knowledge-work benchmarks such as GDPval, supporting tasks like document drafting, spreadsheet analysis, slide creation, and operational research across domains. It is trained with enhanced cybersecurity awareness, including vulnerability identification capabilities, and deployed with additional safeguards for high-risk use cases. Compared to prior Codex models, it is more token-efficient and approximately 25% faster, targeting professional end-to-end workflows that span reasoning, execution, and computer interaction.",
           "context_length": 400000,
           "architecture": {
-            "modality": "text+image->text",
+            "modality": "text+image+file->text",
             "input_modalities": [
               "text",
-              "image"
+              "image",
+              "file"
             ],
             "output_modalities": [
               "text"
@@ -23155,20 +23177,14 @@
           },
           "per_request_limits": null,
           "supported_parameters": [
-            "frequency_penalty",
             "include_reasoning",
-            "logit_bias",
-            "logprobs",
             "max_tokens",
-            "presence_penalty",
             "reasoning",
             "response_format",
             "seed",
-            "stop",
             "structured_outputs",
             "tool_choice",
-            "tools",
-            "top_logprobs"
+            "tools"
           ],
           "default_parameters": {
             "temperature": null,
@@ -23212,20 +23228,14 @@
           },
           "per_request_limits": null,
           "supported_parameters": [
-            "frequency_penalty",
             "include_reasoning",
-            "logit_bias",
-            "logprobs",
             "max_tokens",
-            "presence_penalty",
             "reasoning",
             "response_format",
             "seed",
-            "stop",
             "structured_outputs",
             "tool_choice",
-            "tools",
-            "top_logprobs"
+            "tools"
           ],
           "default_parameters": {
             "temperature": null,
