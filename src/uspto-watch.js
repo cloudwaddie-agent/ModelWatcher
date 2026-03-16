@@ -28,7 +28,7 @@ async function waitForCloudflareChallenge(page, timeout = 30000) {
     await page.waitForFunction(
       () => {
         const body = document.body;
-        if (!body) return true;
+        if (!body) return false;
         const text = body.textContent || '';
         // Check for Cloudflare challenge indicators
         if (text.includes('Just a moment') || text.includes('Cloudflare')) {
