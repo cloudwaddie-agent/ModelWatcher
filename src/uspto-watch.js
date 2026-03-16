@@ -1,4 +1,5 @@
-import { Camoufox } from 'camoufox-js';
+import cloudscraper from 'cloudscraper';
+import cheerio from 'cheerio';
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
@@ -56,87 +57,146 @@ function saveState(statePath, state) {
 }
 
 /**
- * Fetch trademark filings using Camoufox browser with DOM parsing
+ * Initialize cloudscraper with browser-like settings
+ */
+function createScraper() {
+  return cloudscraper.create({
+    browser: {
+      browser: 'chrome',
+      platform: 'windows',
+      desktop: true,
+      mobile: false
+    },
+    interpreter: 'native',
+    debug: false
+  });
+}
+
+/**
+ * Wait for Cloudflare challenge to complete
+ */
+async function waitForCloudflare(html, scraper, url, maxAttempts = 5) {
+  let currentHtml = html;
+  let attempts = 0;
+  
+  while (attempts < maxAttempts) {
+    const $ = cheerio.load(currentHtml);
+    
+    // Check for "Just a moment..." Cloudflare challenge
+    const challengeText = $('body').text();
+    if (challengeText.includes('Just a moment') || challengeText.includes('Checking your browser')) {
+      console.log('Detected Cloudflare challenge, waiting...');
+      await new Promise(resolve => setTimeout(resolve, 3000));
+      
+      // Try fetching again after waiting
+      try {
+        currentHtml = await scraper.get(url);
+      } catch (err) {
+        console.log('Retry after challenge wait:', err.message);
+        await new Promise(resolve => setTimeout(resolve, 2000));
+        attempts++;
+        continue;
+      }
+      attempts++;
+      continue;
+    }
+    
+    // Check for captcha/turnstile challenge
+    const hasCaptcha = $('#cf-content .cf-captcha').length > 0 || 
+                       $('iframe[src*="turnstile"]').length > 0 ||
+                       $('div[class*="turnstile"]').length > 0;
+    
+    if (hasCaptcha) {
+      console.log('Detected CAPTCHA/Turnstile challenge');
+      // Wait for manual intervention or try again
+      await new Promise(resolve => setTimeout(resolve, 5000));
+      try {
+        currentHtml = await scraper.get(url);
+      } catch (err) {
+        attempts++;
+        continue;
+      }
+      attempts++;
+      continue;
+    }
+    
+    // No challenge detected, return the HTML
+    return currentHtml;
+  }
+  
+  console.warn('Max Cloudflare challenge attempts reached');
+  return currentHtml;
+}
+
+/**
+ * Fetch trademark filings using cloudscraper with DOM parsing
  */
 async function fetchCompanyFilings(companySlug) {
   console.log(`Fetching USPTO data for ${companySlug}...`);
 
-  let browser;
+  const url = `https://uspto.report/company/${companySlug}`;
+  const scraper = createScraper();
+  
   try {
-    browser = await Camoufox({
-      headless: true,
-      args: [
-        '--no-sandbox',
-        '--disable-setuid-sandbox',
-        '--disable-dev-shm-usage',
-        '--disable-gpu'
-      ]
-    });
-
-    const page = await browser.newPage();
+    // Initial request
+    let html = await scraper.get(url);
     
-    await page.goto(`https://uspto.report/company/${companySlug}`, {
-      waitUntil: 'domcontentloaded',
-      timeout: 60000
-    });
-
-    // Wait for the table to be present
-    await page.waitForSelector('table', { timeout: 15000 });
-
-    // Scroll to the bottom to trigger lazy-loading
-    await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
-
-    // Wait for network activity to cease
-    await page.waitForLoadState('networkidle', { timeout: 20000 });
-
-    // Parse using DOM APIs - more robust than regex
-    const filings = await page.evaluate(() => {
-      const results = [];
-      const rows = Array.from(document.querySelectorAll('table tr'));
-
-      for (const row of rows) {
-        const link = row.querySelector('a[href^="/TM/"]');
-        if (!link) continue;
-
-        const url = link.href;
-        const serialMatch = url.match(/\/TM\/(\d+)/);
-        const serial = serialMatch ? serialMatch[1] : null;
-        if (!serial) continue;
-
-        // Get mark name - prefer text content over div parsing
-        const markElement = link.querySelector('div');
-        let mark = markElement ? markElement.textContent.trim() : null;
-        if (!mark) {
-          // Try getting from alt attribute
-          const img = link.querySelector('img');
-          if (img) mark = img.alt || 'Symbol/Image';
-        }
-
-        // Get date
-        const dateElement = row.querySelector('div[style*="float: right"]');
-        const dateMatch = dateElement ? dateElement.textContent.match(/(\d{4}-\d{2}-\d{2})/) : null;
-        const date = dateMatch ? dateMatch[1] : null;
-
-        // Get image
-        const img = link.querySelector('img');
-        const imageUrl = img && img.src ? img.src : null;
-
-        if (serial && mark && date) {
-          results.push({
-            serial,
-            mark,
-            date,
-            url,
-            imageUrl: imageUrl || `https://uspto.report/TM/${serial}/mark.png`
-          });
-        }
+    // Wait for Cloudflare challenges to resolve
+    html = await waitForCloudflare(html, scraper, url);
+    
+    const $ = cheerio.load(html);
+    
+    // Check if we got a valid page or an error
+    const pageTitle = $('title').text();
+    if (pageTitle.includes('Access denied') || pageTitle.includes('Blocked')) {
+      console.error('Access blocked by USPTO/Cloudflare');
+      return [];
+    }
+    
+    // Parse the filings from the table
+    const filings = [];
+    
+    // Look for table rows with trademark links
+    $('table tr').each((_, row) => {
+      const $row = $(row);
+      const link = $row.find('a[href^="/TM/"]');
+      
+      if (!link.length) return;
+      
+      const url = link.attr('href');
+      const serialMatch = url.match(/\/TM\/(\d+)/);
+      const serial = serialMatch ? serialMatch[1] : null;
+      if (!serial) return;
+      
+      // Get mark name
+      let mark = link.find('div').text().trim();
+      if (!mark) {
+        const img = link.find('img');
+        mark = img.attr('alt') || 'Symbol/Image';
       }
-
-      // Sort by date (newest first)
-      results.sort((a, b) => new Date(b.date) - new Date(a.date));
-
-      return results;
+      
+      // Get date - look for floating right div or date pattern
+      const dateText = $row.find('div[style*="float: right"]').text();
+      const dateMatch = dateText.match(/(\d{4}-\d{2}-\d{2})/);
+      const date = dateMatch ? dateMatch[1] : null;
+      
+      // Get image URL
+      const img = link.find('img');
+      const imageUrl = img.attr('src') || null;
+      
+      if (serial && mark && date) {
+        filings.push({
+          serial,
+          mark: mark.trim(),
+          date,
+          url: `https://uspto.report${url}`,
+          imageUrl: imageUrl || `https://uspto.report/TM/${serial}/mark.png`
+        });
+      }
     });
+    
+    // Sort by date (newest first)
+    filings.sort((a, b) => new Date(b.date) - new Date(a.date));
     
     console.log(`Found ${filings.length} trademark filings for ${companySlug}`);
     return filings;
@@ -144,10 +204,6 @@ async function fetchCompanyFilings(companySlug) {
   } catch (error) {
     console.error(`Failed to fetch USPTO data for ${companySlug}:`, error.message);
     return [];
-  } finally {
-    if (browser) {
-      await browser.close();
-    }
   }
 }
 
