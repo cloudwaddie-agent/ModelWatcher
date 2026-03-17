@@ -3253,38 +3253,26 @@
           "id": "deepseek-ai/DeepSeek-R1-0528",
           "name": "deepseek-ai/DeepSeek-R1-0528",
           "object": "model",
+          "type": "chat",
           "running": false,
           "display_name": "Deepseek R1 0528",
+          "organization": "Deepseek",
+          "link": "https://huggingface.co/api/models/deepseek-ai/DeepSeek-R1-0528",
+          "license": "mit",
+          "context_length": 163840,
           "config": {
-            "chat_template": null,
-            "stop": [],
-            "bos_token": null,
-            "eos_token": null
+            "chat_template": "{%- for message in messages -%}{%- if message.role == 'system' -%}{{- message.content -}}{%- endif -%}{%- if message.role == 'user' -%}{{- message.content -}}{%- endif -%}{%- if message.role == 'assistant' -%}{{- message.content -}}{%- endif -%}{%- if message.role == 'tool' -%}{{- message.content -}}{%- endif -%}{%- endfor -%}",
+            "stop": [
+              "<｜end▁of▁sentence｜>"
+            ],
+            "bos_token": "<｜begin▁of▁sentence｜>",
+            "eos_token": "<｜end▁of▁sentence｜>",
+            "max_output_length": 12288
           },
           "pricing": {
             "hourly": 0,
-            "input": 0,
-            "output": 0,
-            "base": 0,
-            "finetune": 0
-          }
-        },
-        {
-          "id": "deepseek-ai/DeepSeek-R1-DE",
-          "name": "deepseek-ai/DeepSeek-R1-DE",
-          "object": "model",
-          "running": false,
-          "display_name": "DeepSeek R1 (original)",
-          "config": {
-            "chat_template": null,
-            "stop": [],
-            "bos_token": null,
-            "eos_token": null
-          },
-          "pricing": {
-            "hourly": 0,
-            "input": 0,
-            "output": 0,
+            "input": 3,
+            "output": 7,
             "base": 0,
             "finetune": 0
           }
@@ -28827,7 +28815,9 @@
           "supported_parameters": [
             "frequency_penalty",
             "include_reasoning",
+            "logit_bias",
             "max_tokens",
+            "min_p",
             "presence_penalty",
             "reasoning",
             "repetition_penalty",
