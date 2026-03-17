@@ -484,6 +484,30 @@
           "object": "model"
         },
         {
+          "id": "gpt-5.4-mini",
+          "name": "gpt-5.4-mini",
+          "owned_by": "system",
+          "object": "model"
+        },
+        {
+          "id": "gpt-5.4-mini-2026-03-17",
+          "name": "gpt-5.4-mini-2026-03-17",
+          "owned_by": "system",
+          "object": "model"
+        },
+        {
+          "id": "gpt-5.4-nano",
+          "name": "gpt-5.4-nano",
+          "owned_by": "system",
+          "object": "model"
+        },
+        {
+          "id": "gpt-5.4-nano-2026-03-17",
+          "name": "gpt-5.4-nano-2026-03-17",
+          "owned_by": "system",
+          "object": "model"
+        },
+        {
           "id": "gpt-5.4-pro",
           "name": "gpt-5.4-pro",
           "owned_by": "system",
@@ -5223,6 +5247,26 @@
             "base": 0,
             "finetune": 0,
             "cached_input": 0.060000000000000005
+          }
+        },
+        {
+          "id": "MiniMaxAI/MiniMax-M2.5-FP4",
+          "name": "MiniMaxAI/MiniMax-M2.5-FP4",
+          "object": "model",
+          "running": false,
+          "display_name": "MiniMax M2.5 FP4",
+          "config": {
+            "chat_template": null,
+            "stop": [],
+            "bos_token": null,
+            "eos_token": null
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0,
+            "output": 0,
+            "base": 0,
+            "finetune": 0
           }
         },
         {
