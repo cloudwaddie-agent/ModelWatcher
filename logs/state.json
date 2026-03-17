@@ -3255,7 +3255,7 @@
           "object": "model",
           "type": "chat",
           "running": false,
-          "display_name": "Deepseek R1 0528",
+          "display_name": "DeepSeek R1 0528",
           "organization": "Deepseek",
           "link": "https://huggingface.co/api/models/deepseek-ai/DeepSeek-R1-0528",
           "license": "mit",
@@ -3351,6 +3351,26 @@
           "object": "model",
           "running": false,
           "display_name": "DeepSeek R1 Distill Qwen 7B",
+          "config": {
+            "chat_template": null,
+            "stop": [],
+            "bos_token": null,
+            "eos_token": null
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0,
+            "output": 0,
+            "base": 0,
+            "finetune": 0
+          }
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-R1-Original",
+          "name": "deepseek-ai/DeepSeek-R1-Original",
+          "object": "model",
+          "running": false,
+          "display_name": "DeepSeek R1 (Original)",
           "config": {
             "chat_template": null,
             "stop": [],
