@@ -12272,7 +12272,7 @@
           "object": "model",
           "capabilities": {
             "completion_chat": true,
-            "function_calling": true,
+            "function_calling": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": false,
@@ -12302,7 +12302,7 @@
           "object": "model",
           "capabilities": {
             "completion_chat": true,
-            "function_calling": true,
+            "function_calling": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": false,
@@ -12361,7 +12361,7 @@
           "object": "model",
           "capabilities": {
             "completion_chat": true,
-            "function_calling": true,
+            "function_calling": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": false,
@@ -23839,14 +23839,23 @@
           },
           "per_request_limits": null,
           "supported_parameters": [
+            "include_reasoning",
             "max_tokens",
+            "reasoning",
             "response_format",
             "seed",
             "structured_outputs",
             "tool_choice",
             "tools"
           ],
-          "default_parameters": {},
+          "default_parameters": {
+            "temperature": null,
+            "top_p": null,
+            "top_k": null,
+            "frequency_penalty": null,
+            "presence_penalty": null,
+            "repetition_penalty": null
+          },
           "expiration_date": null
         },
         {
@@ -24023,14 +24032,23 @@
           },
           "per_request_limits": null,
           "supported_parameters": [
+            "include_reasoning",
             "max_tokens",
+            "reasoning",
             "response_format",
             "seed",
             "structured_outputs",
             "tool_choice",
             "tools"
           ],
-          "default_parameters": {},
+          "default_parameters": {
+            "temperature": null,
+            "top_p": null,
+            "top_k": null,
+            "frequency_penalty": null,
+            "presence_penalty": null,
+            "repetition_penalty": null
+          },
           "expiration_date": null
         },
         {
@@ -24064,7 +24082,9 @@
           },
           "per_request_limits": null,
           "supported_parameters": [
+            "include_reasoning",
             "max_tokens",
+            "reasoning",
             "response_format",
             "seed",
             "structured_outputs",
