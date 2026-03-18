@@ -17525,7 +17525,7 @@
           "canonical_slug": "google/gemma-3-27b-it",
           "hugging_face_id": "google/gemma-3-27b-it",
           "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities, including structured outputs and function calling. Gemma 3 27B is Google's latest open source model, successor to [Gemma 2](google/gemma-2-27b-it)",
-          "context_length": 128000,
+          "context_length": 131072,
           "architecture": {
             "modality": "text+image->text",
             "input_modalities": [
@@ -17539,13 +17539,12 @@
             "instruct_type": "gemma"
           },
           "pricing": {
-            "prompt": "0.00000003",
-            "completion": "0.00000011",
-            "input_cache_read": "0.000000015"
+            "prompt": "0.00000008",
+            "completion": "0.00000016"
           },
           "top_provider": {
-            "context_length": 128000,
-            "max_completion_tokens": 65536,
+            "context_length": 131072,
+            "max_completion_tokens": 16384,
             "is_moderated": false
           },
           "per_request_limits": null,
@@ -17561,8 +17560,6 @@
             "stop",
             "structured_outputs",
             "temperature",
-            "tool_choice",
-            "tools",
             "top_k",
             "top_p"
           ],
@@ -20661,7 +20658,7 @@
           "canonical_slug": "mistralai/mistral-small-3.2-24b-instruct-2506",
           "hugging_face_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
           "description": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 significantly improves accuracy on WildBench and Arena Hard, reduces infinite generations, and delivers gains in tool use and structured output tasks.\n\nIt supports image and text inputs with structured outputs, function/tool calling, and strong performance across coding (HumanEval+, MBPP), STEM (MMLU, MATH, GPQA), and vision benchmarks (ChartQA, DocVQA).",
-          "context_length": 131072,
+          "context_length": 128000,
           "architecture": {
             "modality": "text+image->text",
             "input_modalities": [
@@ -20675,13 +20672,12 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.00000006",
-            "completion": "0.00000018",
-            "input_cache_read": "0.00000003"
+            "prompt": "0.000000075",
+            "completion": "0.0000002"
           },
           "top_provider": {
-            "context_length": 131072,
-            "max_completion_tokens": 131072,
+            "context_length": 128000,
+            "max_completion_tokens": null,
             "is_moderated": false
           },
           "per_request_limits": null,
@@ -26399,7 +26395,7 @@
           "canonical_slug": "qwen/qwen3-235b-a22b-thinking-2507",
           "hugging_face_id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
           "description": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks. It activates 22B of its 235B parameters per forward pass and natively supports up to 262,144 tokens of context. This \"thinking-only\" variant enhances structured logical reasoning, mathematics, science, and long-form generation, showing strong benchmark performance across AIME, SuperGPQA, LiveCodeBench, and MMLU-Redux. It enforces a special reasoning mode (</think>) and is designed for high-token outputs (up to 81,920 tokens) in challenging domains.\n\nThe model is instruction-tuned and excels at step-by-step reasoning, tool use, agentic workflows, and multilingual tasks. This release represents the most capable open-source variant in the Qwen3-235B series, surpassing many closed models in structured reasoning use cases.",
-          "context_length": 262144,
+          "context_length": 131072,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -26412,13 +26408,12 @@
             "instruct_type": "qwen3"
           },
           "pricing": {
-            "prompt": "0.00000011",
-            "completion": "0.0000006",
-            "input_cache_read": "0.000000055"
+            "prompt": "0.0000001495",
+            "completion": "0.000001495"
           },
           "top_provider": {
-            "context_length": 262144,
-            "max_completion_tokens": 262144,
+            "context_length": 131072,
+            "max_completion_tokens": null,
             "is_moderated": false
           },
           "per_request_limits": null,
