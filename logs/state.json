@@ -17047,8 +17047,6 @@
             "seed",
             "stop",
             "temperature",
-            "tool_choice",
-            "tools",
             "top_p"
           ],
           "default_parameters": {
@@ -18413,7 +18411,7 @@
           "canonical_slug": "meta-llama/llama-3.3-70b-instruct",
           "hugging_face_id": "meta-llama/Llama-3.3-70B-Instruct",
           "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model is optimized for multilingual dialogue use cases and outperforms many of the available open source and closed chat models on common industry benchmarks.\n\nSupported languages: English, German, French, Italian, Portuguese, Hindi, Spanish, and Thai.\n\n[Model Card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/MODEL_CARD.md)",
-          "context_length": 128000,
+          "context_length": 65536,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -18430,16 +18428,15 @@
             "completion": "0"
           },
           "top_provider": {
-            "context_length": 128000,
-            "max_completion_tokens": 128000,
-            "is_moderated": true
+            "context_length": 65536,
+            "max_completion_tokens": null,
+            "is_moderated": false
           },
           "per_request_limits": null,
           "supported_parameters": [
             "frequency_penalty",
             "max_tokens",
             "presence_penalty",
-            "seed",
             "stop",
             "temperature",
             "tool_choice",
@@ -19021,7 +19018,10 @@
           "default_parameters": {
             "temperature": 1,
             "top_p": 0.95,
-            "frequency_penalty": null
+            "top_k": null,
+            "frequency_penalty": null,
+            "presence_penalty": null,
+            "repetition_penalty": null
           },
           "expiration_date": null
         },
@@ -19066,7 +19066,59 @@
           "default_parameters": {
             "temperature": 1,
             "top_p": 0.95,
-            "frequency_penalty": null
+            "top_k": null,
+            "frequency_penalty": null,
+            "presence_penalty": null,
+            "repetition_penalty": null
+          },
+          "expiration_date": null
+        },
+        {
+          "id": "minimax/minimax-m2.7",
+          "name": "MiniMax: MiniMax M2.7",
+          "canonical_slug": "minimax/minimax-m2.7-20260318",
+          "hugging_face_id": "MiniMaxAI/MiniMax-M2.7",
+          "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic capabilities through multi-agent collaboration, enabling it to plan, execute, and refine complex tasks across dynamic environments.\n\nTrained for production-grade performance, M2.7 handles workflows such as live debugging, root cause analysis, financial modeling, and full document generation across Word, Excel, and PowerPoint. It delivers strong results on benchmarks including 56.2% on SWE-Pro and 57.0% on Terminal Bench 2, while achieving a 1495 ELO on GDPval-AA, setting a new standard for multi-agent systems operating in real-world digital workflows.",
+          "context_length": 204800,
+          "architecture": {
+            "modality": "text->text",
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Other",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0.0000003",
+            "completion": "0.0000012",
+            "input_cache_read": "0.00000006"
+          },
+          "top_provider": {
+            "context_length": 204800,
+            "max_completion_tokens": 131072,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "include_reasoning",
+            "max_tokens",
+            "reasoning",
+            "response_format",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_p"
+          ],
+          "default_parameters": {
+            "temperature": 1,
+            "top_p": 0.95,
+            "top_k": null,
+            "frequency_penalty": null,
+            "presence_penalty": null,
+            "repetition_penalty": null
           },
           "expiration_date": null
         },
