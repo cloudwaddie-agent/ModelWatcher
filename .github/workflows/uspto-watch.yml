@@ -57,6 +57,7 @@ jobs:
       - name: Run USPTO scan
         env:
           USPTO_WEBHOOK: ${{ secrets.USPTO_WEBHOOK }}
+          WEBSHARE_PROXY_URL: ${{ secrets.WEBSHARE_PROXY_URL }}
         run: npm run uspto
         
       - name: Commit results to master
