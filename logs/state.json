@@ -11354,6 +11354,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": true,
             "fine_tuning": false,
             "vision": false,
@@ -11383,6 +11384,7 @@
           "capabilities": {
             "completion_chat": false,
             "function_calling": false,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": false,
@@ -11412,6 +11414,7 @@
           "capabilities": {
             "completion_chat": false,
             "function_calling": false,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": false,
@@ -11441,6 +11444,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": true,
             "fine_tuning": false,
             "vision": false,
@@ -11470,6 +11474,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": false,
@@ -11497,6 +11502,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": false,
@@ -11524,6 +11530,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": false,
@@ -11551,6 +11558,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": false,
@@ -11578,6 +11586,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": false,
@@ -11605,6 +11614,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": true,
@@ -11632,6 +11642,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": true,
@@ -11659,6 +11670,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": true,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": true,
@@ -11686,6 +11698,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": true,
             "vision": false,
@@ -11713,6 +11726,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": true,
             "completion_fim": false,
             "fine_tuning": true,
             "vision": true,
@@ -11742,6 +11756,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": true,
             "completion_fim": false,
             "fine_tuning": true,
             "vision": true,
@@ -11771,6 +11786,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": true,
             "completion_fim": false,
             "fine_tuning": true,
             "vision": true,
@@ -11800,6 +11816,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": true,
             "completion_fim": false,
             "fine_tuning": true,
             "vision": true,
@@ -11829,6 +11846,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": true,
             "vision": true,
@@ -11858,6 +11876,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": true,
             "vision": true,
@@ -11887,6 +11906,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": true,
             "vision": true,
@@ -11916,6 +11936,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": true,
             "vision": true,
@@ -11945,6 +11966,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": true,
             "vision": true,
@@ -11974,6 +11996,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": true,
             "vision": true,
@@ -12003,6 +12026,7 @@
           "capabilities": {
             "completion_chat": false,
             "function_calling": false,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": false,
@@ -12032,6 +12056,7 @@
           "capabilities": {
             "completion_chat": false,
             "function_calling": false,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": false,
@@ -12061,6 +12086,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": true,
             "vision": false,
@@ -12088,6 +12114,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": true,
             "vision": true,
@@ -12115,6 +12142,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": true,
             "vision": true,
@@ -12142,6 +12170,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": true,
@@ -12172,6 +12201,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": true,
             "vision": true,
@@ -12203,6 +12233,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": true,
             "vision": true,
@@ -12230,6 +12261,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": true,
             "vision": true,
@@ -12261,6 +12293,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": true,
             "vision": true,
@@ -12292,6 +12325,7 @@
           "capabilities": {
             "completion_chat": false,
             "function_calling": false,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": false,
@@ -12321,6 +12355,7 @@
           "capabilities": {
             "completion_chat": false,
             "function_calling": false,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": false,
@@ -12350,6 +12385,7 @@
           "capabilities": {
             "completion_chat": false,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": true,
@@ -12377,6 +12413,7 @@
           "capabilities": {
             "completion_chat": false,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": true,
@@ -12404,6 +12441,7 @@
           "capabilities": {
             "completion_chat": false,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": true,
@@ -12433,6 +12471,7 @@
           "capabilities": {
             "completion_chat": false,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": true,
@@ -12462,6 +12501,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": true,
@@ -12489,6 +12529,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": true,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": true,
@@ -12519,6 +12560,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": true,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": true,
@@ -12549,6 +12591,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": true,
             "vision": false,
@@ -12580,6 +12623,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": true,
             "vision": false,
@@ -12611,6 +12655,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": true,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": true,
@@ -12641,6 +12686,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": false,
@@ -12668,6 +12714,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": true,
             "vision": true,
@@ -12699,6 +12746,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": true,
             "vision": false,
@@ -12730,6 +12778,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": true,
             "vision": false,
@@ -12761,6 +12810,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": true,
@@ -12791,6 +12841,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": true,
@@ -12821,6 +12872,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": false,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": false,
@@ -12850,6 +12902,7 @@
           "capabilities": {
             "completion_chat": false,
             "function_calling": false,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": false,
@@ -12877,6 +12930,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": false,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": false,
@@ -12906,6 +12960,7 @@
           "capabilities": {
             "completion_chat": false,
             "function_calling": false,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": false,
@@ -12936,6 +12991,7 @@
           "capabilities": {
             "completion_chat": false,
             "function_calling": false,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": false,
@@ -12966,6 +13022,7 @@
           "capabilities": {
             "completion_chat": false,
             "function_calling": false,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": false,
@@ -12995,6 +13052,7 @@
           "capabilities": {
             "completion_chat": false,
             "function_calling": false,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": false,
@@ -13025,6 +13083,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": false,
@@ -13054,6 +13113,7 @@
           "capabilities": {
             "completion_chat": true,
             "function_calling": true,
+            "reasoning": false,
             "completion_fim": false,
             "fine_tuning": false,
             "vision": false,
