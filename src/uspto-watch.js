@@ -13,7 +13,12 @@ const LOGO_URL = 'https://raw.githubusercontent.com/CloudWaddie/ModelWatcher/mas
  * Format: username:password@hostname:port or full proxy URL
  */
 function getProxyConfig() {
-  const proxyUrl = process.env.WEBSHARE_PROXY_URL;
+  const config = loadConfig();
+  if (!config.proxy?.enabled) {
+    return null;
+  }
+
+  const proxyUrl = process.env[config.proxy.urlEnv];
   if (!proxyUrl) {
     return null;
   }
@@ -201,11 +206,7 @@ async function fetchCompanyFilings(companySlug, maxRetries = 3) {
       };
 
       if (proxyConfig) {
-        camoufoxOptions.proxy = {
-          server: proxyConfig.server,
-          username: proxyConfig.username,
-          password: proxyConfig.password
-        };
+        camoufoxOptions.proxy = proxyConfig;
       }
 
       browser = await Camoufox(camoufoxOptions);
