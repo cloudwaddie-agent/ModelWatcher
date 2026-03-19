@@ -21757,7 +21757,7 @@
           "canonical_slug": "nvidia/nemotron-3-super-120b-a12b-20230311",
           "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
           "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer Mixture-of-Experts architecture with multi-token prediction (MTP), it delivers over 50% higher token generation compared to leading open models.\n \nThe model features a 1M token context window for long-term agent coherence, cross-document reasoning, and multi-step task planning. Latent MoE enables calling 4 experts for the inference cost of only one, improving intelligence and generalization. Multi-environment RL training across 10+ environments delivers leading accuracy on benchmarks including AIME 2025, TerminalBench, and SWE-Bench Verified.\n \nFully open with weights, datasets, and recipes under the NVIDIA Open License, Nemotron 3 Super allows easy customization and secure deployment anywhere — from workstation to cloud.",
-          "context_length": 8000,
+          "context_length": 262144,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -21770,11 +21770,12 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.0000003",
-            "completion": "0.0000009"
+            "prompt": "0.0000001",
+            "completion": "0.0000005",
+            "input_cache_read": "0.00000004"
           },
           "top_provider": {
-            "context_length": 8000,
+            "context_length": 262144,
             "max_completion_tokens": null,
             "is_moderated": false
           },
@@ -21783,11 +21784,16 @@
             "frequency_penalty",
             "include_reasoning",
             "max_tokens",
+            "min_p",
             "presence_penalty",
             "reasoning",
             "repetition_penalty",
             "response_format",
+            "seed",
+            "stop",
             "temperature",
+            "tool_choice",
+            "tools",
             "top_k",
             "top_p"
           ],
