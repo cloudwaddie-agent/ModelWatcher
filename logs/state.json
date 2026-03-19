@@ -7927,9 +7927,9 @@
           "object": "model",
           "type": "chat",
           "running": false,
-          "display_name": "Qwen3.5 9B FP8",
+          "display_name": "Qwen3.5 9B",
           "organization": "Qwen",
-          "link": "https://huggingface.co/api/models/togethercomputer/Qwen3.5-9B-FP8-MLP",
+          "link": "https://huggingface.co/api/models/togethercomputer/Qwen3.5-9B",
           "context_length": 262144,
           "config": {
             "chat_template": null,
@@ -14595,7 +14595,10 @@
           "default_parameters": {
             "temperature": null,
             "top_p": null,
-            "frequency_penalty": null
+            "top_k": null,
+            "frequency_penalty": null,
+            "presence_penalty": null,
+            "repetition_penalty": null
           },
           "expiration_date": null
         },
@@ -29400,7 +29403,7 @@
           "id": "xiaomi/mimo-v2-omni",
           "name": "Xiaomi: MiMo-V2-Omni",
           "canonical_slug": "xiaomi/mimo-v2-omni-20260318",
-          "hugging_face_id": "XiaomiMiMo/MiMo-V2-Omni",
+          "hugging_face_id": "",
           "description": "MiMo-V2-Omni is a frontier omni-modal model that natively processes image, video, and audio inputs within a unified architecture. It combines strong multimodal perception with agentic capability - visual grounding, multi-step planning, tool use, and code execution - making it well-suited for complex real-world tasks that span modalities. 256K context window.",
           "context_length": 262144,
           "architecture": {
@@ -29455,7 +29458,7 @@
           "id": "xiaomi/mimo-v2-pro",
           "name": "Xiaomi: MiMo-V2-Pro",
           "canonical_slug": "xiaomi/mimo-v2-pro-20260318",
-          "hugging_face_id": "XiaomiMiMo/MiMo-V2-Pro",
+          "hugging_face_id": "",
           "description": "MiMo-V2-Pro is Xiaomi's flagship foundation model, featuring over 1T total parameters and a 1M context length, deeply optimized for agentic scenarios. It is highly adaptable to general agent frameworks like OpenClaw. It ranks among the global top tier in the standard PinchBench and ClawBench benchmarks, with perceived performance approaching that of Opus 4.6. MiMo-V2-Pro is designed to serve as the brain of agent systems, orchestrating complex workflows, driving production engineering tasks, and delivering results reliably.",
           "context_length": 1048576,
           "architecture": {
