@@ -1,7 +1,7 @@
 {
   "$schema": "./uspto-config.schema.json",
   "proxy": {
-    "enabled": false,
+    "enabled": true,
     "urlEnv": "WEBSHARE_PROXY_URL"
   },
   "companies": [
