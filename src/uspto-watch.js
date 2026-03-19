@@ -51,9 +51,6 @@ function isXvfbAvailable() {
   }
 }
 
-/**
- * Wait for Cloudflare "Just a moment..." challenge to disappear
- */
 async function waitForCloudflareChallenge(page, timeout = 30000) {
   try {
     await page.waitForFunction(
@@ -61,11 +58,9 @@ async function waitForCloudflareChallenge(page, timeout = 30000) {
         const body = document.body;
         if (!body) return false;
         const text = body.textContent || '';
-        // Check for Cloudflare challenge indicators
         if (text.includes('Just a moment') || text.includes('Cloudflare')) {
           return false;
         }
-        // Check for cf- scripts
         if (document.querySelector('#cf-ccsp') || document.querySelector('.cf-browser')) {
           return false;
         }
@@ -73,10 +68,15 @@ async function waitForCloudflareChallenge(page, timeout = 30000) {
       },
       { timeout }
     );
-    return true;
+    return { success: true };
   } catch (e) {
-    console.log('Cloudflare challenge did not clear within timeout');
-    return false;
+    try {
+      const bodyText = await page.evaluate(() => document.body?.textContent || '');
+      if (bodyText.includes('Just a moment')) {
+        return { success: false, reason: 'cloudflare_stuck' };
+      }
+    } catch {}
+    return { success: false, reason: 'timeout' };
   }
 }
 
@@ -177,18 +177,25 @@ function saveState(statePath, state) {
 
 /**
  * Fetch trademark filings using Camoufox browser with virtual display and CAPTCHA handling
- * Falls back to non-proxy mode if proxy fails (e.g., Cloudflare blocks or quota exceeded)
+ * Proxy is only used as fallback if Cloudflare challenge fails or no results returned
  */
-async function fetchCompanyFilings(companySlug, maxRetries = 3) {
+async function fetchCompanyFilings(companySlug, maxRetries = 2) {
   console.log(`Fetching USPTO data for ${companySlug}...`);
 
-  let lastError;
   const proxyConfig = getProxyConfig();
-  let usedProxy = false;
-  let proxyFailed = false;
+  const proxyAvailable = proxyConfig !== null;
   
-  for (let attempt = 1; attempt <= maxRetries || (proxyFailed && attempt === maxRetries + 1); attempt++) {
+  let lastError;
+  let attempt = 0;
+  let needsProxyRetry = false;
+  let proxyRetryFailed = false;
+  
+  while (attempt < maxRetries) {
+    attempt++;
     let browser;
+    
+    const shouldUseProxy = needsProxyRetry && proxyAvailable && !proxyRetryFailed;
+    
     try {
       const useVirtualDisplay = isXvfbAvailable();
       
@@ -196,18 +203,17 @@ async function fetchCompanyFilings(companySlug, maxRetries = 3) {
         console.log('Using virtual display (Xvfb) for headless browser');
       }
 
-      const useProxy = proxyConfig && !proxyFailed;
-      if (useProxy) {
-        console.log(`Using Webshare.io proxy: ${proxyConfig.server}`);
-        usedProxy = true;
-      } else if (proxyFailed) {
-        console.log('Retrying without proxy (proxy previously failed)');
+      if (shouldUseProxy) {
+        console.log(`Using Webshare.io proxy (fallback): ${proxyConfig.server}`);
+      } else if (needsProxyRetry && !proxyAvailable) {
+        console.log('No proxy available, proceeding without');
+      } else {
+        console.log('Attempting without proxy');
       }
 
       const camoufoxOptions = {
         headless: useVirtualDisplay ? 'virtual' : true,
-        // geoip is heavily recommended when using proxies for proper geolocation routing
-        geoip: useProxy ? true : false,
+        geoip: shouldUseProxy ? true : false,
         args: [
           '--no-sandbox',
           '--disable-setuid-sandbox',
@@ -216,7 +222,7 @@ async function fetchCompanyFilings(companySlug, maxRetries = 3) {
         ]
       };
 
-      if (useProxy) {
+      if (shouldUseProxy) {
         camoufoxOptions.proxy = proxyConfig;
       }
 
@@ -229,7 +235,19 @@ async function fetchCompanyFilings(companySlug, maxRetries = 3) {
         timeout: 60000
       });
 
-      await waitForCloudflareChallenge(page, 30000);
+      const challengeResult = await waitForCloudflareChallenge(page, 30000);
+      
+      if (!challengeResult.success) {
+        console.log(`Cloudflare challenge did not clear: ${challengeResult.reason || 'unknown'}`);
+        if (!needsProxyRetry && proxyAvailable) {
+          needsProxyRetry = true;
+          throw new Error('cloudflare_stuck');
+        } else if (needsProxyRetry && !proxyRetryFailed) {
+          proxyRetryFailed = true;
+          throw new Error('proxy_failed');
+        }
+        throw new Error('unrecoverable');
+      }
       
       await handleCaptcha(page);
       
@@ -243,14 +261,12 @@ async function fetchCompanyFilings(companySlug, maxRetries = 3) {
 
       const filings = await page.evaluate(() => {
         const results = [];
-        // Use table.table for specificity - site has multiple tables
         const rows = document.querySelectorAll('table.table tbody tr');
 
         for (const row of rows) {
           const cells = row.querySelectorAll('td');
-          if (cells.length < 2) continue; // Skip header/invalid rows
+          if (cells.length < 2) continue;
 
-          // Get link from FIRST cell
           const firstCell = cells[0];
           const link = firstCell.querySelector('a[href*="/TM/"]');
           if (!link) continue;
@@ -260,23 +276,19 @@ async function fetchCompanyFilings(companySlug, maxRetries = 3) {
           const serial = serialMatch ? serialMatch[1] : null;
           if (!serial) continue;
 
-          // Get mark and date from SECOND cell (contains both)
           const secondCell = cells[1];
           const markDiv = secondCell.querySelector('div[style*="float: left"]');
           let mark = markDiv ? markDiv.textContent.trim() : null;
 
-          // Fallback: use img alt from first cell
           if (!mark) {
             const img = firstCell.querySelector('img');
             if (img) mark = img.alt?.replace(/^"|"$/g, '').trim() || 'Symbol/Image';
           }
 
-          // Get date from second cell's float: right div
           const dateDiv = secondCell.querySelector('div[style*="float: right"]');
           const dateMatch = dateDiv ? dateDiv.textContent.match(/(\d{4}-\d{2}-\d{2})/) : null;
           const date = dateMatch ? dateMatch[1] : null;
 
-          // Get image URL from first cell
           const img = firstCell.querySelector('img');
           const imageUrl = img && img.src ? 'https://uspto.report' + img.getAttribute('src') : null;
 
@@ -296,21 +308,30 @@ async function fetchCompanyFilings(companySlug, maxRetries = 3) {
         return results;
       });
       
+      if (filings.length === 0 && !needsProxyRetry && proxyAvailable) {
+        console.log('No filings returned, will retry with proxy');
+        needsProxyRetry = true;
+        throw new Error('no_results');
+      }
+      
       console.log(`Found ${filings.length} trademark filings for ${companySlug}`);
       return filings;
     
     } catch (error) {
-      console.error(`Attempt ${attempt}/${maxRetries} failed for ${companySlug}:`, error.message);
+      lastError = error;
+      const isUnrecoverable = error.message === 'unrecoverable';
       
-      // Mark proxy as failed if we were using it and got a connection/timeout error
-      if (useProxy && ['timeout', 'connect', 'proxy', '403', 'blocked'].some(keyword => error.message.includes(keyword))) {
-        console.log('Proxy failed, will retry without proxy');
-        proxyFailed = true;
+      if (isUnrecoverable) {
+        console.error(`Failed to fetch ${companySlug} - unrecoverable error`);
+        break;
       }
       
-      lastError = error;
+      if (needsProxyRetry && proxyRetryFailed) {
+        console.error(`Proxy retry failed for ${companySlug}:`, error.message);
+        break;
+      }
       
-      if (attempt < maxRetries) {
+      if (attempt < maxRetries && !isUnrecoverable) {
         const delay = Math.pow(2, attempt) * 2000;
         console.log(`Retrying in ${delay/1000} seconds...`);
         await new Promise(resolve => setTimeout(resolve, delay));
@@ -322,7 +343,7 @@ async function fetchCompanyFilings(companySlug, maxRetries = 3) {
     }
   }
   
-  console.error(`All ${maxRetries} attempts failed for ${companySlug}:`, lastError?.message);
+  console.error(`All attempts failed for ${companySlug}:`, lastError?.message);
   return [];
 }
 
