@@ -3047,6 +3047,7 @@
         {
           "id": "arize-ai/qwen-2-1.5b-instruct",
           "name": "arize-ai/qwen-2-1.5b-instruct",
+          "uuid": "endpoint-22ce9f16-299a-47cc-b88f-c59cfb1d235e",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -3161,6 +3162,7 @@
         {
           "id": "black-forest-labs/FLUX.1-pro",
           "name": "black-forest-labs/FLUX.1-pro",
+          "uuid": "endpoint-b2b7c6db-450f-45b2-b57e-2b0cd2c24c4a",
           "object": "model",
           "type": "image",
           "running": false,
@@ -3184,6 +3186,7 @@
         {
           "id": "black-forest-labs/FLUX.1-schnell",
           "name": "black-forest-labs/FLUX.1-schnell",
+          "uuid": "endpoint-e4638297-e0d0-4be4-85d4-62449ad55023",
           "object": "model",
           "type": "image",
           "running": false,
@@ -3207,6 +3210,7 @@
         {
           "id": "black-forest-labs/FLUX.1.1-pro",
           "name": "black-forest-labs/FLUX.1.1-pro",
+          "uuid": "endpoint-071376f6-db8a-44cf-9706-7ba0c9c14833",
           "object": "model",
           "type": "image",
           "running": false,
@@ -3230,6 +3234,7 @@
         {
           "id": "black-forest-labs/FLUX.2-dev",
           "name": "black-forest-labs/FLUX.2-dev",
+          "uuid": "endpoint-268047b1-b295-4d9b-bc9f-239d375768ab",
           "object": "model",
           "type": "image",
           "running": false,
@@ -3252,6 +3257,7 @@
         {
           "id": "black-forest-labs/FLUX.2-flex",
           "name": "black-forest-labs/FLUX.2-flex",
+          "uuid": "endpoint-3d15053d-a558-487c-b0f8-068e9dfd781f",
           "object": "model",
           "type": "image",
           "running": false,
@@ -3274,6 +3280,7 @@
         {
           "id": "black-forest-labs/FLUX.2-pro",
           "name": "black-forest-labs/FLUX.2-pro",
+          "uuid": "endpoint-f6f3da91-6f41-4b38-b61c-40f60902b714",
           "object": "model",
           "type": "image",
           "running": false,
@@ -3296,6 +3303,7 @@
         {
           "id": "ByteDance-Seed/Seedream-3.0",
           "name": "ByteDance-Seed/Seedream-3.0",
+          "uuid": "endpoint-c2769196-9347-46e4-815a-9c7abf5b8d50",
           "object": "model",
           "type": "image",
           "running": false,
@@ -3318,6 +3326,7 @@
         {
           "id": "ByteDance-Seed/Seedream-4.0",
           "name": "ByteDance-Seed/Seedream-4.0",
+          "uuid": "endpoint-e27a4640-becc-4a5a-92f4-3940b7be23e8",
           "object": "model",
           "type": "image",
           "running": false,
@@ -3340,6 +3349,7 @@
         {
           "id": "ByteDance/Seedance-1.0-lite",
           "name": "ByteDance/Seedance-1.0-lite",
+          "uuid": "endpoint-5467de41-51aa-4d08-98b5-8cd34dc19906",
           "object": "model",
           "type": "video",
           "running": false,
@@ -3362,6 +3372,7 @@
         {
           "id": "ByteDance/Seedance-1.0-pro",
           "name": "ByteDance/Seedance-1.0-pro",
+          "uuid": "endpoint-9419195a-e048-4865-bf8b-89343a3e9b84",
           "object": "model",
           "type": "video",
           "running": false,
@@ -3620,6 +3631,7 @@
         {
           "id": "deepcogito/cogito-v2-1-671b",
           "name": "deepcogito/cogito-v2-1-671b",
+          "uuid": "endpoint-057fe829-a0cc-491a-a71e-1819ee82d3d8",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -3764,6 +3776,7 @@
         {
           "id": "deepseek-ai/DeepSeek-R1",
           "name": "deepseek-ai/DeepSeek-R1",
+          "uuid": "endpoint-e98c33e5-aba4-4681-a904-2af36627ac32",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -3820,6 +3833,7 @@
         {
           "id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
           "name": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+          "uuid": "endpoint-6bf6649d-fdfb-47e7-8f39-be4c7516c96c",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -3988,6 +4002,7 @@
         {
           "id": "deepseek-ai/DeepSeek-V3.1",
           "name": "deepseek-ai/DeepSeek-V3.1",
+          "uuid": "endpoint-3aeb420a-6f30-485f-a486-a854d1c87136",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -4096,6 +4111,7 @@
         {
           "id": "essentialai/rnj-1-instruct",
           "name": "essentialai/rnj-1-instruct",
+          "uuid": "endpoint-5e47a57e-fdc8-4dd7-802f-2dc433244027",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -4140,6 +4156,7 @@
         {
           "id": "google/flash-image-2.5",
           "name": "google/flash-image-2.5",
+          "uuid": "endpoint-e9655a27-b014-43b4-bff1-b343a0206e07",
           "object": "model",
           "type": "image",
           "running": false,
@@ -4162,6 +4179,7 @@
         {
           "id": "google/flash-image-3.1",
           "name": "google/flash-image-3.1",
+          "uuid": "endpoint-f0e10a8e-9250-4bcc-b1a9-ae34f3ecdaec",
           "object": "model",
           "type": "image",
           "running": false,
@@ -4184,6 +4202,7 @@
         {
           "id": "google/gemini-3-pro-image",
           "name": "google/gemini-3-pro-image",
+          "uuid": "endpoint-d2f07d30-6a03-4f98-a52d-cdc5461cf639",
           "object": "model",
           "type": "image",
           "running": false,
@@ -4426,6 +4445,7 @@
         {
           "id": "google/gemma-3n-E4B-it",
           "name": "google/gemma-3n-E4B-it",
+          "uuid": "endpoint-290b90f1-cdb9-46c1-a919-9a73822375c3",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -4453,6 +4473,7 @@
         {
           "id": "google/imagen-4.0-fast",
           "name": "google/imagen-4.0-fast",
+          "uuid": "endpoint-3ba3bc6f-fe2b-4446-9ec0-71e82ac3348d",
           "object": "model",
           "type": "image",
           "running": false,
@@ -4475,6 +4496,7 @@
         {
           "id": "google/imagen-4.0-preview",
           "name": "google/imagen-4.0-preview",
+          "uuid": "endpoint-b6561013-bc17-4aa3-9a76-89174973977b",
           "object": "model",
           "type": "image",
           "running": false,
@@ -4497,6 +4519,7 @@
         {
           "id": "google/imagen-4.0-ultra",
           "name": "google/imagen-4.0-ultra",
+          "uuid": "endpoint-40d2690e-57a7-4e89-987d-2a3e44c1302d",
           "object": "model",
           "type": "image",
           "running": false,
@@ -4539,6 +4562,7 @@
         {
           "id": "google/veo-2.0",
           "name": "google/veo-2.0",
+          "uuid": "endpoint-ad40ee70-5f82-4283-b2d8-2813a2773022",
           "object": "model",
           "type": "video",
           "running": false,
@@ -4561,6 +4585,7 @@
         {
           "id": "google/veo-3.0",
           "name": "google/veo-3.0",
+          "uuid": "endpoint-b537b379-6b0c-40cb-a381-3836f9fc64a1",
           "object": "model",
           "type": "video",
           "running": false,
@@ -4583,6 +4608,7 @@
         {
           "id": "google/veo-3.0-audio",
           "name": "google/veo-3.0-audio",
+          "uuid": "endpoint-ced52ba5-3cb0-46a3-aa92-d7a2f59d6bd9",
           "object": "model",
           "type": "video",
           "running": false,
@@ -4605,6 +4631,7 @@
         {
           "id": "google/veo-3.0-fast",
           "name": "google/veo-3.0-fast",
+          "uuid": "endpoint-92bc9b5a-365e-48e2-bc37-e278671310cb",
           "object": "model",
           "type": "video",
           "running": false,
@@ -4627,6 +4654,7 @@
         {
           "id": "google/veo-3.0-fast-audio",
           "name": "google/veo-3.0-fast-audio",
+          "uuid": "endpoint-8bdb9924-b64e-4f44-ad5f-c979e578e7f4",
           "object": "model",
           "type": "video",
           "running": false,
@@ -4673,6 +4701,7 @@
         {
           "id": "HiDream-ai/HiDream-I1-Dev",
           "name": "HiDream-ai/HiDream-I1-Dev",
+          "uuid": "endpoint-933b7813-91dc-458a-b17e-9679ffe291b9",
           "object": "model",
           "type": "image",
           "running": false,
@@ -4695,6 +4724,7 @@
         {
           "id": "HiDream-ai/HiDream-I1-Fast",
           "name": "HiDream-ai/HiDream-I1-Fast",
+          "uuid": "endpoint-25122bc0-13ff-461e-be7b-c3b9587a931a",
           "object": "model",
           "type": "image",
           "running": false,
@@ -4717,6 +4747,7 @@
         {
           "id": "HiDream-ai/HiDream-I1-Full",
           "name": "HiDream-ai/HiDream-I1-Full",
+          "uuid": "endpoint-911a53ea-73ac-48f5-b877-b9b30d858e02",
           "object": "model",
           "type": "image",
           "running": false,
@@ -4739,6 +4770,7 @@
         {
           "id": "ideogram/ideogram-3.0",
           "name": "ideogram/ideogram-3.0",
+          "uuid": "endpoint-3d82f587-56ba-45df-817d-854cd2117f41",
           "object": "model",
           "type": "image",
           "running": false,
@@ -4761,6 +4793,7 @@
         {
           "id": "intfloat/multilingual-e5-large-instruct",
           "name": "intfloat/multilingual-e5-large-instruct",
+          "uuid": "endpoint-b1b563e5-5ec2-4577-9017-16b52ac5c841",
           "object": "model",
           "type": "embedding",
           "running": false,
@@ -4788,6 +4821,7 @@
         {
           "id": "kwaivgI/kling-1.6-pro",
           "name": "kwaivgI/kling-1.6-pro",
+          "uuid": "endpoint-1a0a5cc1-f679-4ed7-b5c4-8a33cb13a332",
           "object": "model",
           "type": "video",
           "running": false,
@@ -4810,6 +4844,7 @@
         {
           "id": "kwaivgI/kling-1.6-standard",
           "name": "kwaivgI/kling-1.6-standard",
+          "uuid": "endpoint-9f6794ed-52f7-414f-8974-d3b1ffb8702f",
           "object": "model",
           "type": "video",
           "running": false,
@@ -4832,6 +4867,7 @@
         {
           "id": "kwaivgI/kling-2.0-master",
           "name": "kwaivgI/kling-2.0-master",
+          "uuid": "endpoint-0164aebb-65e0-4fa5-98df-1d222c3d5700",
           "object": "model",
           "type": "video",
           "running": false,
@@ -4854,6 +4890,7 @@
         {
           "id": "kwaivgI/kling-2.1-master",
           "name": "kwaivgI/kling-2.1-master",
+          "uuid": "endpoint-5e489acf-5401-4843-97b7-8a830648bd3c",
           "object": "model",
           "type": "video",
           "running": false,
@@ -4876,6 +4913,7 @@
         {
           "id": "kwaivgI/kling-2.1-pro",
           "name": "kwaivgI/kling-2.1-pro",
+          "uuid": "endpoint-8fa3e87a-9f35-45fc-8157-8ed046498ba6",
           "object": "model",
           "type": "video",
           "running": false,
@@ -4898,6 +4936,7 @@
         {
           "id": "kwaivgI/kling-2.1-standard",
           "name": "kwaivgI/kling-2.1-standard",
+          "uuid": "endpoint-09e526e5-8428-4841-8242-c883b8600a8c",
           "object": "model",
           "type": "video",
           "running": false,
@@ -4920,6 +4959,7 @@
         {
           "id": "LiquidAI/LFM2-24B-A2B",
           "name": "LiquidAI/LFM2-24B-A2B",
+          "uuid": "endpoint-0bfd17c9-bc9f-4496-8f55-ac2e07a2864c",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -4945,6 +4985,7 @@
         {
           "id": "Lykon/DreamShaper",
           "name": "Lykon/DreamShaper",
+          "uuid": "endpoint-b62369e8-5dcc-4b9d-9ded-060b153bc9e9",
           "object": "model",
           "type": "image",
           "running": false,
@@ -5047,6 +5088,7 @@
         {
           "id": "meta-llama/Llama-3.1-405B-Instruct",
           "name": "meta-llama/Llama-3.1-405B-Instruct",
+          "uuid": "model-ec45f5a8-6e10-400f-b4b4-515e860baf75",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -5115,6 +5157,7 @@
         {
           "id": "meta-llama/Llama-3.2-1B-Instruct",
           "name": "meta-llama/Llama-3.2-1B-Instruct",
+          "uuid": "model-13e8c741-8389-4983-afe4-8b22a9de9f49",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -5375,6 +5418,7 @@
         {
           "id": "meta-llama/Llama-Guard-4-12B",
           "name": "meta-llama/Llama-Guard-4-12B",
+          "uuid": "endpoint-2095a2fc-bb95-48df-b94f-f95ccb22fa93",
           "object": "model",
           "type": "moderation",
           "running": false,
@@ -5442,6 +5486,7 @@
         {
           "id": "meta-llama/Meta-Llama-3-8B-Instruct",
           "name": "meta-llama/Meta-Llama-3-8B-Instruct",
+          "uuid": "model-f2de14d8-39ce-4cf7-a58a-1b3d74841874",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -5469,6 +5514,7 @@
         {
           "id": "meta-llama/Meta-Llama-3-8B-Instruct-Lite",
           "name": "meta-llama/Meta-Llama-3-8B-Instruct-Lite",
+          "uuid": "endpoint-23097993-11d0-4cd5-bfbc-d0613125f431",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -5537,6 +5583,7 @@
         {
           "id": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
           "name": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+          "uuid": "endpoint-8dc05faf-a910-40bb-8163-9f4e0c9008f1",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -5605,6 +5652,7 @@
         {
           "id": "meta-llama/Meta-Llama-3.1-8B-Instruct-Reference",
           "name": "meta-llama/Meta-Llama-3.1-8B-Instruct-Reference",
+          "uuid": "model-4454e727-f9a3-4f14-ba3e-10311caa021f",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -5632,6 +5680,7 @@
         {
           "id": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
           "name": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+          "uuid": "endpoint-b29b431f-6184-4685-9abc-b4d39cdc771d",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -5660,6 +5709,7 @@
         {
           "id": "minimax/hailuo-02",
           "name": "minimax/hailuo-02",
+          "uuid": "endpoint-68520084-c967-42b6-bff4-a63b660bd0cf",
           "object": "model",
           "type": "video",
           "running": false,
@@ -5702,6 +5752,7 @@
         {
           "id": "minimax/video-01-director",
           "name": "minimax/video-01-director",
+          "uuid": "endpoint-d5929bff-e81e-4bab-8b20-17cb99936a68",
           "object": "model",
           "type": "video",
           "running": false,
@@ -5804,6 +5855,7 @@
         {
           "id": "MiniMaxAI/MiniMax-M2.5",
           "name": "MiniMaxAI/MiniMax-M2.5",
+          "uuid": "endpoint-bcaa71d1-8a5a-4391-b691-79598f501e18",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -5948,6 +6000,7 @@
         {
           "id": "mistralai/Mistral-7B-Instruct-v0.3",
           "name": "mistralai/Mistral-7B-Instruct-v0.3",
+          "uuid": "endpoint-0830fdf1-35d2-4722-9b1f-b799f85f9997",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -5995,6 +6048,7 @@
         {
           "id": "mistralai/Mistral-Small-24B-Instruct-2501",
           "name": "mistralai/Mistral-Small-24B-Instruct-2501",
+          "uuid": "endpoint-d5e9222e-abb6-49ce-940f-f24b0073bfda",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -6043,6 +6097,7 @@
         {
           "id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
           "name": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+          "uuid": "endpoint-14e525c7-aa72-46f4-981d-1bdbf2f83dde",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -6131,6 +6186,7 @@
         {
           "id": "moonshotai/Kimi-K2.5",
           "name": "moonshotai/Kimi-K2.5",
+          "uuid": "endpoint-d7053622-6fca-48e8-9457-54b9bc319315",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -6478,6 +6534,7 @@
         {
           "id": "nvidia/parakeet-tdt-0.6b-v3",
           "name": "nvidia/parakeet-tdt-0.6b-v3",
+          "uuid": "endpoint-3fbe0c47-5c71-4f52-92fb-abaff932f05f",
           "object": "model",
           "type": "transcribe",
           "running": false,
@@ -6504,6 +6561,7 @@
         {
           "id": "openai/gpt-oss-120b",
           "name": "openai/gpt-oss-120b",
+          "uuid": "endpoint-cf361a3e-47d0-4dfc-851a-97098881e6a2",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -6531,6 +6589,7 @@
         {
           "id": "openai/gpt-oss-20b",
           "name": "openai/gpt-oss-20b",
+          "uuid": "endpoint-f382c20a-6806-4ac2-abfb-d00d7a0b0c2b",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -6558,6 +6617,7 @@
         {
           "id": "openai/sora-2",
           "name": "openai/sora-2",
+          "uuid": "endpoint-c4adc1b3-6ac2-491a-b4b0-e0c3b3fea40f",
           "object": "model",
           "type": "video",
           "running": false,
@@ -6580,6 +6640,7 @@
         {
           "id": "openai/sora-2-pro",
           "name": "openai/sora-2-pro",
+          "uuid": "endpoint-03b9298b-8624-4c29-8055-941df060eda4",
           "object": "model",
           "type": "video",
           "running": false,
@@ -6626,6 +6687,7 @@
         {
           "id": "pixverse/pixverse-v5",
           "name": "pixverse/pixverse-v5",
+          "uuid": "endpoint-1588b5bc-5923-4672-be92-3199a579a18f",
           "object": "model",
           "type": "video",
           "running": false,
@@ -6648,6 +6710,7 @@
         {
           "id": "pixverse/pixverse-v5.6",
           "name": "pixverse/pixverse-v5.6",
+          "uuid": "endpoint-5e8550be-7faf-411e-81ee-92773d4a1304",
           "object": "model",
           "type": "video",
           "running": false,
@@ -6670,6 +6733,7 @@
         {
           "id": "Qwen/Qwen-Image",
           "name": "Qwen/Qwen-Image",
+          "uuid": "endpoint-d4d29f48-ce86-4533-863a-23e9245f6570",
           "object": "model",
           "type": "image",
           "running": false,
@@ -6692,6 +6756,7 @@
         {
           "id": "Qwen/Qwen-Image-2.0",
           "name": "Qwen/Qwen-Image-2.0",
+          "uuid": "endpoint-9bd5c294-1a2e-4ffb-bf28-482e01eee56f",
           "object": "model",
           "type": "image",
           "running": false,
@@ -6714,6 +6779,7 @@
         {
           "id": "Qwen/Qwen-Image-2.0-Pro",
           "name": "Qwen/Qwen-Image-2.0-Pro",
+          "uuid": "endpoint-ea16bed3-cfd1-477b-ad95-1ac0f28bfec2",
           "object": "model",
           "type": "image",
           "running": false,
@@ -6916,6 +6982,7 @@
         {
           "id": "Qwen/Qwen2.5-14B-Instruct",
           "name": "Qwen/Qwen2.5-14B-Instruct",
+          "uuid": "model-983bb31f-7b4d-43c7-9ae8-c8e1879e7352",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -7043,6 +7110,7 @@
         {
           "id": "Qwen/Qwen2.5-72B-Instruct",
           "name": "Qwen/Qwen2.5-72B-Instruct",
+          "uuid": "model-1ca3af0a-7968-422a-9ee7-57a429f1c8ff",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -7130,6 +7198,7 @@
         {
           "id": "Qwen/Qwen2.5-7B-Instruct-Turbo",
           "name": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+          "uuid": "endpoint-117e51c5-eec1-48b8-be1c-fe6f8ae0a5be",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -7337,6 +7406,7 @@
         {
           "id": "Qwen/Qwen3-235B-A22B-Instruct-2507-tput",
           "name": "Qwen/Qwen3-235B-A22B-Instruct-2507-tput",
+          "uuid": "endpoint-a05fbf91-b71a-4814-b4fa-2b7a11290db8",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -7364,6 +7434,7 @@
         {
           "id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
           "name": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+          "uuid": "endpoint-a05fbf91-b71a-4814-b4fa-2b7a11290db8",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -7611,6 +7682,7 @@
         {
           "id": "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8",
           "name": "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8",
+          "uuid": "endpoint-4d37b937-890b-403a-bd2b-3d30b620254d",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -7638,6 +7710,7 @@
         {
           "id": "Qwen/Qwen3-Coder-Next-FP8",
           "name": "Qwen/Qwen3-Coder-Next-FP8",
+          "uuid": "endpoint-e866876b-60ac-408f-a521-526fafab05bf",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -7663,6 +7736,7 @@
         {
           "id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
           "name": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+          "uuid": "endpoint-acf17972-4582-4b74-9ecc-6081ee0c1169",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -7810,6 +7884,7 @@
         {
           "id": "Qwen/Qwen3-VL-8B-Instruct",
           "name": "Qwen/Qwen3-VL-8B-Instruct",
+          "uuid": "endpoint-b3429766-6305-438b-9811-0cdf45318b15",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -7877,6 +7952,7 @@
         {
           "id": "Qwen/Qwen3.5-397B-A17B",
           "name": "Qwen/Qwen3.5-397B-A17B",
+          "uuid": "endpoint-3a29fc79-9262-4d92-bd0a-da8b087be4be",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -7944,6 +8020,7 @@
         {
           "id": "Qwen/Qwen3.5-9B",
           "name": "Qwen/Qwen3.5-9B",
+          "uuid": "endpoint-71bb7894-08d4-4882-bb72-7c257c234513",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -8128,6 +8205,7 @@
         {
           "id": "Rundiffusion/Juggernaut-Lightning-Flux",
           "name": "Rundiffusion/Juggernaut-Lightning-Flux",
+          "uuid": "endpoint-63c3e50f-b9eb-41e3-a3ed-7242665874e4",
           "object": "model",
           "type": "image",
           "running": false,
@@ -8150,6 +8228,7 @@
         {
           "id": "RunDiffusion/Juggernaut-pro-flux",
           "name": "RunDiffusion/Juggernaut-pro-flux",
+          "uuid": "endpoint-1f51e977-a298-40aa-a0c6-d5865c37bc38",
           "object": "model",
           "type": "image",
           "running": false,
@@ -8297,6 +8376,7 @@
         {
           "id": "ServiceNow-AI/Apriel-1.6-15b-Thinker",
           "name": "ServiceNow-AI/Apriel-1.6-15b-Thinker",
+          "uuid": "endpoint-68796e86-0be6-406f-8bbe-88827b427d7f",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -8344,6 +8424,7 @@
         {
           "id": "stabilityai/stable-diffusion-3-medium",
           "name": "stabilityai/stable-diffusion-3-medium",
+          "uuid": "endpoint-24e602f1-99a7-45f0-972e-8b21e8715aeb",
           "object": "model",
           "type": "image",
           "running": false,
@@ -8366,6 +8447,7 @@
         {
           "id": "stabilityai/stable-diffusion-xl-base-1.0",
           "name": "stabilityai/stable-diffusion-xl-base-1.0",
+          "uuid": "endpoint-5bbe64a1-3798-4ad5-bfd5-aee40eca9564",
           "object": "model",
           "type": "image",
           "running": false,
@@ -8488,6 +8570,7 @@
         {
           "id": "togethercomputer/MoA-1-Turbo",
           "name": "togethercomputer/MoA-1-Turbo",
+          "uuid": "model-2b761333-56bf-4912-aed5-d1b654cef9e4",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -8553,6 +8636,7 @@
         {
           "id": "vidu/vidu-2.0",
           "name": "vidu/vidu-2.0",
+          "uuid": "endpoint-31518301-3076-47c8-b42f-542569955820",
           "object": "model",
           "type": "video",
           "running": false,
@@ -8575,6 +8659,7 @@
         {
           "id": "vidu/vidu-q1",
           "name": "vidu/vidu-q1",
+          "uuid": "endpoint-fea0b805-4d7e-45ec-8b1b-856c932f152c",
           "object": "model",
           "type": "video",
           "running": false,
@@ -8597,6 +8682,7 @@
         {
           "id": "Virtue-AI/VirtueGuard-Text-Lite",
           "name": "Virtue-AI/VirtueGuard-Text-Lite",
+          "uuid": "endpoint-7b619281-f83c-488a-baf9-fdcc0ddbc782",
           "object": "model",
           "type": "moderation",
           "running": false,
@@ -8625,6 +8711,7 @@
         {
           "id": "Wan-AI/Wan2.2-I2V-A14B",
           "name": "Wan-AI/Wan2.2-I2V-A14B",
+          "uuid": "endpoint-d1d3d2e4-c683-4d11-9741-bad79b3ebfef",
           "object": "model",
           "type": "video",
           "running": false,
@@ -8647,6 +8734,7 @@
         {
           "id": "Wan-AI/Wan2.2-T2V-A14B",
           "name": "Wan-AI/Wan2.2-T2V-A14B",
+          "uuid": "endpoint-9715a424-438b-447a-8bcb-021c7cf4718a",
           "object": "model",
           "type": "video",
           "running": false,
@@ -8669,6 +8757,7 @@
         {
           "id": "Wan-AI/Wan2.6-image",
           "name": "Wan-AI/Wan2.6-image",
+          "uuid": "endpoint-7dc7f98d-c562-4b5a-b710-c24875a6b471",
           "object": "model",
           "type": "image",
           "running": false,
@@ -8691,6 +8780,7 @@
         {
           "id": "zai-org/GLM-4.5-Air-FP8",
           "name": "zai-org/GLM-4.5-Air-FP8",
+          "uuid": "endpoint-f3be971a-78f5-4a96-b7d3-3b11ba717fbc",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -8738,6 +8828,7 @@
         {
           "id": "zai-org/GLM-4.6",
           "name": "zai-org/GLM-4.6",
+          "uuid": "endpoint-dfa0b2d9-167c-4cea-b317-94f779bcb204",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -8763,6 +8854,7 @@
         {
           "id": "zai-org/GLM-4.7",
           "name": "zai-org/GLM-4.7",
+          "uuid": "endpoint-19585518-00ef-4ee4-bf04-77043b11023d",
           "object": "model",
           "type": "chat",
           "running": false,
@@ -8788,6 +8880,7 @@
         {
           "id": "zai-org/GLM-5",
           "name": "zai-org/GLM-5",
+          "uuid": "endpoint-f6104312-37ea-4d87-82c1-ec0b29951a4b",
           "object": "model",
           "type": "chat",
           "running": false,
