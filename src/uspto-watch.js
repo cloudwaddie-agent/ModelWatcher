@@ -232,7 +232,7 @@ async function fetchCompanyFilings(companySlug, maxRetries = 2) {
       
       await page.goto(`https://uspto.report/company/${companySlug}`, {
         waitUntil: 'domcontentloaded',
-        timeout: 60000
+        timeout: 120000
       });
 
       const challengeResult = await waitForCloudflareChallenge(page, 30000);
