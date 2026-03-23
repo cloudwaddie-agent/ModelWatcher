@@ -8024,9 +8024,9 @@
           "object": "model",
           "type": "chat",
           "running": false,
-          "display_name": "Qwen3.5 9B",
+          "display_name": "Qwen3.5 9B FP8",
           "organization": "Qwen",
-          "link": "https://huggingface.co/api/models/togethercomputer/Qwen3.5-9B",
+          "link": "https://huggingface.co/api/models/togethercomputer/Qwen3.5-9B-FP8-MLP",
           "context_length": 262144,
           "config": {
             "chat_template": null,
