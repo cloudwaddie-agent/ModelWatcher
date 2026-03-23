@@ -10655,7 +10655,7 @@
             "pricing": {
               "input_tokens": 0.1,
               "output_tokens": 0.5,
-              "cache_read_tokens": 0.04000000000000001
+              "cache_read_tokens": 0.1
             },
             "tags": [
               "prompt_cache",
@@ -22002,7 +22002,7 @@
           "pricing": {
             "prompt": "0.0000001",
             "completion": "0.0000005",
-            "input_cache_read": "0.00000004"
+            "input_cache_read": "0.0000001"
           },
           "top_provider": {
             "context_length": 262144,
