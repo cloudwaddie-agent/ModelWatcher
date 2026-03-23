@@ -13317,6 +13317,11 @@
       "success": true,
       "models": [
         {
+          "id": "c4ai-aya-expanse-32b",
+          "name": "c4ai-aya-expanse-32b",
+          "model": "c4ai-aya-expanse-32b"
+        },
+        {
           "id": "c4ai-aya-expanse-8b",
           "name": "c4ai-aya-expanse-8b",
           "model": "c4ai-aya-expanse-8b"
@@ -13352,6 +13357,11 @@
           "model": "embed-english-light-v2.0"
         },
         {
+          "id": "embed-english-light-v3.0",
+          "name": "embed-english-light-v3.0",
+          "model": "embed-english-light-v3.0"
+        },
+        {
           "id": "embed-english-light-v3.0-image",
           "name": "embed-english-light-v3.0-image",
           "model": "embed-english-light-v3.0-image"
@@ -13380,16 +13390,6 @@
           "id": "embed-multilingual-light-v3.0-image",
           "name": "embed-multilingual-light-v3.0-image",
           "model": "embed-multilingual-light-v3.0-image"
-        },
-        {
-          "id": "embed-multilingual-v2.0",
-          "name": "embed-multilingual-v2.0",
-          "model": "embed-multilingual-v2.0"
-        },
-        {
-          "id": "embed-multilingual-v3.0",
-          "name": "embed-multilingual-v3.0",
-          "model": "embed-multilingual-v3.0"
         },
         {
           "id": "rerank-multilingual-v3.0",
@@ -19808,7 +19808,9 @@
           "supported_parameters": [
             "frequency_penalty",
             "include_reasoning",
+            "logit_bias",
             "max_tokens",
+            "min_p",
             "presence_penalty",
             "reasoning",
             "repetition_penalty",
