@@ -8374,6 +8374,7 @@
         {
           "id": "ServiceNow-AI/Apriel-1.5-15b-Thinker",
           "name": "ServiceNow-AI/Apriel-1.5-15b-Thinker",
+          "uuid": "endpoint-09e1bb8d-e45a-4590-9d08-6bbbdc6a3d56",
           "object": "model",
           "type": "chat",
           "running": false,
