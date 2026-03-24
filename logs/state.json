@@ -11178,6 +11178,26 @@
           }
         },
         {
+          "id": "Qwen/Qwen3.5-122B-A10B",
+          "name": "Qwen/Qwen3.5-122B-A10B",
+          "owned_by": "deepinfra",
+          "root": "Qwen/Qwen3.5-122B-A10B",
+          "parent": null,
+          "object": "model",
+          "metadata": {
+            "description": "",
+            "context_length": 262144,
+            "max_tokens": 262144,
+            "pricing": {
+              "input_tokens": 0.29,
+              "output_tokens": 2.9000000000000004
+            },
+            "tags": [
+              "reasoning_effort"
+            ]
+          }
+        },
+        {
           "id": "Sao10K/L3-8B-Lunaris-v1-Turbo",
           "name": "Sao10K/L3-8B-Lunaris-v1-Turbo",
           "owned_by": "deepinfra",
