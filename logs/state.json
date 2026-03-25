@@ -1628,6 +1628,20 @@
           "display_name": "Imagen 4 Ultra"
         },
         {
+          "id": "models/lyria-3-clip-preview",
+          "name": "models/lyria-3-clip-preview",
+          "owned_by": "google",
+          "object": "model",
+          "display_name": "Lyria3 Clip Preview"
+        },
+        {
+          "id": "models/lyria-3-pro-preview",
+          "name": "models/lyria-3-pro-preview",
+          "owned_by": "google",
+          "object": "model",
+          "display_name": "Lyria3 Pro Preview"
+        },
+        {
           "id": "models/lyria-realtime-exp",
           "name": "models/lyria-realtime-exp",
           "owned_by": "google",
@@ -15072,7 +15086,7 @@
             "presence_penalty": null,
             "repetition_penalty": null
           },
-          "expiration_date": null
+          "expiration_date": "2026-03-31"
         },
         {
           "id": "arcee-ai/trinity-mini",
