@@ -11894,8 +11894,8 @@
           "description": "Official labs-mistral-small-creative Mistral AI model",
           "max_context_length": 32768,
           "aliases": [],
-          "deprecation": null,
-          "deprecation_replacement_model": null,
+          "deprecation": "2026-04-30T12:00:00Z",
+          "deprecation_replacement_model": "open-mistral-nemo",
           "default_model_temperature": 0.3,
           "type": "base"
         },
@@ -12523,8 +12523,8 @@
           "aliases": [
             "mistral-moderation-latest"
           ],
-          "deprecation": null,
-          "deprecation_replacement_model": null,
+          "deprecation": "2026-06-30T12:00:00Z",
+          "deprecation_replacement_model": "mistral-moderation-2603",
           "default_model_temperature": null,
           "type": "base"
         },
@@ -12553,8 +12553,8 @@
           "aliases": [
             "mistral-moderation-2411"
           ],
-          "deprecation": null,
-          "deprecation_replacement_model": null,
+          "deprecation": "2026-06-30T12:00:00Z",
+          "deprecation_replacement_model": "mistral-moderation-2603",
           "default_model_temperature": null,
           "type": "base"
         },
