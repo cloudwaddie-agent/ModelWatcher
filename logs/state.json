@@ -29863,7 +29863,7 @@
           "name": "Xiaomi: MiMo-V2-Omni",
           "canonical_slug": "xiaomi/mimo-v2-omni-20260318",
           "hugging_face_id": "",
-          "description": "MiMo-V2-Omni is a frontier omni-modal model that natively processes image, video, and audio inputs within a unified architecture. It combines strong multimodal perception with agentic capability - visual grounding, multi-step planning, tool use, and code execution - making it well-suited for complex real-world tasks that span modalities. 256K context window.",
+          "description": "MiMo-V2-Omni is a frontier omni-modal model that natively processes image, video, and audio inputs within a unified architecture. It combines strong multimodal perception with agentic capability - visual grounding, multi-step planning, tool use, and code execution - making it well-suited for complex real-world tasks that span modalities, 256K context window.",
           "context_length": 262144,
           "architecture": {
             "modality": "text+image+audio+video->text",
