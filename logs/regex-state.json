@@ -1,12 +1,10 @@
 {
   "https://gemini.google.com/": {
     "patterns": {
-      "undefined": {
-        "count": 1679342,
-        "matchedStrings": [
-          ""
-        ],
-        "timestamp": 1774930099510
+      "gemini-3\\.[0-9]+": {
+        "count": 0,
+        "matchedStrings": [],
+        "timestamp": 1774930263429
       }
     }
   }
