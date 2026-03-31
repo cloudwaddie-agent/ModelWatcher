@@ -2,7 +2,7 @@
   "$schema": "./regex-config.schema.json",
   "pages": [
     {
-      "name": "Google AI Studio - Gemini Models",
+      "name": "Google Gemini - Gemini Models",
       "url": "https://gemini.google.com/",
       "patterns": ["gemini-3\\.[0-9]+"]
     }
