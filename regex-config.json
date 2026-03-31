@@ -1,0 +1,18 @@
+{
+  "$schema": "./regex-config.schema.json",
+  "pages": [
+    {
+      "name": "Google AI Studio - Gemini Models",
+      "url": "https://gemini.google.com/",
+      "patterns": ["gemini-3\\.[0-9]+"]
+    }
+  ],
+  "webhook": {
+    "webhookEnv": "REGEX_WEBHOOK",
+    "url": "https://github.com/CloudWaddie/ModelWatcher"
+  },
+  "settings": {
+    "timeout": 60000,
+    "delay": 2500
+  }
+}
