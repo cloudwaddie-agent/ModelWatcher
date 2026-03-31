@@ -317,8 +317,8 @@ async function processUrl(page, url, patterns, timeout) {
     
     // Process each pattern
     for (const patternConfig of patterns) {
-      const patternId = patternConfig.id || patternConfig.pattern;
-      const pattern = patternConfig.pattern;
+      const pattern = typeof patternConfig === 'string' ? patternConfig : patternConfig.pattern;
+      const patternId = typeof patternConfig === 'string' ? patternConfig : (patternConfig.id || patternConfig.pattern);
       const hasCaptureGroups = /\((?!\?:)/.test(pattern);
       
       const matchedStrings = new Set();
