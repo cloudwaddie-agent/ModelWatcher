@@ -5234,7 +5234,7 @@
           "object": "model",
           "type": "chat",
           "running": false,
-          "display_name": "Llama 4 Maverick Instruct (17Bx128E)",
+          "display_name": "Llama 4 Maverick Instruct (17Bx128E) FP8",
           "organization": "Meta",
           "link": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
           "license": "llama4",
@@ -15042,7 +15042,7 @@
             "repetition_penalty": null
           },
           "knowledge_cutoff": null,
-          "expiration_date": "2026-04-03"
+          "expiration_date": "2026-04-10"
         },
         {
           "id": "arcee-ai/trinity-mini",
