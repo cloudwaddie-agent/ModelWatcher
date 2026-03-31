@@ -1,49 +1,49 @@
 {
   "https://gemini.google.com/": {
     "patterns": {
-      "gemini-[0-9]+(?:\\.[0-9]+)*": {
+      "gemini-[0-9]+(?:[a-z]+)?(?:\\\\.[0-9]+)*": {
         "count": 18,
         "matchedStrings": [
-          "gemini-2.0",
-          "gemini-2.5",
+          "gemini-2",
           "gemini-3"
         ],
-        "timestamp": 1774934617827
+        "timestamp": 1774935679985
       }
     }
   },
   "https://chatgpt.com/": {
     "patterns": {
-      "gpt-[0-9]+(?:\\.[0-9]+)*": {
+      "gpt-[0-9]+(?:[a-z0-9-]+)?(?:\\\\.[0-9]+)*": {
         "count": 12,
         "matchedStrings": [
-          "gpt-5.4",
-          "GPT-5.4",
-          "gpt-4"
+          "gpt-5",
+          "GPT-5",
+          "gpt-4o",
+          "gpt-4o-mini"
         ],
-        "timestamp": 1774934623984
+        "timestamp": 1774935685686
       }
     }
   },
   "https://claude.ai/": {
     "patterns": {
-      "claude-[a-z]+-[0-9]+(?:\\.[0-9]+)*": {
+      "claude-[a-z]+-[0-9]+(?:[a-z]+)?(?:\\\\.[0-9]+)*": {
         "count": 0,
         "matchedStrings": [],
-        "timestamp": 1774934630746
+        "timestamp": 1774935691240
       }
     }
   },
   "https://grok.com": {
     "patterns": {
-      "grok-[0-9]+(?:\\.[0-9]+)*": {
+      "grok-[0-9]+(?:[a-z]+)?(?:\\\\.[0-9]+)*": {
         "count": 96,
         "matchedStrings": [
           "grok-4",
           "grok-3",
           "grok-420"
         ],
-        "timestamp": 1774934636201
+        "timestamp": 1774935696154
       }
     }
   }
