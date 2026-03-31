@@ -1678,6 +1678,13 @@
           "owned_by": "google",
           "object": "model",
           "display_name": "Veo 3.1"
+        },
+        {
+          "id": "models/veo-3.1-lite-generate-preview",
+          "name": "models/veo-3.1-lite-generate-preview",
+          "owned_by": "google",
+          "object": "model",
+          "display_name": "Veo 3.1 lite"
         }
       ]
     },
@@ -28799,11 +28806,12 @@
           },
           "pricing": {
             "prompt": "0.0000001",
-            "completion": "0.0000003"
+            "completion": "0.0000003",
+            "input_cache_read": "0.00000002"
           },
           "top_provider": {
             "context_length": 262144,
-            "max_completion_tokens": 65536,
+            "max_completion_tokens": null,
             "is_moderated": false
           },
           "per_request_limits": null,
@@ -28819,7 +28827,6 @@
             "seed",
             "stop",
             "temperature",
-            "tool_choice",
             "tools",
             "top_k",
             "top_p"
