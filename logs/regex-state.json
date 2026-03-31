@@ -1,10 +1,49 @@
 {
   "https://gemini.google.com/": {
     "patterns": {
-      "gemini-3\\.[0-9]+": {
+      "gemini-[0-9]+(?:\\.[0-9]+)*": {
+        "count": 18,
+        "matchedStrings": [
+          "gemini-2.0",
+          "gemini-2.5",
+          "gemini-3"
+        ],
+        "timestamp": 1774934617827
+      }
+    }
+  },
+  "https://chatgpt.com/": {
+    "patterns": {
+      "gpt-[0-9]+(?:\\.[0-9]+)*": {
+        "count": 12,
+        "matchedStrings": [
+          "gpt-5.4",
+          "GPT-5.4",
+          "gpt-4"
+        ],
+        "timestamp": 1774934623984
+      }
+    }
+  },
+  "https://claude.ai/": {
+    "patterns": {
+      "claude-[a-z]+-[0-9]+(?:\\.[0-9]+)*": {
         "count": 0,
         "matchedStrings": [],
-        "timestamp": 1774930704335
+        "timestamp": 1774934630746
+      }
+    }
+  },
+  "https://grok.com": {
+    "patterns": {
+      "grok-[0-9]+(?:\\.[0-9]+)*": {
+        "count": 96,
+        "matchedStrings": [
+          "grok-4",
+          "grok-3",
+          "grok-420"
+        ],
+        "timestamp": 1774934636201
       }
     }
   }
