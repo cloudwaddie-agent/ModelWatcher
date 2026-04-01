@@ -18367,7 +18367,7 @@
             "frequency_penalty": null
           },
           "knowledge_cutoff": "2025-01-31",
-          "expiration_date": null
+          "expiration_date": "2026-04-15"
         },
         {
           "id": "inflection/inflection-3-pi",
