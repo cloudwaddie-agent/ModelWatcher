@@ -9523,6 +9523,29 @@
           }
         },
         {
+          "id": "ByteDance/Seed-2.0-pro",
+          "name": "ByteDance/Seed-2.0-pro",
+          "owned_by": "deepinfra",
+          "root": "ByteDance/Seed-2.0-pro",
+          "parent": null,
+          "object": "model",
+          "metadata": {
+            "description": "Built for the Agent era, it delivers stable performance in complex reasoning and long-horizon tasks, including multi-step planning, visual-text reasoning, video understanding, and advanced analysis.",
+            "context_length": 256000,
+            "max_tokens": 256000,
+            "pricing": {
+              "input_tokens": 0.5,
+              "output_tokens": 2.9999999999999996,
+              "cache_read_tokens": 0.1
+            },
+            "tags": [
+              "vision",
+              "prompt_cache",
+              "reasoning"
+            ]
+          }
+        },
+        {
           "id": "ByteDance/Seedream-4",
           "name": "ByteDance/Seedream-4",
           "owned_by": "deepinfra",
@@ -19768,11 +19791,11 @@
           "pricing": {
             "prompt": "0.00000012",
             "completion": "0.000001",
-            "input_cache_read": "0.0000001"
+            "input_cache_read": "0.00000006"
           },
           "top_provider": {
             "context_length": 196608,
-            "max_completion_tokens": 196608,
+            "max_completion_tokens": 65536,
             "is_moderated": false
           },
           "per_request_limits": null,
