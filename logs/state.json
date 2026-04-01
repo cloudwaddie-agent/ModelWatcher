@@ -1407,13 +1407,6 @@
           "display_name": "Gemini 2.5 Flash-Lite"
         },
         {
-          "id": "models/gemini-2.5-flash-lite-preview-09-2025",
-          "name": "models/gemini-2.5-flash-lite-preview-09-2025",
-          "owned_by": "google",
-          "object": "model",
-          "display_name": "Gemini 2.5 Flash-Lite Preview Sep 2025"
-        },
-        {
           "id": "models/gemini-2.5-flash-native-audio-latest",
           "name": "models/gemini-2.5-flash-native-audio-latest",
           "owned_by": "google",
