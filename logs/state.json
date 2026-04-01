@@ -30699,6 +30699,58 @@
           },
           "knowledge_cutoff": null,
           "expiration_date": null
+        },
+        {
+          "id": "z-ai/glm-5v-turbo",
+          "name": "Z.ai: GLM 5V Turbo",
+          "canonical_slug": "z-ai/glm-5v-turbo-20260401",
+          "hugging_face_id": "",
+          "description": "GLM-5V-Turbo is Z.ai’s first native multimodal agent foundation model, built for vision-based coding and agent-driven tasks. It natively handles image, video, and text inputs, excels at long-horizon planning, complex coding, and task execution, and works seamlessly with agents to complete the full loop of “perceive → plan → execute“.",
+          "context_length": 202752,
+          "architecture": {
+            "modality": "text+image+video->text",
+            "input_modalities": [
+              "image",
+              "text",
+              "video"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Other",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0.0000012",
+            "completion": "0.000004",
+            "input_cache_read": "0.00000024"
+          },
+          "top_provider": {
+            "context_length": 202752,
+            "max_completion_tokens": 131072,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "include_reasoning",
+            "max_tokens",
+            "reasoning",
+            "response_format",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_p"
+          ],
+          "default_parameters": {
+            "temperature": 1,
+            "top_p": 0.95,
+            "top_k": null,
+            "frequency_penalty": null,
+            "presence_penalty": null,
+            "repetition_penalty": null
+          },
+          "knowledge_cutoff": null,
+          "expiration_date": null
         }
       ]
     },
