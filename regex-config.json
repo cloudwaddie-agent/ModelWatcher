@@ -13,7 +13,7 @@
     },
     {
       "name": "Claude - Model Names",
-      "url": "https://claude.ai/",
+      "url": "https://claude.ai/new",
       "patterns": ["claude-[a-z]+-[0-9]+(?:[a-z]+)?(?:\\\\.[0-9]+)*"]
     },
     {
