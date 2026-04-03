@@ -3009,29 +3009,6 @@
           }
         },
         {
-          "id": "alibaba/wan2.7-t2v",
-          "name": "alibaba/wan2.7-t2v",
-          "uuid": "endpoint-8be53eaf-edfd-439e-95c2-b2dfa627110b",
-          "object": "model",
-          "type": "video",
-          "running": false,
-          "display_name": "Wan 2.7 Text-to-Video",
-          "organization": "Alibaba",
-          "config": {
-            "chat_template": null,
-            "stop": [],
-            "bos_token": null,
-            "eos_token": null
-          },
-          "pricing": {
-            "hourly": 0,
-            "input": 0,
-            "output": 0,
-            "base": 0,
-            "finetune": 0
-          }
-        },
-        {
           "id": "arize-ai/qwen-2-1.5b-instruct",
           "name": "arize-ai/qwen-2-1.5b-instruct",
           "uuid": "endpoint-22ce9f16-299a-47cc-b88f-c59cfb1d235e",
@@ -5735,29 +5712,6 @@
             ],
             "bos_token": "]~!b[",
             "eos_token": "[e~["
-          },
-          "pricing": {
-            "hourly": 0,
-            "input": 0,
-            "output": 0,
-            "base": 0,
-            "finetune": 0
-          }
-        },
-        {
-          "id": "MiniMaxAI/MiniMax-M2.1",
-          "name": "MiniMaxAI/MiniMax-M2.1",
-          "object": "model",
-          "type": "chat",
-          "running": false,
-          "display_name": "Minimax M2.1",
-          "organization": "Minimaxai",
-          "context_length": 196608,
-          "config": {
-            "chat_template": null,
-            "stop": [],
-            "bos_token": null,
-            "eos_token": null
           },
           "pricing": {
             "hourly": 0,
@@ -8655,6 +8609,29 @@
           "type": "image",
           "running": false,
           "display_name": "Wan 2.6 Image",
+          "organization": "Wan-AI",
+          "config": {
+            "chat_template": null,
+            "stop": [],
+            "bos_token": null,
+            "eos_token": null
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0,
+            "output": 0,
+            "base": 0,
+            "finetune": 0
+          }
+        },
+        {
+          "id": "Wan-AI/wan2.7-t2v",
+          "name": "Wan-AI/wan2.7-t2v",
+          "uuid": "endpoint-4e24da5f-2274-44ad-8bf3-36dc47a8114a",
+          "object": "model",
+          "type": "video",
+          "running": false,
+          "display_name": "Wan 2.7 Text-to-Video",
           "organization": "Wan-AI",
           "config": {
             "chat_template": null,
