@@ -8330,60 +8330,6 @@
           }
         },
         {
-          "id": "ServiceNow-AI/Apriel-1.5-15b-Thinker",
-          "name": "ServiceNow-AI/Apriel-1.5-15b-Thinker",
-          "uuid": "endpoint-09e1bb8d-e45a-4590-9d08-6bbbdc6a3d56",
-          "object": "model",
-          "type": "chat",
-          "running": false,
-          "display_name": "Apriel 1.5 15B Thinker",
-          "organization": "Servicenow AI",
-          "link": "https://huggingface.co/api/models/ServiceNow-AI/Apriel-1.5-15b-Thinker",
-          "license": "mit",
-          "context_length": 131072,
-          "config": {
-            "chat_template": null,
-            "stop": [],
-            "bos_token": "<s>",
-            "eos_token": "</s>"
-          },
-          "pricing": {
-            "hourly": 0,
-            "input": 0,
-            "output": 0,
-            "base": 0,
-            "finetune": 0
-          }
-        },
-        {
-          "id": "ServiceNow-AI/Apriel-1.6-15b-Thinker",
-          "name": "ServiceNow-AI/Apriel-1.6-15b-Thinker",
-          "uuid": "endpoint-68796e86-0be6-406f-8bbe-88827b427d7f",
-          "object": "model",
-          "type": "chat",
-          "running": false,
-          "display_name": "Apriel 1.6 15B Thinker",
-          "organization": "Servicenow AI",
-          "link": "https://huggingface.co/api/models/ServiceNow-AI/Apriel-1.6-15b-Thinker",
-          "license": "mit",
-          "context_length": 131072,
-          "config": {
-            "chat_template": null,
-            "stop": [
-              "</s>"
-            ],
-            "bos_token": "<s>",
-            "eos_token": "</s>"
-          },
-          "pricing": {
-            "hourly": 0,
-            "input": 0,
-            "output": 0,
-            "base": 0,
-            "finetune": 0
-          }
-        },
-        {
           "id": "stabilityai/stable-diffusion-3-medium",
           "name": "stabilityai/stable-diffusion-3-medium",
           "uuid": "endpoint-24e602f1-99a7-45f0-972e-8b21e8715aeb",
