@@ -3009,6 +3009,29 @@
           }
         },
         {
+          "id": "alibaba/wan2.7-t2v",
+          "name": "alibaba/wan2.7-t2v",
+          "uuid": "endpoint-8be53eaf-edfd-439e-95c2-b2dfa627110b",
+          "object": "model",
+          "type": "video",
+          "running": false,
+          "display_name": "Wan 2.7 Text-to-Video",
+          "organization": "Alibaba",
+          "config": {
+            "chat_template": null,
+            "stop": [],
+            "bos_token": null,
+            "eos_token": null
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0,
+            "output": 0,
+            "base": 0,
+            "finetune": 0
+          }
+        },
+        {
           "id": "arize-ai/qwen-2-1.5b-instruct",
           "name": "arize-ai/qwen-2-1.5b-instruct",
           "uuid": "endpoint-22ce9f16-299a-47cc-b88f-c59cfb1d235e",
