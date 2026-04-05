@@ -5994,6 +5994,57 @@
           }
         },
         {
+          "id": "Qwen/Qwen3-14B-Base",
+          "name": "Qwen/Qwen3-14B-Base",
+          "object": "model",
+          "type": "language",
+          "running": false,
+          "display_name": "Qwen3 14B Base",
+          "organization": "Qwen",
+          "link": "https://huggingface.co/api/models/Qwen/Qwen3-14B-Base",
+          "license": "apache-2.0",
+          "context_length": 32768,
+          "config": {
+            "chat_template": null,
+            "stop": [
+              "<|endoftext|>"
+            ],
+            "bos_token": null,
+            "eos_token": "<|endoftext|>"
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0,
+            "output": 0,
+            "base": 0,
+            "finetune": 0
+          }
+        },
+        {
+          "id": "Qwen/Qwen3-235B-A22B-fp8",
+          "name": "Qwen/Qwen3-235B-A22B-fp8",
+          "uuid": "endpoint-a05fbf91-b71a-4814-b4fa-2b7a11290db9",
+          "object": "model",
+          "type": "chat",
+          "running": false,
+          "display_name": "Qwen3 235B A22B FP8",
+          "organization": "Qwen",
+          "context_length": 40960,
+          "config": {
+            "chat_template": null,
+            "stop": [],
+            "bos_token": null,
+            "eos_token": null
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0,
+            "output": 0,
+            "base": 0,
+            "finetune": 0
+          }
+        },
+        {
           "id": "Qwen/Qwen3-235B-A22B-Instruct-2507-tput",
           "name": "Qwen/Qwen3-235B-A22B-Instruct-2507-tput",
           "uuid": "endpoint-a05fbf91-b71a-4814-b4fa-2b7a11290db8",
@@ -6067,6 +6118,33 @@
             ],
             "bos_token": null,
             "eos_token": "<|im_end|>"
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0,
+            "output": 0,
+            "base": 0,
+            "finetune": 0
+          }
+        },
+        {
+          "id": "Qwen/Qwen3-30B-A3B-Base",
+          "name": "Qwen/Qwen3-30B-A3B-Base",
+          "object": "model",
+          "type": "language",
+          "running": false,
+          "display_name": "Qwen3 30B A3b Base",
+          "organization": "Qwen",
+          "link": "https://huggingface.co/api/models/Qwen/Qwen3-30B-A3B-Base",
+          "license": "apache-2.0",
+          "context_length": 32768,
+          "config": {
+            "chat_template": null,
+            "stop": [
+              "<|endoftext|>"
+            ],
+            "bos_token": null,
+            "eos_token": "<|endoftext|>"
           },
           "pricing": {
             "hourly": 0,
