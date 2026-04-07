@@ -14739,6 +14739,65 @@
           }
         },
         {
+          "id": "anthropic/claude-opus-4.6-fast",
+          "name": "Anthropic: Claude Opus 4.6 (Fast)",
+          "canonical_slug": "anthropic/claude-4.6-opus-fast-20260407",
+          "hugging_face_id": null,
+          "description": "Fast-mode variant of [Opus 4.6](/anthropic/claude-opus-4.6) - identical capabilities with higher output speed at premium 6x pricing.\n\nLearn more in Anthropic's docs: https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+          "context_length": 1000000,
+          "architecture": {
+            "modality": "text+image->text",
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Claude",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0.00003",
+            "completion": "0.00015",
+            "web_search": "0.01",
+            "input_cache_read": "0.000003",
+            "input_cache_write": "0.0000375"
+          },
+          "top_provider": {
+            "context_length": 1000000,
+            "max_completion_tokens": 128000,
+            "is_moderated": true
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "include_reasoning",
+            "max_tokens",
+            "reasoning",
+            "response_format",
+            "stop",
+            "structured_outputs",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_p",
+            "verbosity"
+          ],
+          "default_parameters": {
+            "temperature": null,
+            "top_p": null,
+            "top_k": null,
+            "frequency_penalty": null,
+            "presence_penalty": null,
+            "repetition_penalty": null
+          },
+          "knowledge_cutoff": null,
+          "expiration_date": null,
+          "links": {
+            "details": "/api/v1/models/anthropic/claude-4.6-opus-fast-20260407/endpoints"
+          }
+        },
+        {
           "id": "anthropic/claude-sonnet-4",
           "name": "Anthropic: Claude Sonnet 4",
           "canonical_slug": "anthropic/claude-4-sonnet-20250522",
