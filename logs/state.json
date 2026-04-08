@@ -14713,6 +14713,7 @@
           "per_request_limits": null,
           "supported_parameters": [
             "include_reasoning",
+            "max_completion_tokens",
             "max_tokens",
             "reasoning",
             "response_format",
@@ -14947,6 +14948,7 @@
           "per_request_limits": null,
           "supported_parameters": [
             "include_reasoning",
+            "max_completion_tokens",
             "max_tokens",
             "reasoning",
             "response_format",
@@ -16382,6 +16384,7 @@
           "supported_parameters": [
             "frequency_penalty",
             "include_reasoning",
+            "max_completion_tokens",
             "max_tokens",
             "presence_penalty",
             "reasoning",
@@ -23142,7 +23145,7 @@
             "frequency_penalty",
             "logit_bias",
             "logprobs",
-            "max_tokens",
+            "max_completion_tokens",
             "presence_penalty",
             "response_format",
             "seed",
@@ -23193,6 +23196,7 @@
             "frequency_penalty",
             "logit_bias",
             "logprobs",
+            "max_completion_tokens",
             "max_tokens",
             "presence_penalty",
             "response_format",
@@ -23293,6 +23297,7 @@
             "frequency_penalty",
             "logit_bias",
             "logprobs",
+            "max_completion_tokens",
             "max_tokens",
             "presence_penalty",
             "response_format",
@@ -23550,6 +23555,7 @@
           },
           "per_request_limits": null,
           "supported_parameters": [
+            "max_completion_tokens",
             "max_tokens",
             "response_format",
             "seed",
@@ -23599,6 +23605,7 @@
           },
           "per_request_limits": null,
           "supported_parameters": [
+            "max_completion_tokens",
             "max_tokens",
             "response_format",
             "seed",
@@ -23648,6 +23655,7 @@
           },
           "per_request_limits": null,
           "supported_parameters": [
+            "max_completion_tokens",
             "max_tokens",
             "response_format",
             "seed",
@@ -23699,6 +23707,7 @@
             "frequency_penalty",
             "logit_bias",
             "logprobs",
+            "max_completion_tokens",
             "max_tokens",
             "presence_penalty",
             "response_format",
@@ -23753,6 +23762,7 @@
             "frequency_penalty",
             "logit_bias",
             "logprobs",
+            "max_completion_tokens",
             "max_tokens",
             "presence_penalty",
             "response_format",
@@ -23808,6 +23818,7 @@
             "frequency_penalty",
             "logit_bias",
             "logprobs",
+            "max_completion_tokens",
             "max_tokens",
             "presence_penalty",
             "response_format",
@@ -23976,6 +23987,7 @@
             "frequency_penalty",
             "logit_bias",
             "logprobs",
+            "max_completion_tokens",
             "max_tokens",
             "presence_penalty",
             "response_format",
@@ -24223,6 +24235,7 @@
           "per_request_limits": null,
           "supported_parameters": [
             "include_reasoning",
+            "max_completion_tokens",
             "max_tokens",
             "reasoning",
             "response_format",
@@ -24499,6 +24512,7 @@
           "per_request_limits": null,
           "supported_parameters": [
             "include_reasoning",
+            "max_completion_tokens",
             "max_tokens",
             "reasoning",
             "response_format",
@@ -24555,6 +24569,7 @@
           "per_request_limits": null,
           "supported_parameters": [
             "include_reasoning",
+            "max_completion_tokens",
             "max_tokens",
             "reasoning",
             "response_format",
@@ -24663,6 +24678,7 @@
           "per_request_limits": null,
           "supported_parameters": [
             "include_reasoning",
+            "max_completion_tokens",
             "max_tokens",
             "reasoning",
             "response_format",
@@ -24718,6 +24734,7 @@
           },
           "per_request_limits": null,
           "supported_parameters": [
+            "max_completion_tokens",
             "max_tokens",
             "response_format",
             "seed",
@@ -24768,6 +24785,7 @@
           "per_request_limits": null,
           "supported_parameters": [
             "include_reasoning",
+            "max_completion_tokens",
             "max_tokens",
             "reasoning",
             "response_format",
@@ -24823,6 +24841,7 @@
           "per_request_limits": null,
           "supported_parameters": [
             "include_reasoning",
+            "max_completion_tokens",
             "max_tokens",
             "reasoning",
             "response_format",
@@ -24877,6 +24896,7 @@
           "per_request_limits": null,
           "supported_parameters": [
             "include_reasoning",
+            "max_completion_tokens",
             "max_tokens",
             "reasoning",
             "response_format",
@@ -24933,6 +24953,7 @@
           "per_request_limits": null,
           "supported_parameters": [
             "include_reasoning",
+            "max_completion_tokens",
             "max_tokens",
             "reasoning",
             "response_format",
@@ -24988,6 +25009,7 @@
           },
           "per_request_limits": null,
           "supported_parameters": [
+            "max_completion_tokens",
             "max_tokens",
             "response_format",
             "seed",
@@ -25039,6 +25061,7 @@
           "per_request_limits": null,
           "supported_parameters": [
             "include_reasoning",
+            "max_completion_tokens",
             "max_tokens",
             "reasoning",
             "response_format",
@@ -25143,6 +25166,7 @@
           },
           "per_request_limits": null,
           "supported_parameters": [
+            "max_completion_tokens",
             "max_tokens",
             "response_format",
             "seed",
@@ -25198,6 +25222,7 @@
           "per_request_limits": null,
           "supported_parameters": [
             "include_reasoning",
+            "max_completion_tokens",
             "max_tokens",
             "reasoning",
             "response_format",
@@ -25254,6 +25279,7 @@
           "per_request_limits": null,
           "supported_parameters": [
             "include_reasoning",
+            "max_completion_tokens",
             "max_tokens",
             "reasoning",
             "response_format",
@@ -25310,6 +25336,7 @@
           "per_request_limits": null,
           "supported_parameters": [
             "include_reasoning",
+            "max_completion_tokens",
             "max_tokens",
             "reasoning",
             "response_format",
@@ -25366,6 +25393,7 @@
           "per_request_limits": null,
           "supported_parameters": [
             "include_reasoning",
+            "max_completion_tokens",
             "max_tokens",
             "reasoning",
             "response_format",
@@ -25421,6 +25449,7 @@
           "per_request_limits": null,
           "supported_parameters": [
             "include_reasoning",
+            "max_completion_tokens",
             "max_tokens",
             "reasoning",
             "response_format",
@@ -26400,6 +26429,7 @@
             "include_reasoning",
             "logit_bias",
             "logprobs",
+            "max_completion_tokens",
             "max_tokens",
             "min_p",
             "presence_penalty",
@@ -30000,7 +30030,7 @@
             "frequency_penalty": null
           },
           "knowledge_cutoff": null,
-          "expiration_date": null,
+          "expiration_date": "2026-04-09",
           "links": {
             "details": "/api/v1/models/stepfun/step-3.5-flash/endpoints"
           }
