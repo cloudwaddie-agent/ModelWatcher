@@ -1,5 +1,5 @@
 {
-  "timestamp": 1775636139922,
+  "timestamp": 1775643179510,
   "models": [
     {
       "id": "qwen3-coder-480b-a35b-instruct",
@@ -6701,6 +6701,19 @@
           "ascii"
         ]
       }
+    },
+    {
+      "id": "warp",
+      "displayName": "Warp",
+      "provider": "warp",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
     }
   ],
   "providers": [
@@ -7762,6 +7775,11 @@
       "displayName": "Moda",
       "logoName": "moda-logo.svg",
       "website": "https://moda.app"
+    },
+    {
+      "id": "warp",
+      "displayName": "warp",
+      "logoName": "private.png"
     }
   ],
   "pricing": [
