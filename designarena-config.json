@@ -1,0 +1,14 @@
+{
+  "webhook": {
+    "enabled": true,
+    "webhookEnv": "WEBHOOK"
+  },
+  "state": {
+    "file": "./logs/designarena-state.json"
+  },
+  "scan": {
+    "apiUrl": "https://www.designarena.ai/api/registry",
+    "intervalMinutes": 60,
+    "timeout": 30000
+  }
+}

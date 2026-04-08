@@ -10,6 +10,7 @@
     "rss": "node src/rss-watch.js",
     "uspto": "node src/uspto-watch.js",
     "regex": "node src/regex-watch.js",
+    "designarena": "node src/designarena-watch.js",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "keywords": [
