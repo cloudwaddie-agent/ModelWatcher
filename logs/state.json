@@ -9930,6 +9930,50 @@
           }
         },
         {
+          "id": "google/gemma-4-26B-A4B-it",
+          "name": "google/gemma-4-26B-A4B-it",
+          "owned_by": "deepinfra",
+          "root": "google/gemma-4-26B-A4B-it",
+          "parent": null,
+          "object": "model",
+          "metadata": {
+            "description": "Efficient, MoE variant of Gemma 4. Gemma is a family of open models built by Google DeepMind. Gemma 4 models are multimodal, handling text and image input (with audio supported on small models) and generating text output.",
+            "context_length": 262144,
+            "max_tokens": 262144,
+            "pricing": {
+              "input_tokens": 0.08,
+              "output_tokens": 0.35,
+              "cache_read_tokens": 0.01
+            },
+            "tags": [
+              "vision",
+              "prompt_cache"
+            ]
+          }
+        },
+        {
+          "id": "google/gemma-4-31B-it",
+          "name": "google/gemma-4-31B-it",
+          "owned_by": "deepinfra",
+          "root": "google/gemma-4-31B-it",
+          "parent": null,
+          "object": "model",
+          "metadata": {
+            "description": "Gemma is a family of open models built by Google DeepMind. Gemma 4 models are multimodal, handling text and image input (with audio supported on small models) and generating text output.",
+            "context_length": 262144,
+            "max_tokens": 262144,
+            "pricing": {
+              "input_tokens": 0.13,
+              "output_tokens": 0.38,
+              "cache_read_tokens": 0.0199999995
+            },
+            "tags": [
+              "vision",
+              "prompt_cache"
+            ]
+          }
+        },
+        {
           "id": "Gryphe/MythoMax-L2-13b",
           "name": "Gryphe/MythoMax-L2-13b",
           "owned_by": "deepinfra",
@@ -10304,49 +10348,6 @@
               "output_tokens": 0.54
             },
             "tags": []
-          }
-        },
-        {
-          "id": "moonshotai/Kimi-K2-Instruct-0905",
-          "name": "moonshotai/Kimi-K2-Instruct-0905",
-          "owned_by": "deepinfra",
-          "root": "moonshotai/Kimi-K2-Instruct-0905",
-          "parent": null,
-          "object": "model",
-          "metadata": {
-            "description": "Kimi K2 0905 is the September update of Kimi K2 0711. It is a large-scale Mixture-of-Experts (MoE) language model developed by Moonshot AI, featuring 1 trillion total parameters with 32 billion active per forward pass. It supports long-context inference up to 256k tokens, extended from the previous 128k.  This update improves agentic coding with higher accuracy and better generalization across scaffolds, and enhances frontend coding with more aesthetic and functional outputs for web, 3D, and related tasks. Kimi K2 is optimized for agentic capabilities, including advanced tool use, reasoning, and code synthesis. It excels across coding (LiveCodeBench, SWE-bench), reasoning (ZebraLogic, GPQA), and tool-use (Tau2, AceBench) benchmarks. The model is trained with a novel stack incorporating the MuonClip optimizer for stable large-scale MoE training.",
-            "context_length": 131072,
-            "max_tokens": 131072,
-            "pricing": {
-              "input_tokens": 0.4,
-              "output_tokens": 2,
-              "cache_read_tokens": 0.15000000000000002
-            },
-            "tags": [
-              "prompt_cache"
-            ]
-          }
-        },
-        {
-          "id": "moonshotai/Kimi-K2-Thinking",
-          "name": "moonshotai/Kimi-K2-Thinking",
-          "owned_by": "deepinfra",
-          "root": "moonshotai/Kimi-K2-Thinking",
-          "parent": null,
-          "object": "model",
-          "metadata": {
-            "description": "Kimi K2 Thinking is the latest, most capable version of open-source thinking model developed by MoonshotAI",
-            "context_length": 131072,
-            "max_tokens": 131072,
-            "pricing": {
-              "input_tokens": 0.47,
-              "output_tokens": 2,
-              "cache_read_tokens": 0.141
-            },
-            "tags": [
-              "prompt_cache",
-              "reasoning"
-            ]
           }
         },
         {
@@ -21880,7 +21881,7 @@
           "canonical_slug": "moonshotai/kimi-k2-0905",
           "hugging_face_id": "moonshotai/Kimi-K2-Instruct-0905",
           "description": "Kimi K2 0905 is the September update of [Kimi K2 0711](moonshotai/kimi-k2). It is a large-scale Mixture-of-Experts (MoE) language model developed by Moonshot AI, featuring 1 trillion total parameters with 32...",
-          "context_length": 131072,
+          "context_length": 262144,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -21894,12 +21895,11 @@
           },
           "pricing": {
             "prompt": "0.0000004",
-            "completion": "0.000002",
-            "input_cache_read": "0.00000015"
+            "completion": "0.000002"
           },
           "top_provider": {
-            "context_length": 131072,
-            "max_completion_tokens": null,
+            "context_length": 262144,
+            "max_completion_tokens": 262144,
             "is_moderated": false
           },
           "per_request_limits": null,
@@ -21935,7 +21935,7 @@
           "canonical_slug": "moonshotai/kimi-k2-thinking-20251106",
           "hugging_face_id": "moonshotai/Kimi-K2-Thinking",
           "description": "Kimi K2 Thinking is Moonshot AI’s most advanced open reasoning model to date, extending the K2 series into agentic, long-horizon reasoning. Built on the trillion-parameter Mixture-of-Experts (MoE) architecture introduced in...",
-          "context_length": 131072,
+          "context_length": 262144,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -21948,12 +21948,11 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.00000047",
-            "completion": "0.000002",
-            "input_cache_read": "0.000000141"
+            "prompt": "0.0000006",
+            "completion": "0.0000025"
           },
           "top_provider": {
-            "context_length": 131072,
+            "context_length": 262144,
             "max_completion_tokens": null,
             "is_moderated": false
           },
