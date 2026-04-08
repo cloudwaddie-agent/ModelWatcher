@@ -13,7 +13,7 @@ const LOGO_URL = 'https://raw.githubusercontent.com/CloudWaddie/ModelWatcher/mas
  * @returns {Object} Configuration object
  */
 function loadConfig() {
-  const configPath = './designarena-config.json';
+  const configPath = join(__dirname, '..', 'designarena-config.json');
   const configContent = readFileSync(configPath, 'utf-8');
   return JSON.parse(configContent);
 }
@@ -51,13 +51,13 @@ function saveState(statePath, state) {
  * Fetch models from designarena.ai API
  * @returns {Promise<Object>} API response with models
  */
-async function fetchModels() {
-  const url = 'https://www.designarena.ai/api/registry';
+async function fetchModels(scanConfig) {
+  const url = scanConfig?.apiUrl || 'https://www.designarena.ai/api/registry';
   console.log('Fetching models from designarena.ai...');
   
   try {
     const response = await axios.get(url, {
-      timeout: 30000,
+      timeout: scanConfig?.timeout || 30000,
       headers: {
         'Accept': 'application/json',
         'User-Agent': 'ModelWatcher/1.0'
@@ -393,7 +393,7 @@ async function main() {
   console.log('Starting model check...');
   
   const config = loadConfig();
-  const statePath = config.state?.file || './logs/designarena-state.json';
+  const statePath = join(__dirname, '..', config.state?.file || 'logs/designarena-state.json');
   const previousState = loadState(statePath);
   
   const webhookUrl = process.env[config.webhook?.webhookEnv];
@@ -404,7 +404,7 @@ async function main() {
   }
   
   // Fetch current models
-  const result = await fetchModels();
+  const result = await fetchModels(config.scan);
   
   if (!result.success) {
     console.error('Failed to fetch models:', result.error);
