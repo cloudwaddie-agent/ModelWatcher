@@ -15190,7 +15190,7 @@
             "repetition_penalty": null
           },
           "knowledge_cutoff": null,
-          "expiration_date": null,
+          "expiration_date": "2026-04-22",
           "links": {
             "details": "/api/v1/models/arcee-ai/trinity-large-preview/endpoints"
           }
@@ -31941,12 +31941,13 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.00000126",
-            "completion": "0.00000396"
+            "prompt": "0.000001395",
+            "completion": "0.0000044",
+            "input_cache_read": "0.00000026"
           },
           "top_provider": {
             "context_length": 202752,
-            "max_completion_tokens": null,
+            "max_completion_tokens": 131072,
             "is_moderated": false
           },
           "per_request_limits": null,
