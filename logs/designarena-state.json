@@ -1,0 +1,8880 @@
+{
+  "timestamp": 1775628902536,
+  "models": [
+    {
+      "id": "qwen3-coder-480b-a35b-instruct",
+      "displayName": "Qwen3 Coder 480B A35B Instruct",
+      "provider": "alibaba",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "qwen3-235B-a22B-thinking-2507",
+      "displayName": "Qwen3-235B-A22B-Thinking-2507",
+      "provider": "alibaba",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "qwen3-30b-a3b",
+      "displayName": "Qwen3 30B-A3B",
+      "provider": "alibaba",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "qwen3-30b-a3b-thinking-2507",
+      "displayName": "Qwen3 30B-A3B Thinking 2507",
+      "provider": "alibaba",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "qwen3-coder-30b-a3b-instruct",
+      "displayName": "Qwen3 Coder 30B A3B Instruct",
+      "provider": "alibaba",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "qwen-image",
+      "displayName": "Qwen Image",
+      "provider": "alibaba",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "qwen-image-2512",
+      "displayName": "Qwen Image 2512",
+      "provider": "alibaba",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "wan-2.2-t2v-a14b",
+      "displayName": "WAN 2.2 T2V 14B",
+      "provider": "alibaba",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video"
+        ]
+      }
+    },
+    {
+      "id": "wan2.1-t2v-14b",
+      "displayName": "WAN 2.1 T2V 14B",
+      "provider": "alibaba",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video"
+        ]
+      }
+    },
+    {
+      "id": "qwen3-max",
+      "displayName": "Qwen3 Max",
+      "provider": "alibaba",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "qwen3.5-397b-a17b",
+      "displayName": "Qwen3.5 397B A17B",
+      "provider": "alibaba",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "qwen3.5-plus-02-15",
+      "displayName": "Qwen3.5 Plus 02-15",
+      "provider": "alibaba",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "qwen3-tts",
+      "displayName": "Qwen3 TTS Flash",
+      "provider": "alibaba",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "tts"
+        ]
+      },
+      "audio": {
+        "supportedModes": [
+          "tts"
+        ],
+        "voice": "Cherry"
+      }
+    },
+    {
+      "id": "wan-vace",
+      "displayName": "Wan Vace",
+      "provider": "alibaba",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "videotovideo",
+          "multimodaltovideo"
+        ]
+      }
+    },
+    {
+      "id": "qwen-image-edit",
+      "displayName": "Qwen Image Edit",
+      "provider": "alibaba",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "qwen-image-edit-2511",
+      "displayName": "Qwen Image Edit (2511)",
+      "provider": "alibaba",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "olmo-3.1-32b-think",
+      "displayName": "Olmo 3.1 32B Think",
+      "provider": "allenai",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "alpha-centauri",
+      "displayName": "Alpha Centauri",
+      "provider": "alpha_centauri",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "amazon_polly",
+      "displayName": "Amazon Polly",
+      "provider": "amazon",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "tts"
+        ]
+      },
+      "audio": {
+        "supportedModes": [
+          "tts"
+        ],
+        "voice": "Joanna",
+        "supportsPrompt": true
+      }
+    },
+    {
+      "id": "nova-pro-v1",
+      "displayName": "Amazon Nova Pro",
+      "provider": "amazonnova",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "nova-premier-v1",
+      "displayName": "Amazon Nova Premier",
+      "provider": "amazonnova",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "andromeda",
+      "displayName": "Andromeda",
+      "provider": "andromeda",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "svg"
+        ]
+      }
+    },
+    {
+      "id": "claude-opus-4-1-20250805-thinking",
+      "displayName": "Claude Opus 4.1 (Thinking)",
+      "provider": "anthropic",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "claude-opus-4",
+      "displayName": "Claude Opus 4",
+      "provider": "anthropic",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "claude-opus-4-1-20250805",
+      "displayName": "Claude Opus 4.1",
+      "provider": "anthropic",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "claude-pptx-opus",
+      "displayName": "Claude Opus 4.6 (PPTX)",
+      "provider": "claude_pptx",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "slides"
+        ]
+      }
+    },
+    {
+      "id": "claude-sonnet-4",
+      "displayName": "Claude Sonnet 4",
+      "provider": "anthropic",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ],
+        "builders": [
+          "native-android"
+        ]
+      }
+    },
+    {
+      "id": "claude-sonnet-4-thinking",
+      "displayName": "Claude Sonnet 4 (Thinking)",
+      "provider": "anthropic",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "claude-opus-4-5-20251101",
+      "displayName": "Claude Opus 4.5",
+      "provider": "anthropic",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "atrato",
+      "displayName": "Atrato",
+      "provider": "atrato",
+      "active": false,
+      "openSource": false,
+      "router": true,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "aura-build",
+      "displayName": "Aura (Sonnet 4.5)",
+      "provider": "aura_build",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": "banshee_2",
+      "displayName": "Banshee",
+      "provider": "banshee_2",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "base_44",
+      "displayName": "Base 44",
+      "provider": "base_44",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": "battlecruiser",
+      "displayName": "Battlecruiser",
+      "provider": "battlecruiser",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "birch",
+      "displayName": "Birch",
+      "provider": "birch",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "flux-kontext-pro",
+      "displayName": "FLUX.1 Kontext Pro",
+      "provider": "black_forest_labs",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "flux-kontext-max",
+      "displayName": "FLUX.1 Kontext Max",
+      "provider": "black_forest_labs",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "flux.1-krea-dev",
+      "displayName": "FLUX.1 Krea Dev",
+      "provider": "black_forest_labs",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "flux-pro-1.1-ultra",
+      "displayName": "FLUX.1 [pro] Ultra",
+      "provider": "black_forest_labs",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "flux-2-pro",
+      "displayName": "FLUX.2 [pro]",
+      "provider": "black_forest_labs",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "flux-2-flex",
+      "displayName": "FLUX.2 [flex]",
+      "provider": "black_forest_labs",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "flux-2-klein-4b",
+      "displayName": "FLUX.2 Klein 4B",
+      "provider": "black_forest_labs",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "flux-2-klein-4b-distilled",
+      "displayName": "FLUX.2 Klein 4B Distilled",
+      "provider": "black_forest_labs",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "flux-2-klein-9b",
+      "displayName": "FLUX.2 Klein 9B",
+      "provider": "black_forest_labs",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "flux-kontext-pro-edit",
+      "displayName": "FLUX Kontext Pro Edit",
+      "provider": "black_forest_labs",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "flux-kontext-max-edit",
+      "displayName": "FLUX Kontext Max Edit",
+      "provider": "black_forest_labs",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "flux-2-pro-edit",
+      "displayName": "FLUX.2 Pro Edit",
+      "provider": "black_forest_labs",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "flux-2-klein-4b-edit",
+      "displayName": "FLUX.2 Klein 4B Edit",
+      "provider": "black_forest_labs",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "flux-2-klein-4b-distilled-edit",
+      "displayName": "FLUX.2 Klein 4B Distilled Edit",
+      "provider": "black_forest_labs",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "flux-2-klein-9b-edit",
+      "displayName": "FLUX.2 Klein 9B Edit",
+      "provider": "black_forest_labs",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "blink-mobile",
+      "displayName": "Blink.new Mobile",
+      "provider": "blink",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "mobile"
+        ]
+      }
+    },
+    {
+      "id": "blizzard",
+      "displayName": "Blizzard",
+      "provider": "blizzard",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "bluebird",
+      "displayName": "Bluebird",
+      "provider": "bluebird",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "bluejay",
+      "displayName": "Umami",
+      "provider": "bluejay",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "buttercup",
+      "displayName": "Buttercup",
+      "provider": "buttercup",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "seedream-4.0",
+      "displayName": "Seedream 4.0",
+      "provider": "bytedance",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "seedream-lite-5.0",
+      "displayName": "Seedream Lite 5.0",
+      "provider": "bytedance",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "seedance-1.0-pro-fast",
+      "displayName": "Seedance 1.0 Pro Fast",
+      "provider": "bytedance",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video",
+          "multitovideo"
+        ]
+      }
+    },
+    {
+      "id": "seedance-1.0-lite-ref",
+      "displayName": "Seedance 1.0 Lite",
+      "provider": "bytedance",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetovideo",
+          "multitovideo"
+        ]
+      }
+    },
+    {
+      "id": "seedance-1.5-pro",
+      "displayName": "Seedance 1.5 Pro",
+      "provider": "bytedance",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video",
+          "multitovideo"
+        ]
+      }
+    },
+    {
+      "id": "seedream-v45-edit",
+      "displayName": "Seedream 4.5 Edit",
+      "provider": "bytedance",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "seedream-lite-v5-edit",
+      "displayName": "Seedream Lite 5.0 Edit",
+      "provider": "bytedance",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "seedream-v4-edit",
+      "displayName": "Seedream 4.0 Edit",
+      "provider": "bytedance",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "seedream-v4-edit-4k",
+      "displayName": "Seedream 4.0 Edit 4K",
+      "provider": "bytedance",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "cactus",
+      "displayName": "Cactus",
+      "provider": "cactus",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "callisto",
+      "displayName": "Callisto",
+      "provider": "callisto",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "svg"
+        ]
+      }
+    },
+    {
+      "id": "canva",
+      "displayName": "Canva",
+      "provider": "canva",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": "cardinal",
+      "displayName": "Cardinal",
+      "provider": "cardinal",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "caterpillar",
+      "displayName": "Caterpillar",
+      "provider": "caterpillar",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "cedar",
+      "displayName": "Cedar",
+      "provider": "cedar",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "chocolate",
+      "displayName": "Chocolate",
+      "provider": "chocolate",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "chrysalis",
+      "displayName": "Chrysalis",
+      "provider": "chrysalis",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "cicada",
+      "displayName": "Cicada",
+      "provider": "cicada",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "clawl-alpha",
+      "displayName": "Hunter Alpha",
+      "provider": "clawl-alpha",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "cognition",
+      "displayName": "Devin AI",
+      "provider": "cognition",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "webapps"
+        ]
+      }
+    },
+    {
+      "id": "cosmic",
+      "displayName": "Cosmic.new",
+      "provider": "cosmic",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": "create-anything-08-08",
+      "displayName": "Anything",
+      "provider": "create",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": "createanything",
+      "displayName": "Anything",
+      "provider": "create",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "mobile"
+        ]
+      }
+    },
+    {
+      "id": "cursor-gpt5",
+      "displayName": "Cursor Agent (GPT-5)",
+      "provider": "cursor",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "webapps"
+        ]
+      }
+    },
+    {
+      "id": "black-panther",
+      "displayName": "Lucy Edit (Pro)",
+      "provider": "decart",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "videotovideo"
+        ]
+      }
+    },
+    {
+      "id": "deepgram_aura_v2",
+      "displayName": "Deepgram Aura v2",
+      "provider": "deepgram",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "tts"
+        ]
+      },
+      "audio": {
+        "supportedModes": [
+          "tts"
+        ],
+        "voice": "asteria",
+        "supportsPrompt": false
+      }
+    },
+    {
+      "id": "glm-image",
+      "displayName": "GLM-Image",
+      "provider": "zhipu",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "deepseek-chat",
+      "displayName": "DeepSeek-V3-0324",
+      "provider": "deepseek",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ],
+        "builders": [
+          "native-android"
+        ]
+      }
+    },
+    {
+      "id": "deepseek-reasoner-r1",
+      "displayName": "DeepSeek-R1-0528",
+      "provider": "deepseek",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "deepseek-v3p1",
+      "displayName": "DeepSeek-V3.1",
+      "provider": "deepseek",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "deepseek-v3p1-thinking",
+      "displayName": "DeepSeek-V3.1 (Thinking)",
+      "provider": "deepseek",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "deepseek-v3p2-exp",
+      "displayName": "DeepSeek-V3.2-Exp",
+      "provider": "deepseek",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "deepseek-v3p2",
+      "displayName": "DeepSeek-V3.2",
+      "provider": "deepseek",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "aescoder-4b",
+      "displayName": "AesCoder-4B",
+      "provider": "designflow",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "ember",
+      "displayName": "Ember",
+      "provider": "ember",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "emergent-v3",
+      "displayName": "Emergent",
+      "provider": "emergent",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": "factoryai",
+      "displayName": "Factory AI (GPT-5-Codex)",
+      "provider": "factory",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "webapps"
+        ]
+      }
+    },
+    {
+      "id": "stable_audio_25",
+      "displayName": "Stable Audio 2.5",
+      "provider": "fal",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "music"
+        ]
+      },
+      "audio": {
+        "supportedModes": [
+          "music"
+        ],
+        "voice": "stable-audio-25"
+      }
+    },
+    {
+      "id": "figma-make",
+      "displayName": "Figma Make",
+      "provider": "figma",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": "firefly",
+      "displayName": "Firefly",
+      "provider": "firefly",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "floot-08-08",
+      "displayName": "Floot",
+      "provider": "floot",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": "gamma",
+      "displayName": "Gamma",
+      "provider": "gamma",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "slides"
+        ]
+      }
+    },
+    {
+      "id": "ghost",
+      "displayName": "Ghost",
+      "provider": "ghost",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "widow-mine",
+      "displayName": "Widow Mine",
+      "provider": "ghost",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "widow-mine-2",
+      "displayName": "Widow Mine",
+      "provider": "ghost",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "cyclone",
+      "displayName": "Cyclone",
+      "provider": "ghost",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "thor",
+      "displayName": "Thor",
+      "provider": "ghost",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "glam-ai-1.0",
+      "displayName": "Glam.ai 1.0",
+      "provider": "glam",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video"
+        ]
+      }
+    },
+    {
+      "id": "gemini-3.1-pro-preview",
+      "displayName": "Gemini 3.1 Pro Preview",
+      "provider": "google",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gemini-3.1-flash-lite-preview",
+      "displayName": "Gemini 3.1 Flash-Lite Preview",
+      "provider": "google",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gemini-3-flash-preview",
+      "displayName": "Gemini 3 Flash Preview",
+      "provider": "google",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "gemini-2.5-flash-lite-preview-09-2025",
+      "displayName": "Gemini 2.5 Flash Lite Preview 09-2025",
+      "provider": "google",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gemini-2.5-flash-preview-09-2025",
+      "displayName": "Gemini 2.5 Flash Preview 09-2025",
+      "provider": "google",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gemini-2.5-pro",
+      "displayName": "Gemini 2.5 Pro",
+      "provider": "google",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ],
+        "builders": [
+          "native-android"
+        ]
+      }
+    },
+    {
+      "id": "gemini-2.5-flash",
+      "displayName": "Gemini 2.5 Flash",
+      "provider": "google",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gemini-2.0-pro",
+      "displayName": "Gemini 2.0 Pro",
+      "provider": "google",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gemini-1.5-pro",
+      "displayName": "Gemini 1.5 Pro",
+      "provider": "google",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "imagen-4.0-generate-preview-06-06",
+      "displayName": "Imagen 4 Generate Preview 06-06",
+      "provider": "google",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "imagen-4.0-ultra-generate-preview-06-06",
+      "displayName": "Imagen 4 Ultra Generate Preview 06-06",
+      "provider": "google",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "imagen-4.0-generate-001",
+      "displayName": "Imagen 4 Generate 001",
+      "provider": "google",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "imagen-4.0-ultra-generate-001",
+      "displayName": "Imagen 4 Ultra Generate 001",
+      "provider": "google",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "imagen-4.0-fast-generate-001",
+      "displayName": "Imagen 4 Fast Generate 001",
+      "provider": "google",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "gemini-2.5-flash-image-preview",
+      "displayName": "Gemini 2.5 Flash Image Gen (Nano Banana)",
+      "provider": "google",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "gemini-2.5-flash-image",
+      "displayName": "Gemini 2.5 Flash Image (Nano Banana)",
+      "provider": "google",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "gemini-3.1-flash-image-preview",
+      "displayName": "Gemini 3.1 Flash Image Gen (Nano Banana 2)",
+      "provider": "google",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "gemini-3.1-flash-image-gen-2k",
+      "displayName": "Gemini 3.1 Flash Image Gen 2K (Nano Banana 2)",
+      "provider": "google",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "gemini-3-pro-image-preview",
+      "displayName": "Gemini 3 Pro Image Preview",
+      "provider": "google",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "gemini-3-pro-image-gen-2k",
+      "displayName": "Gemini 3 Pro Image Gen 2K (Nano Banana Pro)",
+      "provider": "google",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "gemini-2.0-flash-preview-image-generation",
+      "displayName": "Gemini 2.0 Flash Image Gen (Preview)",
+      "provider": "google",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "imagen-3.0-generate-002",
+      "displayName": "Imagen 3 Generate 002",
+      "provider": "google",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "google_gemini_tts",
+      "displayName": "Google Gemini 2.5 Flash TTS",
+      "provider": "google",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "tts"
+        ]
+      },
+      "audio": {
+        "supportedModes": [
+          "tts"
+        ],
+        "voice": "Kore",
+        "supportsPrompt": true
+      }
+    },
+    {
+      "id": "google_gemini_2_5_pro_tts",
+      "displayName": "Google Gemini 2.5 Pro TTS",
+      "provider": "google",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "tts"
+        ]
+      },
+      "audio": {
+        "supportedModes": [
+          "tts"
+        ],
+        "voice": "Charon",
+        "supportsPrompt": false
+      }
+    },
+    {
+      "id": "google_gemini_live",
+      "displayName": "Google Gemini Live",
+      "provider": "google",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "sts"
+        ]
+      },
+      "audio": {
+        "supportedModes": [
+          "sts"
+        ],
+        "voice": "Puck",
+        "supportsPrompt": true
+      }
+    },
+    {
+      "id": "google_lyria",
+      "displayName": "Google Lyria-002",
+      "provider": "google",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "music"
+        ]
+      },
+      "audio": {
+        "supportedModes": [
+          "music"
+        ],
+        "voice": "lyria-002"
+      }
+    },
+    {
+      "id": "veo-3.1",
+      "displayName": "Veo 3.1",
+      "provider": "google",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video",
+          "imagetovideo",
+          "multitovideo"
+        ]
+      }
+    },
+    {
+      "id": "veo-3.1-fast",
+      "displayName": "Veo 3.1 Fast",
+      "provider": "google",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video",
+          "imagetovideo",
+          "multitovideo"
+        ]
+      }
+    },
+    {
+      "id": "veo-3.1-lite",
+      "displayName": "Veo 3.1 Lite",
+      "provider": "google",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video",
+          "imagetovideo"
+        ]
+      }
+    },
+    {
+      "id": "veo-3",
+      "displayName": "Veo 3",
+      "provider": "google",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video",
+          "multitovideo"
+        ]
+      }
+    },
+    {
+      "id": "veo-3-fast",
+      "displayName": "Veo 3 Fast",
+      "provider": "google",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video",
+          "multitovideo"
+        ]
+      }
+    },
+    {
+      "id": "gemini-2.0-flash-image-edit",
+      "displayName": "Gemini 2.0 Flash Edit",
+      "provider": "google",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "gemini-3-pro-image-preview-2k",
+      "displayName": "Gemini 3 Pro Image Preview 2K",
+      "provider": "google",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "gemini",
+      "displayName": "Gemini CLI (Gemini 2.5 Pro)",
+      "provider": "google",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "webapps"
+        ]
+      }
+    },
+    {
+      "id": "gemini-3-pro-preview",
+      "displayName": "Gemini 3 Pro Preview",
+      "provider": "google",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "riftrunner",
+      "displayName": "Gemini 3 Pro Preview",
+      "provider": "google",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "google-ai-studio",
+      "displayName": "Google AI Studio",
+      "provider": "google-ai-studio",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": "hazelnut",
+      "displayName": "Hazelnut",
+      "provider": "hazelnut",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "hellbat",
+      "displayName": "Hellbat",
+      "provider": "hellbat",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "hellion",
+      "displayName": "Hellion",
+      "provider": "hellion",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "hume_evi",
+      "displayName": "Hume EVI 3",
+      "provider": "hume",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "sts"
+        ]
+      },
+      "audio": {
+        "supportedModes": [
+          "sts"
+        ],
+        "voice": "EVI",
+        "supportsPrompt": true
+      }
+    },
+    {
+      "id": "hume_octave",
+      "displayName": "Hume Octave",
+      "provider": "hume",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "tts"
+        ]
+      },
+      "audio": {
+        "supportedModes": [
+          "tts"
+        ],
+        "voice": "Ava Song",
+        "supportsPrompt": true
+      }
+    },
+    {
+      "id": "ideogram-v3",
+      "displayName": "Ideogram 3.0",
+      "provider": "ideogram",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "ideogram-v3-edit",
+      "displayName": "Ideogram V3 Remix",
+      "provider": "ideogram",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "jupiter",
+      "displayName": "Jupiter",
+      "provider": "jupiter",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "kling-v2.5-turbo-pro",
+      "displayName": "Kling v2.5 Turbo Pro",
+      "provider": "klingAI",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video",
+          "multitovideo"
+        ]
+      }
+    },
+    {
+      "id": "kling-v2.6-pro",
+      "displayName": "Kling v2.6 Pro",
+      "provider": "klingAI",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video",
+          "multitovideo"
+        ]
+      }
+    },
+    {
+      "id": "kling-v3-pro",
+      "displayName": "Kling v3 Pro",
+      "provider": "klingAI",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video",
+          "multitovideo"
+        ]
+      }
+    },
+    {
+      "id": "claude-3.7-sonnet",
+      "displayName": "Claude 3.7 Sonnet",
+      "provider": "anthropic",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "claude-sonnet-4-5",
+      "displayName": "Claude Sonnet 4.5",
+      "provider": "anthropic",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "claude-sonnet-4-5-thinking",
+      "displayName": "Claude Sonnet 4.5 (Thinking)",
+      "provider": "anthropic",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "claude-sonnet-4-6",
+      "displayName": "Claude Sonnet 4.6",
+      "provider": "anthropic",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "claude-haiku-4-5",
+      "displayName": "Claude Haiku 4.5",
+      "provider": "anthropic",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "claude-opus-4-5",
+      "displayName": "Claude Opus 4.5",
+      "provider": "anthropic",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "claude-opus-4-6",
+      "displayName": "Claude Opus 4.6",
+      "provider": "anthropic",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "claude-opus-4-6-thinking",
+      "displayName": "Claude Opus 4.6 (Thinking)",
+      "provider": "anthropic",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "claude",
+      "displayName": "Claude Code (Sonnet 4.5)",
+      "provider": "anthropic",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "webapps"
+        ]
+      }
+    },
+    {
+      "id": "claude-sonnet-4-5-20250929",
+      "displayName": "Claude Sonnet 4.5",
+      "provider": "anthropic",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "kling-o1-edit",
+      "displayName": "Kling O1 Edit",
+      "provider": "klingAI",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "videotovideo",
+          "multimodaltovideo"
+        ]
+      }
+    },
+    {
+      "id": "kokoro_tts",
+      "displayName": "Kokoro TTS",
+      "provider": "kokoro",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "tts"
+        ]
+      },
+      "audio": {
+        "supportedModes": [
+          "tts"
+        ],
+        "voice": "af_heart",
+        "supportsPrompt": false
+      }
+    },
+    {
+      "id": "krea-wan-14b",
+      "displayName": "Krea Wan 14b",
+      "provider": "krea",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "videotovideo"
+        ]
+      }
+    },
+    {
+      "id": "liberator",
+      "displayName": "Liberator",
+      "provider": "liberator",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "lochness",
+      "displayName": "Grok Imagine",
+      "provider": "xai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "multitovideo"
+        ]
+      }
+    },
+    {
+      "id": "lotus",
+      "displayName": "Lotus",
+      "provider": "lotus",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "aurora-edit",
+      "displayName": "Grok Imagine (Edit)",
+      "provider": "xai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "mimo-v2-flash",
+      "displayName": "MiMo-V2-Flash",
+      "provider": "xiaomi",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "zealot",
+      "displayName": "Zealot",
+      "provider": "zealot",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "glm-4.5",
+      "displayName": "GLM 4.5",
+      "provider": "zhipu",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "glm-4.5-air",
+      "displayName": "GLM 4.5 Air",
+      "provider": "zhipu",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "glm-4.6",
+      "displayName": "GLM 4.6",
+      "provider": "zhipu",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "glm-4.7",
+      "displayName": "GLM 4.7",
+      "provider": "zhipu",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "glm-4.7-flash",
+      "displayName": "GLM 4.7 Flash",
+      "provider": "zhipu",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "glm-5",
+      "displayName": "GLM 5",
+      "provider": "zhipu",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "lovable-builder",
+      "displayName": "Lovable",
+      "provider": "lovable",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": "ltx-2-19b",
+      "displayName": "LTX-2 19B",
+      "provider": "ltx",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video",
+          "imagetovideo"
+        ]
+      }
+    },
+    {
+      "id": "ltx-2-19b-video-to-video",
+      "displayName": "LTX-2 19B",
+      "provider": "ltx",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "videotovideo",
+          "multimodaltovideo"
+        ]
+      }
+    },
+    {
+      "id": "ray-flash-2",
+      "displayName": "Ray 2 Flash",
+      "provider": "lumalabs",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video",
+          "multitovideo"
+        ]
+      }
+    },
+    {
+      "id": "ray-2",
+      "displayName": "Ray 2",
+      "provider": "lumalabs",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video",
+          "multitovideo"
+        ]
+      }
+    },
+    {
+      "id": "ray-3-14",
+      "displayName": "Ray 3.14",
+      "provider": "lumalabs",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "multitovideo",
+          "videotovideo"
+        ]
+      }
+    },
+    {
+      "id": "macaly-app-08-19",
+      "displayName": "Macaly",
+      "provider": "macaly",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": "magic-patterns",
+      "displayName": "Magic Patterns",
+      "provider": "magic_patterns",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": "manus",
+      "displayName": "Manus",
+      "provider": "manus",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "slides"
+        ]
+      }
+    },
+    {
+      "id": "manus-2",
+      "displayName": "Manus",
+      "provider": "manus",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": "marauder",
+      "displayName": "Marauder",
+      "provider": "marauder",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "llama-4-maverick",
+      "displayName": "Llama 4 Maverick",
+      "provider": "meta",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "llama-4-scout",
+      "displayName": "Llama 4 Scout",
+      "provider": "meta",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "hailuo-2.3-standard",
+      "displayName": "MiniMax Hailuo-2.3 (Standard)",
+      "provider": "minimax",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video",
+          "imagetovideo"
+        ]
+      }
+    },
+    {
+      "id": "hailuo-2.3-pro",
+      "displayName": "MiniMax Hailuo-2.3 (Pro)",
+      "provider": "minimax",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video",
+          "imagetovideo"
+        ]
+      }
+    },
+    {
+      "id": "minimax-m2-stable",
+      "displayName": "MiniMax M2 Stable",
+      "provider": "minimax",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "minimax-m2.1",
+      "displayName": "MiniMax M2.1",
+      "provider": "minimax",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "mint",
+      "displayName": "Mint",
+      "provider": "mint",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "mistral-medium-2508",
+      "displayName": "Mistral Medium 3.1 (2508)",
+      "provider": "mistral",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      },
+      "display": {
+        "color": "orange"
+      }
+    },
+    {
+      "id": "mistral-medium-2505",
+      "displayName": "Mistral Medium 3 (2505)",
+      "provider": "mistral",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      },
+      "display": {
+        "color": "orange"
+      }
+    },
+    {
+      "id": "codestral-2-2501",
+      "displayName": "Codestral 2 (2501)",
+      "provider": "mistral",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      },
+      "display": {
+        "color": "orange"
+      }
+    },
+    {
+      "id": "codestral-2508",
+      "displayName": "Codestral 2508",
+      "provider": "mistral",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      },
+      "display": {
+        "color": "orange"
+      }
+    },
+    {
+      "id": "magistral-medium-2507",
+      "displayName": "Magistral Medium 1.1 (2507)",
+      "provider": "mistral",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      },
+      "display": {
+        "color": "orange"
+      }
+    },
+    {
+      "id": "magistral-small-2507",
+      "displayName": "Magistral Small (2507)",
+      "provider": "mistral",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      },
+      "display": {
+        "color": "orange"
+      }
+    },
+    {
+      "id": "mistral-large-2411",
+      "displayName": "Mistral Large 2.1 (2411)",
+      "provider": "mistral",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      },
+      "display": {
+        "color": "orange"
+      }
+    },
+    {
+      "id": "devstral-medium-2507",
+      "displayName": "Devstral Medium",
+      "provider": "mistral",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      },
+      "display": {
+        "color": "orange"
+      }
+    },
+    {
+      "id": "devstral-small-2507",
+      "displayName": "Devstral Small 1.1",
+      "provider": "mistral",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      },
+      "display": {
+        "color": "orange"
+      }
+    },
+    {
+      "id": "mistral-small-2506",
+      "displayName": "Mistral Small 3.2",
+      "provider": "mistral",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      },
+      "display": {
+        "color": "orange"
+      }
+    },
+    {
+      "id": "mistral_voxtral_small_2507",
+      "displayName": "Voxtral Small (2507)",
+      "provider": "mistral",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "tts"
+        ]
+      }
+    },
+    {
+      "id": "mistral_voxtral_mini_2507",
+      "displayName": "Voxtral Mini (2507)",
+      "provider": "mistral",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "tts"
+        ]
+      }
+    },
+    {
+      "id": "magistral-small-2509",
+      "displayName": "Magistral Small 1.2 (2509)",
+      "provider": "mistral",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "magistral-medium-2509",
+      "displayName": "Magistral Medium 1.2 (2509)",
+      "provider": "mistral",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "ministral-3b-2512",
+      "displayName": "Ministral 3 3B (2512)",
+      "provider": "mistral",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "ministral-8b-2512",
+      "displayName": "Ministral 3 8B (2512)",
+      "provider": "mistral",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "ministral-14b-2512",
+      "displayName": "Ministral 3 14B (2512)",
+      "provider": "mistral",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "mistral-large-2512",
+      "displayName": "Mistral Large 3 (2512)",
+      "provider": "mistral",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "mistral-medium-latest",
+      "displayName": "Mistral Medium",
+      "provider": "mistral",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "mistral-large-latest",
+      "displayName": "Mistral Large",
+      "provider": "mistral",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "devstral-2512",
+      "displayName": "Devstral 25.12",
+      "provider": "mistral",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "mocha-nov-01",
+      "displayName": "Mocha",
+      "provider": "mocha",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": "kimi-k2-0905-preview",
+      "displayName": "Kimi K2 0905 Preview",
+      "provider": "moonshot",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "kimi-k2-turbo-preview",
+      "displayName": "Kimi K2 Turbo Preview",
+      "provider": "moonshot",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "kimi-k2-thinking",
+      "displayName": "Kimi K2 Thinking",
+      "provider": "moonshot",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "kimi-k2.5",
+      "displayName": "Kimi K2.5 (Thinking)",
+      "provider": "moonshot",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "kimi-k2.5-thinking",
+      "displayName": "Kimi K2.5 Thinking",
+      "provider": "moonshot",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "kimi-k2-0711-preview",
+      "displayName": "Kimi K2",
+      "provider": "moonshot_legacy",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      },
+      "display": {
+        "color": "black"
+      }
+    },
+    {
+      "id": "kimi-k2-instruct-0905",
+      "displayName": "Kimi K2 Instruct 0905",
+      "provider": "moonshot_legacy",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "murf_gen2",
+      "displayName": "Murf AI Gen2",
+      "provider": "murf",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "tts"
+        ]
+      },
+      "audio": {
+        "supportedModes": [
+          "tts"
+        ],
+        "voice": "en-US-natalie",
+        "supportsPrompt": false
+      }
+    },
+    {
+      "id": "neptune",
+      "displayName": "Neptune",
+      "provider": "neptune",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "kandinsky-5.0",
+      "displayName": "Kandinsky 5.0",
+      "provider": "ai_forever",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video"
+        ]
+      }
+    },
+    {
+      "id": "kandinsky-5.0-pro",
+      "displayName": "Kandinsky 5.0 Pro",
+      "provider": "ai_forever",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video",
+          "imagetovideo"
+        ]
+      }
+    },
+    {
+      "id": "alai",
+      "displayName": "Alai",
+      "provider": "alai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "slides"
+        ]
+      }
+    },
+    {
+      "id": "qwen3-235b-a22b",
+      "displayName": "Qwen3-235B-A22B",
+      "provider": "alibaba",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "qwen3-235b-a22b-instruct-2507",
+      "displayName": "Qwen3-235B-A22B-Instruct-2507",
+      "provider": "alibaba",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "summit_webapp",
+      "displayName": "Summit Webapp",
+      "provider": "nova",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "llama-3.1-nemotron-ultra-253b",
+      "displayName": "Llama 3.1 Nemotron Ultra 253B",
+      "provider": "nvidia",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "oak",
+      "displayName": "Oak",
+      "provider": "oak",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "obsidian",
+      "displayName": "Obsidian",
+      "provider": "obsidian",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "granite",
+      "displayName": "Granite",
+      "provider": "obsidian",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "gpt-o4-mini",
+      "displayName": "o4-mini",
+      "provider": "openai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gpt-4.1",
+      "displayName": "GPT-4.1",
+      "provider": "openai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gpt-4.1-mini",
+      "displayName": "GPT-4.1 mini",
+      "provider": "openai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gpt-4.1-nano",
+      "displayName": "GPT-4.1 nano",
+      "provider": "openai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gpt-4o",
+      "displayName": "GPT-4o",
+      "provider": "openai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ],
+        "builders": [
+          "native-android"
+        ]
+      }
+    },
+    {
+      "id": "gpt-oss-20b",
+      "displayName": "GPT OSS 20B",
+      "provider": "openai",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gpt-oss-120b",
+      "displayName": "GPT OSS 120B",
+      "provider": "openai",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gpt-o3",
+      "displayName": "o3",
+      "provider": "openai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ],
+        "builders": [
+          "native-android"
+        ]
+      }
+    },
+    {
+      "id": "gpt-5",
+      "displayName": "GPT-5 (Minimal)",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gpt-5-high",
+      "displayName": "GPT-5 (High)",
+      "provider": "openai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gpt-5.1-high",
+      "displayName": "GPT-5.1 (High)",
+      "provider": "openai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gpt-5.1-medium",
+      "displayName": "GPT-5.1 (Medium)",
+      "provider": "openai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gpt-5.1-low",
+      "displayName": "GPT-5.1 (Low)",
+      "provider": "openai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gpt-5.1-none",
+      "displayName": "GPT-5.1 (None)",
+      "provider": "openai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gpt-5.1-codex",
+      "displayName": "GPT-5.1 Codex",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "gpt-5.3-codex",
+      "displayName": "GPT-5.3 Codex",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gpt-5.4-none",
+      "displayName": "GPT-5.4 (None)",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gpt-5.4-low",
+      "displayName": "GPT-5.4 (Low)",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gpt-5.4-high",
+      "displayName": "GPT-5.4 (High)",
+      "provider": "openai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gpt-5.4-xhigh",
+      "displayName": "GPT-5.4 (XHigh)",
+      "provider": "openai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gpt-5.1-codex-mini",
+      "displayName": "GPT-5.1 Codex Mini",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gpt-5-mini",
+      "displayName": "GPT-5 mini (Default)",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gpt-5-nano",
+      "displayName": "GPT-5 nano (Default)",
+      "provider": "openai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gpt-5-pro-2025-10-06",
+      "displayName": "GPT-5 Pro",
+      "provider": "openai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gpt-image-1",
+      "displayName": "GPT-Image-1",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "gpt-image-1-mini",
+      "displayName": "GPT-Image-1 Mini",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "dalle-3",
+      "displayName": "DALL·E 3",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "openai_gpt_4o_mini_tts",
+      "displayName": "OpenAI GPT-4o Mini TTS",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "tts"
+        ]
+      },
+      "audio": {
+        "supportedModes": [
+          "tts"
+        ],
+        "voice": "alloy",
+        "supportsPrompt": true
+      }
+    },
+    {
+      "id": "openai_gpt_realtime_mini",
+      "displayName": "OpenAI GPT Realtime",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "sts"
+        ]
+      },
+      "audio": {
+        "supportedModes": [
+          "sts"
+        ],
+        "voice": "gpt-realtime",
+        "supportsPrompt": true
+      }
+    },
+    {
+      "id": "sora-2",
+      "displayName": "Sora 2",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video",
+          "imagetovideo"
+        ]
+      }
+    },
+    {
+      "id": "sora-2-pro",
+      "displayName": "Sora 2 Pro",
+      "provider": "openai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video",
+          "imagetovideo"
+        ]
+      }
+    },
+    {
+      "id": "gpt-image-1-edit",
+      "displayName": "GPT-Image-1",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "hazel",
+      "displayName": "ChatGPT Image",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "cherryblossom",
+      "displayName": "GPT-Image-1.5",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "openai",
+      "displayName": "GPT-5-Codex",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "webapps"
+        ]
+      }
+    },
+    {
+      "id": "gpt-5-codex",
+      "displayName": "GPT-5 Codex",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "gpt-5.1-2025-11-13",
+      "displayName": "GPT 5.1",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "orchids-v2",
+      "displayName": "Orchids V2",
+      "provider": "orchids",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": "pearl",
+      "displayName": "Pearl",
+      "provider": "pearl",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "atelier",
+      "displayName": "Atelier",
+      "provider": "playful",
+      "active": false,
+      "openSource": false,
+      "router": true,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "atelier-bold",
+      "displayName": "Atelier Bold",
+      "provider": "playful",
+      "active": false,
+      "openSource": false,
+      "router": true,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "pluto",
+      "displayName": "Pluto",
+      "provider": "pluto",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "intellect-3",
+      "displayName": "Prime Intellect: INTELLECT-3",
+      "provider": "primeintellect",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "probe",
+      "displayName": "Probe",
+      "provider": "probe",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "peach",
+      "displayName": "P-Video (1080p)",
+      "provider": "pruna",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video"
+        ]
+      }
+    },
+    {
+      "id": "tangerine",
+      "displayName": "P-Video (720p)",
+      "provider": "pruna",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video"
+        ]
+      }
+    },
+    {
+      "id": "pear",
+      "displayName": "P-Image-Edit",
+      "provider": "pruna",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "apple",
+      "displayName": "P-Image",
+      "provider": "pruna",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "quartz",
+      "displayName": "Quartz",
+      "provider": "quartz",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "prism",
+      "displayName": "Arrow-1.0",
+      "provider": "quiver",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "svg"
+        ]
+      }
+    },
+    {
+      "id": "raven",
+      "displayName": "Raven",
+      "provider": "raven",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "reaper",
+      "displayName": "Reaper",
+      "provider": "reaper",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "recraftv3-02-11",
+      "displayName": "Recraft V3",
+      "provider": "recraft",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "recraftv4_pro",
+      "displayName": "Recraft V4 Pro",
+      "provider": "recraft",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "recraftv3-edit",
+      "displayName": "Recraft V3 Edit",
+      "provider": "recraft",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "replit-nov-19",
+      "displayName": "Replit (Design Mode)",
+      "provider": "replit",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": "resemble",
+      "displayName": "Resemble AI",
+      "provider": "resemble",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "tts"
+        ]
+      },
+      "audio": {
+        "supportedModes": [
+          "tts"
+        ],
+        "voice": "55592656",
+        "supportsPrompt": false
+      }
+    },
+    {
+      "id": "reve-create-20250915",
+      "displayName": "Reve Create",
+      "provider": "reve",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "reve-create-v1.5",
+      "displayName": "Reve v1.5",
+      "provider": "reve",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "reve-edit-fast-20251030",
+      "displayName": "Reve Edit Fast",
+      "provider": "reve",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "reve-edit-20250915",
+      "displayName": "Reve Edit",
+      "provider": "reve",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "reve-edit-fast-v1.5",
+      "displayName": "Reve Edit Fast v1.5",
+      "provider": "reve",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "reve-edit-v1.5",
+      "displayName": "Reve Edit v1.5",
+      "provider": "reve",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "rider",
+      "displayName": "Rider",
+      "provider": "rider",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetovideo",
+          "multitovideo"
+        ]
+      }
+    },
+    {
+      "id": "Robin",
+      "displayName": "Robin",
+      "provider": "robin",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "RobinM",
+      "displayName": "Robin (Medium)",
+      "provider": "robin",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "RobinL",
+      "displayName": "Robin (Low)",
+      "provider": "robin",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "RobinN",
+      "displayName": "Robin (None)",
+      "provider": "robin",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "robin",
+      "displayName": "Robin",
+      "provider": "robin",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "rork",
+      "displayName": "Rork",
+      "provider": "rork",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "mobile"
+        ]
+      }
+    },
+    {
+      "id": "gen4_aleph",
+      "displayName": "Gen-4 Aleph",
+      "provider": "runwayml",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "videotovideo",
+          "multimodaltovideo"
+        ]
+      }
+    },
+    {
+      "id": "same.new",
+      "displayName": "Same.new",
+      "provider": "same",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": "sapphire",
+      "displayName": "Sapphire",
+      "provider": "sapphire",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "svg"
+        ]
+      }
+    },
+    {
+      "id": "saturn",
+      "displayName": "Saturn",
+      "provider": "saturn",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "sentry",
+      "displayName": "Sentry",
+      "provider": "sentry",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "siege-tank",
+      "displayName": "Siege Tank",
+      "provider": "siege-tank",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "slidesgpt",
+      "displayName": "SlidesGPT",
+      "provider": "slidesgpt",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "slides"
+        ]
+      }
+    },
+    {
+      "id": "snapdeck",
+      "displayName": "Snapdeck",
+      "provider": "snapdeck",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "slides"
+        ]
+      }
+    },
+    {
+      "id": "sora",
+      "displayName": "Sora",
+      "provider": "sora",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video"
+        ]
+      },
+      "display": {
+        "color": "purple"
+      }
+    },
+    {
+      "id": "winterfall",
+      "displayName": "Riverflow 2.0",
+      "provider": "sourceful",
+      "active": false,
+      "openSource": false,
+      "router": true,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "summerset",
+      "displayName": "Riverflow 2.0",
+      "provider": "sourceful",
+      "active": false,
+      "openSource": false,
+      "router": true,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "sparrow",
+      "displayName": "Sparrow",
+      "provider": "sparrow",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "spey",
+      "displayName": "Spey",
+      "provider": "spey",
+      "active": false,
+      "openSource": false,
+      "router": true,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "sprinter",
+      "displayName": "Sprinter",
+      "provider": "sprinter",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg"
+        ]
+      }
+    },
+    {
+      "id": "bolt-builder",
+      "displayName": "Bolt.new",
+      "provider": "stackblitz",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": "bolt-mobile",
+      "displayName": "Bolt.new Mobile",
+      "provider": "stackblitz",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "mobile"
+        ]
+      }
+    },
+    {
+      "id": "deepocto",
+      "displayName": "MiniMax M2.7",
+      "provider": "minimax",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "elevenlabs_eleven_v3",
+      "displayName": "ElevenLabs Eleven v3",
+      "provider": "elevenlabs",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "tts"
+        ]
+      },
+      "audio": {
+        "supportedModes": [
+          "tts"
+        ],
+        "voice": "rachel",
+        "supportsPrompt": false
+      }
+    },
+    {
+      "id": "elevenlabs_music_v1",
+      "displayName": "ElevenLabs Music v1",
+      "provider": "elevenlabs",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "music"
+        ]
+      },
+      "audio": {
+        "supportedModes": [
+          "music"
+        ],
+        "voice": "music_v1"
+      }
+    },
+    {
+      "id": "marble",
+      "displayName": "Marble",
+      "provider": "marble",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "mars",
+      "displayName": "Mars",
+      "provider": "mars",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "medivac",
+      "displayName": "Medivac",
+      "provider": "medivac",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "mercury",
+      "displayName": "Mercury",
+      "provider": "mercury",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "deepmolt",
+      "displayName": "MiniMax M2.5",
+      "provider": "minimax",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gpt-5.1-2025-11-13-low",
+      "displayName": "GPT 5.1 (Low Reasoning)",
+      "provider": "openai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "gpt-5.1-2025-11-13-medium",
+      "displayName": "GPT 5.1 (Medium Reasoning)",
+      "provider": "openai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "gpt-5.1-2025-11-13-high",
+      "displayName": "GPT 5.1 (High Reasoning)",
+      "provider": "openai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "gpt-5.2",
+      "displayName": "GPT 5.2",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "gpt-5.2-codex",
+      "displayName": "GPT-5.2 Codex",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "rockhopper",
+      "displayName": "GPT-5.2 (Medium)",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "macaroni",
+      "displayName": "GPT-5.2 (Low)",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "mumble",
+      "displayName": "GPT-5.2 (None)",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "chestnut",
+      "displayName": "GPT-Image-1.5",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "honeycomb",
+      "displayName": "GPT-5.2 (High)",
+      "provider": "openai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "candycane",
+      "displayName": "GPT-5.2 (XHigh)",
+      "provider": "openai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "galapagos",
+      "displayName": "GPT-5.4 (Medium)",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "google-stitch-exp",
+      "displayName": "Google Stitch (Experimental)",
+      "provider": "stitch",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "mobile"
+        ]
+      }
+    },
+    {
+      "id": "summit",
+      "displayName": "Summit",
+      "provider": "summit",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "HunyuanImage-3.0",
+      "displayName": "HunyuanImage-3.0",
+      "provider": "tencent",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "hunyuan-video",
+      "displayName": "Hunyuan Video",
+      "provider": "tencent",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video"
+        ]
+      },
+      "display": {
+        "color": "yellow"
+      }
+    },
+    {
+      "id": "hunyuan-video-to-video",
+      "displayName": "Hunyuan Video",
+      "provider": "tencent",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "videotovideo"
+        ]
+      }
+    },
+    {
+      "id": "uigen-t3-14b-preview",
+      "displayName": "UIGen T3",
+      "provider": "tesslate",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "uigen-x-32b-0707",
+      "displayName": "UIGen X 32B (0707)",
+      "provider": "tesslate",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "uigen-x-32b",
+      "displayName": "UIGen X 32B",
+      "provider": "tesslate",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "uigen-x-4b",
+      "displayName": "UIGen X 4B",
+      "provider": "tesslate",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "grok-2-image",
+      "displayName": "Grok 2 Image Gen",
+      "provider": "xai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      },
+      "display": {
+        "color": "orange"
+      }
+    },
+    {
+      "id": "aurora",
+      "displayName": "Grok Imagine",
+      "provider": "xai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "libra",
+      "displayName": "Grok Imagine",
+      "provider": "xai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "videotovideo"
+        ]
+      }
+    },
+    {
+      "id": "grok-imagine-video",
+      "displayName": "Grok Imagine (Video)",
+      "provider": "xai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video",
+          "imagetovideo"
+        ]
+      }
+    },
+    {
+      "id": "torch",
+      "displayName": "Torch",
+      "provider": "torch",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "uibakery-nov-19",
+      "displayName": "UI Bakery",
+      "provider": "uibakery",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": "venus",
+      "displayName": "Venus",
+      "provider": "venus",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "v0-1.5-md",
+      "displayName": "v0-1.5-md",
+      "provider": "vercel",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "v0-1.5-lg",
+      "displayName": "v0-1.5-lg",
+      "provider": "vercel",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "v0-agent",
+      "displayName": "v0",
+      "provider": "vercel",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": "v0-agent-10-18",
+      "displayName": "v0 Agent",
+      "provider": "vercel",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": "viduq2-image",
+      "displayName": "Vidu Q2",
+      "provider": "vidu",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "viking",
+      "displayName": "Viking",
+      "provider": "viking",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "wildflower",
+      "displayName": "Blue Jay",
+      "provider": "wildflower",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "willow",
+      "displayName": "Willow",
+      "provider": "willow",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "grok-3",
+      "displayName": "Grok 3",
+      "provider": "xai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "grok-4",
+      "displayName": "Grok 4",
+      "provider": "xai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "grok-code-fast-1",
+      "displayName": "Grok Code Fast 1",
+      "provider": "xai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "grok-4-fast-reasoning",
+      "displayName": "Grok 4 Fast (Reasoning)",
+      "provider": "xai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "grok-4-fast-non-reasoning",
+      "displayName": "Grok 4 Fast",
+      "provider": "xai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "grok-4-1-fast-reasoning",
+      "displayName": "Grok 4.1 Fast (Reasoning)",
+      "provider": "xai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "grok-4-1-fast-non-reasoning",
+      "displayName": "Grok 4.1 Fast",
+      "provider": "xai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "grok-4-20-beta-non-reasoning",
+      "displayName": "Grok 4.20 Beta",
+      "provider": "xai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "grok-4-20-beta-reasoning",
+      "displayName": "Grok 4.20 Beta (Reasoning)",
+      "provider": "xai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "grok-3-mini",
+      "displayName": "Grok 3 Mini",
+      "provider": "xai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "grok-2",
+      "displayName": "Grok 2",
+      "provider": "xai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      },
+      "display": {
+        "color": "orange"
+      }
+    },
+    {
+      "id": "indigo",
+      "displayName": "Indigo",
+      "provider": "indigo",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "violet",
+      "displayName": "Violet",
+      "provider": "violet",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "peppermint",
+      "displayName": "Peppermint",
+      "provider": "peppermint",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "slides"
+        ]
+      }
+    },
+    {
+      "id": "honeydew",
+      "displayName": "Honeydew",
+      "provider": "honeydew",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "slides"
+        ]
+      }
+    },
+    {
+      "id": "vortex",
+      "displayName": "Vortex",
+      "provider": "vortex",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "videotovideo"
+        ]
+      }
+    },
+    {
+      "id": "kling-o1-ref",
+      "displayName": "Kling O1",
+      "provider": "klingAI",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "multitovideo"
+        ]
+      }
+    },
+    {
+      "id": "kling-o3-v2v-ref",
+      "displayName": "Kling O3",
+      "provider": "klingAI",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "videotovideo"
+        ]
+      }
+    },
+    {
+      "id": "vidu-q2-ref",
+      "displayName": "Vidu Q2 Pro",
+      "provider": "vidu",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "multitovideo"
+        ]
+      }
+    },
+    {
+      "id": "wan-v2.6-ref",
+      "displayName": "Wan v2.6",
+      "provider": "alibaba",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "multimodaltovideo"
+        ]
+      }
+    },
+    {
+      "id": "macaly",
+      "displayName": "Macaly",
+      "provider": "macaly",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "builders": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": "lemonade",
+      "displayName": "Lemonade",
+      "provider": "lemonade",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": "lavender",
+      "displayName": "GPT-5.4 (Design Skill, Medium)",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website"
+        ]
+      }
+    },
+    {
+      "id": "stalker",
+      "displayName": "Stalker",
+      "provider": "stalker",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "grok-4.20-0309-reasoning",
+      "displayName": "Grok 4.20 Reasoning",
+      "provider": "xai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "gpt-5.4",
+      "displayName": "GPT-5.4",
+      "provider": "openai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps",
+          "fullstack",
+          "mobileapps",
+          "nativeapps"
+        ]
+      }
+    },
+    {
+      "id": "salt",
+      "displayName": "Salt",
+      "provider": "salt",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "pepper",
+      "displayName": "Pepper",
+      "provider": "pepper",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg"
+        ]
+      }
+    },
+    {
+      "id": "observer",
+      "displayName": "Observer",
+      "provider": "observer",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "argon",
+      "displayName": "Argon",
+      "provider": "argon",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "gamedev",
+          "3d",
+          "dataviz",
+          "uicomponent",
+          "svg"
+        ]
+      }
+    },
+    {
+      "id": "krypton",
+      "displayName": "Krypton",
+      "provider": "krypton",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "gamedev",
+          "3d",
+          "dataviz",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "xenon",
+      "displayName": "Xenon",
+      "provider": "xenon",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "gamedev",
+          "3d",
+          "dataviz",
+          "uicomponent"
+        ]
+      }
+    },
+    {
+      "id": "recraftv4_vector",
+      "displayName": "Recraft V4 Vector",
+      "provider": "recraft",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "svg"
+        ]
+      }
+    },
+    {
+      "id": "recraftv4_pro_vector",
+      "displayName": "Recraft V4 Vector Pro",
+      "provider": "recraft",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "svg"
+        ]
+      }
+    },
+    {
+      "id": "jumbo-dungeness",
+      "displayName": "Jumbo Dungeness",
+      "provider": "jumbo-dungeness",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "image",
+          "logo",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "radon",
+      "displayName": "Radon",
+      "provider": "radon",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "gamedev",
+          "3d",
+          "dataviz",
+          "uicomponent",
+          "svg"
+        ]
+      }
+    },
+    {
+      "id": "glm-5v-turbo",
+      "displayName": "GLM 5V Turbo",
+      "provider": "zhipu",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "lightning_tts",
+      "displayName": "Lightning TTS",
+      "provider": "smallestai",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "tts"
+        ]
+      },
+      "audio": {
+        "supportedModes": [
+          "tts"
+        ],
+        "voice": "magnus",
+        "supportsPrompt": false
+      }
+    },
+    {
+      "id": "trinity-large-thinking",
+      "displayName": "Trinity Large Thinking",
+      "provider": "arceeai",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gemma-4-31b-it",
+      "displayName": "Gemma 4 31B",
+      "provider": "google",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "gamedev",
+          "3d",
+          "dataviz",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "gemma-4-26b-a4b-it",
+      "displayName": "Gemma 4 26B A4B",
+      "provider": "google",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "gamedev",
+          "3d",
+          "dataviz",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "qwen3.6-plus",
+      "displayName": "Qwen3.6 Plus",
+      "provider": "alibaba",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "wan-v2.7-t2v",
+      "displayName": "Wan 2.7",
+      "provider": "alibaba",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video",
+          "imagetovideo"
+        ]
+      }
+    },
+    {
+      "id": "wan-v2.7-v2v",
+      "displayName": "Wan 2.7",
+      "provider": "alibaba",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "videotovideo"
+        ]
+      }
+    },
+    {
+      "id": "wan-v2.7-ref",
+      "displayName": "Wan 2.7",
+      "provider": "alibaba",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "multimodaltovideo",
+          "multitovideo"
+        ]
+      }
+    },
+    {
+      "id": "wan-v2.7-pro-t2i",
+      "displayName": "Wan 2.7 Pro",
+      "provider": "alibaba",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "wan-v2.7-pro-edit",
+      "displayName": "Wan 2.7 Pro",
+      "provider": "alibaba",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "wan-v2.7-t2i",
+      "displayName": "Wan 2.7",
+      "provider": "alibaba",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "wan-v2.7-edit",
+      "displayName": "Wan 2.7",
+      "provider": "alibaba",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "imagetoimage"
+        ]
+      }
+    },
+    {
+      "id": "glm-5-turbo",
+      "displayName": "GLM 5 Turbo",
+      "provider": "zhipu",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    },
+    {
+      "id": "coconut",
+      "displayName": "GLM 5.1",
+      "provider": "zhipu",
+      "active": true,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "gamedev",
+          "3d",
+          "dataviz",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      }
+    }
+  ],
+  "providers": [
+    {
+      "id": "black_forest_labs",
+      "displayName": "Black Forest Labs",
+      "logoName": "black_forest_labs.png",
+      "website": "https://fireworks.ai/"
+    },
+    {
+      "id": "tesslate",
+      "displayName": "Tesslate",
+      "logoName": "tesslate_logo.png",
+      "website": "https://huggingface.co/Tesslate"
+    },
+    {
+      "id": "tencent",
+      "displayName": "Tencent",
+      "logoName": "tencent.png",
+      "website": "https://huggingface.co/tencent/HunyuanImage-3.0"
+    },
+    {
+      "id": "cursor",
+      "displayName": "Cursor",
+      "logoName": "cursor_logo.png",
+      "website": "https://cursor.com"
+    },
+    {
+      "id": "vidu",
+      "displayName": "Vidu",
+      "logoName": "vidu-logo.png",
+      "website": "https://vidu.com"
+    },
+    {
+      "id": "ideogram",
+      "displayName": "Ideogram",
+      "logoName": "ideogram.png",
+      "website": "https://ideogram.ai"
+    },
+    {
+      "id": "elevenlabs",
+      "displayName": "ElevenLabs",
+      "logoName": "elevenlabs-logo.svg",
+      "website": "https://elevenlabs.io"
+    },
+    {
+      "id": "lovable",
+      "displayName": "Lovable",
+      "logoName": "lovablelogo.png"
+    },
+    {
+      "id": "stackblitz",
+      "displayName": "StackBlitz",
+      "logoName": "stack-blitz.png"
+    },
+    {
+      "id": "figma",
+      "displayName": "Figma",
+      "logoName": "figma.png"
+    },
+    {
+      "id": "orchids",
+      "displayName": "Orchids",
+      "logoName": "orchids-logo.png"
+    },
+    {
+      "id": "replit",
+      "displayName": "Replit",
+      "logoName": "replit.png"
+    },
+    {
+      "id": "firebase",
+      "displayName": "Google",
+      "logoName": "firebase.png"
+    },
+    {
+      "id": "aura_build",
+      "displayName": "Aura",
+      "logoName": "aura-logo.png"
+    },
+    {
+      "id": "canva",
+      "displayName": "Canva",
+      "logoName": "canva-logo.svg"
+    },
+    {
+      "id": "same",
+      "displayName": "same",
+      "logoName": "same-new.png"
+    },
+    {
+      "id": "manus",
+      "displayName": "Manus",
+      "logoName": "manus.png"
+    },
+    {
+      "id": "cognition",
+      "displayName": "Cognition",
+      "logoName": "devin.png"
+    },
+    {
+      "id": "base_44",
+      "displayName": "Base 44",
+      "logoName": "base44.png"
+    },
+    {
+      "id": "midjourney",
+      "displayName": "Midjourney",
+      "logoName": "midjourney-logo.png"
+    },
+    {
+      "id": "pika",
+      "displayName": "Pika",
+      "logoName": "pika-labs-logo.png"
+    },
+    {
+      "id": "higgsfield",
+      "displayName": "HiggsField",
+      "logoName": "higgsfield-logo.png"
+    },
+    {
+      "id": "21st_dev",
+      "displayName": "21st.dev",
+      "logoName": "21st-logo-white.png"
+    },
+    {
+      "id": "stitch",
+      "displayName": "Google",
+      "logoName": "stitch.png"
+    },
+    {
+      "id": "cosmic",
+      "displayName": "Cosmic",
+      "logoName": "black-cosmic.png"
+    },
+    {
+      "id": "magic_patterns",
+      "displayName": "Magic Patterns",
+      "logoName": "magic_patterns_logo.png"
+    },
+    {
+      "id": "lovable-gpt-5",
+      "displayName": "Lovable x OpenAI",
+      "logoName": "lovable-color.png"
+    },
+    {
+      "id": "subframe",
+      "displayName": "Subframe",
+      "logoName": "subframe-logo.png"
+    },
+    {
+      "id": "create",
+      "displayName": "Anything",
+      "logoName": "create-logo.png"
+    },
+    {
+      "id": "floot",
+      "displayName": "Floot",
+      "logoName": "floot-logo.png"
+    },
+    {
+      "id": "new.website",
+      "displayName": "new.website",
+      "logoName": "new-website-logo.png"
+    },
+    {
+      "id": "jules",
+      "displayName": "Google",
+      "logoName": "jules-logo.png"
+    },
+    {
+      "id": "google-ai-studio",
+      "displayName": "Google",
+      "logoName": "aistudio.png"
+    },
+    {
+      "id": "macaly",
+      "displayName": "Macaly",
+      "logoName": "macaly.png"
+    },
+    {
+      "id": "hercules",
+      "displayName": "Hercules",
+      "logoName": "hercules-dark.svg"
+    },
+    {
+      "id": "emergent",
+      "displayName": "Emergent",
+      "logoName": "emergent-logo.svg"
+    },
+    {
+      "id": "prism",
+      "displayName": "Prism",
+      "logoName": "private.png"
+    },
+    {
+      "id": "recraft",
+      "displayName": "Recraft",
+      "logoName": "recraft-ai-logo-icon.jpeg"
+    },
+    {
+      "id": "wildflower",
+      "displayName": "Wildflower",
+      "logoName": "private.png"
+    },
+    {
+      "id": "bluejay",
+      "displayName": "Blue Jay",
+      "logoName": "private.png"
+    },
+    {
+      "id": "reve",
+      "displayName": "Reve",
+      "logoName": "reve-logo.png"
+    },
+    {
+      "id": "lumalabs",
+      "displayName": "Luma Labs",
+      "logoName": "lumalabs.png"
+    },
+    {
+      "id": "rork",
+      "displayName": "Rork",
+      "logoName": "rork.png"
+    },
+    {
+      "id": "blink",
+      "displayName": "Blink.new",
+      "logoName": "blinkdotnew_logo.jpg"
+    },
+    {
+      "id": "slidesgpt",
+      "displayName": "SlidesGPT",
+      "logoName": "slidesgpt-logo.png",
+      "website": "https://slidesgpt.com"
+    },
+    {
+      "id": "gamma",
+      "displayName": "Gamma",
+      "logoName": "gamma-logo.png",
+      "website": "https://gamma.app"
+    },
+    {
+      "id": "snapdeck",
+      "displayName": "Snapdeck",
+      "logoName": "snapdeck_logo.png",
+      "website": "https://snapdeck.app"
+    },
+    {
+      "id": "alai",
+      "displayName": "Alai",
+      "logoName": "alai-logo.png",
+      "website": "https://getalai.com"
+    },
+    {
+      "id": "flames-blue",
+      "displayName": "Flames.blue",
+      "logoName": "flames-logo.png"
+    },
+    {
+      "id": "bytedance",
+      "displayName": "ByteDance",
+      "logoName": "bytedance-logo.png",
+      "website": "https://fal.ai"
+    },
+    {
+      "id": "klingAI",
+      "displayName": "KlingAI",
+      "logoName": "kling-color.png",
+      "website": "https://fal.ai"
+    },
+    {
+      "id": "factory",
+      "displayName": "Factory AI",
+      "logoName": "factory-logo.png",
+      "website": "https://factory.ai/"
+    },
+    {
+      "id": "decart",
+      "displayName": "Decart",
+      "logoName": "decart_logo.jpg",
+      "website": "https://decart.ai/"
+    },
+    {
+      "id": "runwayml",
+      "displayName": "RunwayML",
+      "logoName": "runway-logo.png",
+      "website": "https://runwayml.com/"
+    },
+    {
+      "id": "krea",
+      "displayName": "Krea",
+      "logoName": "krea-logo.png",
+      "website": "https://krea.ai/"
+    },
+    {
+      "id": "black_panther",
+      "displayName": "Anonymous",
+      "logoName": "mysterylogo.png"
+    },
+    {
+      "id": "libra",
+      "displayName": "Libra",
+      "logoName": "private.png"
+    },
+    {
+      "id": "ai_forever",
+      "displayName": "AI Forever",
+      "logoName": "KandiskyLogo.jpeg",
+      "website": "https://fal.ai"
+    },
+    {
+      "id": "minimax",
+      "displayName": "MiniMax",
+      "logoName": "minimax.png",
+      "website": "https://fal.ai"
+    },
+    {
+      "id": "glam",
+      "displayName": "Glam.ai",
+      "logoName": "glam-logo.png",
+      "website": "https://www.glam.ai/"
+    },
+    {
+      "id": "mocha",
+      "displayName": "Mocha",
+      "logoName": "mocha.jpeg"
+    },
+    {
+      "id": "designflow",
+      "displayName": "DesignFlow",
+      "logoName": "designflow_logo.png",
+      "website": "https://designflow.ai"
+    },
+    {
+      "id": "playful",
+      "displayName": "Playful",
+      "logoName": "atelier_logo.png"
+    },
+    {
+      "id": "youware",
+      "displayName": "Youware",
+      "logoName": "youware.jpg"
+    },
+    {
+      "id": "obsidian",
+      "displayName": "Obsidian",
+      "logoName": "private.png"
+    },
+    {
+      "id": "pearl",
+      "displayName": "Pearl",
+      "logoName": "private.png"
+    },
+    {
+      "id": "quartz",
+      "displayName": "Quartz",
+      "logoName": "private.png"
+    },
+    {
+      "id": "sapphire",
+      "displayName": "Sapphire",
+      "logoName": "private.png"
+    },
+    {
+      "id": "marauder",
+      "displayName": "Marauder",
+      "logoName": "private.png"
+    },
+    {
+      "id": "reaper",
+      "displayName": "Reaper",
+      "logoName": "private.png"
+    },
+    {
+      "id": "hellbat",
+      "displayName": "Hellbat",
+      "logoName": "private.png"
+    },
+    {
+      "id": "siege-tank",
+      "displayName": "Siege Tank",
+      "logoName": "private.png"
+    },
+    {
+      "id": "viking",
+      "displayName": "Viking",
+      "logoName": "private.png"
+    },
+    {
+      "id": "medivac",
+      "displayName": "Medivac",
+      "logoName": "private.png"
+    },
+    {
+      "id": "blizzard",
+      "displayName": "Blizzard",
+      "logoName": "private.png"
+    },
+    {
+      "id": "summit",
+      "displayName": "Summit",
+      "logoName": "private.png"
+    },
+    {
+      "id": "ember",
+      "displayName": "Ember",
+      "logoName": "private.png"
+    },
+    {
+      "id": "torch",
+      "displayName": "Torch",
+      "logoName": "private.png"
+    },
+    {
+      "id": "chocolate",
+      "displayName": "Chocolate",
+      "logoName": "private.png"
+    },
+    {
+      "id": "galapagos",
+      "displayName": "Galapagos",
+      "logoName": "private.png"
+    },
+    {
+      "id": "banshee_2",
+      "displayName": "Banshee",
+      "logoName": "private.png"
+    },
+    {
+      "id": "raven",
+      "displayName": "Raven",
+      "logoName": "private.png"
+    },
+    {
+      "id": "liberator",
+      "displayName": "Liberator",
+      "logoName": "private.png"
+    },
+    {
+      "id": "quiver",
+      "displayName": "Quiver",
+      "logoName": "quiver-logo.png",
+      "website": "https://quiver.ai"
+    },
+    {
+      "id": "pruna",
+      "displayName": "Pruna AI",
+      "logoName": "pruna-logo.png",
+      "website": "https://pruna.ai"
+    },
+    {
+      "id": "zealot",
+      "displayName": "Zealot",
+      "logoName": "private.png"
+    },
+    {
+      "id": "sprinter",
+      "displayName": "Sprinter",
+      "logoName": "private.png"
+    },
+    {
+      "id": "battlecruiser",
+      "displayName": "battlecruiser",
+      "logoName": "private.png"
+    },
+    {
+      "id": "clawl-alpha",
+      "displayName": "clawl-alpha",
+      "logoName": "private.png"
+    },
+    {
+      "id": "fal",
+      "displayName": "fal",
+      "logoName": "private.png"
+    },
+    {
+      "id": "ghost",
+      "displayName": "ghost",
+      "logoName": "private.png"
+    },
+    {
+      "id": "hellion",
+      "displayName": "hellion",
+      "logoName": "private.png"
+    },
+    {
+      "id": "nova",
+      "displayName": "nova",
+      "logoName": "private.png"
+    },
+    {
+      "id": "probe",
+      "displayName": "probe",
+      "logoName": "private.png"
+    },
+    {
+      "id": "sentry",
+      "displayName": "sentry",
+      "logoName": "private.png"
+    },
+    {
+      "id": "sora",
+      "displayName": "sora",
+      "logoName": "private.png"
+    },
+    {
+      "id": "zenith_alpha",
+      "displayName": "zenith_alpha",
+      "logoName": "private.png"
+    },
+    {
+      "id": "willow",
+      "displayName": "willow",
+      "logoName": "private.png"
+    },
+    {
+      "id": "cedar",
+      "displayName": "cedar",
+      "logoName": "private.png"
+    },
+    {
+      "id": "oak",
+      "displayName": "oak",
+      "logoName": "private.png"
+    },
+    {
+      "id": "birch",
+      "displayName": "birch",
+      "logoName": "private.png"
+    },
+    {
+      "id": "caterpillar",
+      "displayName": "caterpillar",
+      "logoName": "private.png"
+    },
+    {
+      "id": "cicada",
+      "displayName": "cicada",
+      "logoName": "private.png"
+    },
+    {
+      "id": "chrysalis",
+      "displayName": "chrysalis",
+      "logoName": "private.png"
+    },
+    {
+      "id": "firefly",
+      "displayName": "firefly",
+      "logoName": "private.png"
+    },
+    {
+      "id": "riftrunner",
+      "displayName": "riftrunner",
+      "logoName": "private.png"
+    },
+    {
+      "id": "apple",
+      "displayName": "apple",
+      "logoName": "private.png"
+    },
+    {
+      "id": "pear",
+      "displayName": "pear",
+      "logoName": "private.png"
+    },
+    {
+      "id": "peach",
+      "displayName": "peach",
+      "logoName": "private.png"
+    },
+    {
+      "id": "tangerine",
+      "displayName": "tangerine",
+      "logoName": "private.png"
+    },
+    {
+      "id": "rider",
+      "displayName": "rider",
+      "logoName": "private.png"
+    },
+    {
+      "id": "lochness",
+      "displayName": "lochness",
+      "logoName": "private.png"
+    },
+    {
+      "id": "anthropic",
+      "displayName": "Anthropic",
+      "logoName": "anthropic-1.svg",
+      "website": "https://www.anthropic.com"
+    },
+    {
+      "id": "claude_pptx",
+      "displayName": "Claude (PPTX)",
+      "logoName": "anthropic-1.svg",
+      "website": "https://www.anthropic.com"
+    },
+    {
+      "id": "openai",
+      "displayName": "OpenAI",
+      "logoName": "chatgptlogo.png",
+      "website": "https://openai.com"
+    },
+    {
+      "id": "aws",
+      "displayName": "AWS",
+      "logoName": "aws-logo.png",
+      "website": "aws.amazon.com"
+    },
+    {
+      "id": "amazonnova",
+      "displayName": "Amazon Nova",
+      "logoName": "amazonnova-logo.png",
+      "website": "https://aws.amazon.com/ai/generative-ai/nova/"
+    },
+    {
+      "id": "google",
+      "displayName": "Google",
+      "logoName": "geminilogo.png",
+      "website": "https://ai.google.dev"
+    },
+    {
+      "id": "xai",
+      "displayName": "xAI",
+      "logoName": "grokLogoTransparent.svg",
+      "website": "https://x.ai"
+    },
+    {
+      "id": "deepseek",
+      "displayName": "DeepSeek",
+      "logoName": "deepseek-transparent.png",
+      "website": "https://www.deepseek.com/"
+    },
+    {
+      "id": "meta",
+      "displayName": "Meta",
+      "logoName": "metalogo.png",
+      "website": "https://meta.ai"
+    },
+    {
+      "id": "alibaba",
+      "displayName": "Alibaba",
+      "logoName": "qwenlogo.png",
+      "website": "https://fireworks.ai/"
+    },
+    {
+      "id": "vercel",
+      "displayName": "Vercel",
+      "logoName": "vercellogo.jpeg",
+      "website": "https://vercel.com/docs/v0"
+    },
+    {
+      "id": "mistral",
+      "displayName": "Mistral",
+      "logoName": "mistrallogo.png",
+      "website": "https://mistral.ai"
+    },
+    {
+      "id": "moonshot",
+      "displayName": "Moonshot AI",
+      "logoName": "moonshot.png",
+      "website": "https://platform.moonshot.ai"
+    },
+    {
+      "id": "moonshot_legacy",
+      "displayName": "Moonshot AI (Legacy)",
+      "logoName": "moonshot.png",
+      "website": "https://platform.moonshot.ai"
+    },
+    {
+      "id": "cohere",
+      "displayName": "Cohere",
+      "logoName": "cohere.png",
+      "website": "https://cohere.com/"
+    },
+    {
+      "id": "thudm",
+      "displayName": "THUDM",
+      "logoName": "thudm.png",
+      "website": "https://huggingface.co/zai-org/GLM-4-32B-0414"
+    },
+    {
+      "id": "zhipu",
+      "displayName": "Zhipu AI",
+      "logoName": "zai-org.svg",
+      "website": "https://www.zhipu.ai/"
+    },
+    {
+      "id": "the_world",
+      "displayName": "The World",
+      "logoName": "humanity-logo.png"
+    },
+    {
+      "id": "venus",
+      "displayName": "Venus",
+      "logoName": "private.png"
+    },
+    {
+      "id": "mercury",
+      "displayName": "Mercury",
+      "logoName": "private.png"
+    },
+    {
+      "id": "minimax_m2",
+      "displayName": "MiniMax",
+      "logoName": "minimax.png",
+      "website": "https://minimax.io"
+    },
+    {
+      "id": "deepmolt",
+      "displayName": "DeepMolt",
+      "logoName": "private.png"
+    },
+    {
+      "id": "deepocto",
+      "displayName": "DeepOcto",
+      "logoName": "private.png"
+    },
+    {
+      "id": "primeintellect",
+      "displayName": "Prime Intellect",
+      "logoName": "prime-logo.jpg",
+      "website": "https://www.primeintellect.ai"
+    },
+    {
+      "id": "allenai",
+      "displayName": "Allen AI",
+      "logoName": "allen-logo.png",
+      "website": "https://allenai.org"
+    },
+    {
+      "id": "xiaomi",
+      "displayName": "Xiaomi",
+      "logoName": "xiaomi-logo.png",
+      "website": "https://www.xiaomi.com"
+    },
+    {
+      "id": "arceeai",
+      "displayName": "Arcee AI",
+      "logoName": "arcee-logo.png",
+      "website": "https://arcee.ai"
+    },
+    {
+      "id": "ltx",
+      "displayName": "Lightricks",
+      "logoName": "lightricks.png",
+      "website": "https://fal.ai/models/fal-ai/ltx-2-19b/text-to-video"
+    },
+    {
+      "id": "hume",
+      "displayName": "Hume AI",
+      "logoName": "hume-logo.png",
+      "website": "https://www.hume.ai"
+    },
+    {
+      "id": "deepgram",
+      "displayName": "Deepgram",
+      "logoName": "deepgram-logo.jpeg",
+      "website": "https://deepgram.com"
+    },
+    {
+      "id": "murf",
+      "displayName": "Murf AI",
+      "logoName": "murf-logo.jpeg",
+      "website": "https://murf.ai"
+    },
+    {
+      "id": "resemble",
+      "displayName": "Resemble AI",
+      "logoName": "resemble-logo.jpg",
+      "website": "https://www.resemble.ai"
+    },
+    {
+      "id": "amazon",
+      "displayName": "Amazon",
+      "logoName": "amazon-logo.png",
+      "website": "https://aws.amazon.com"
+    },
+    {
+      "id": "kokoro",
+      "displayName": "Kokoro",
+      "logoName": "kokoro-logo.png",
+      "website": "https://fal.ai/models/fal-ai/kokoro/american-english"
+    },
+    {
+      "id": "mint",
+      "displayName": "Mint",
+      "logoName": "private.png"
+    },
+    {
+      "id": "summerset",
+      "displayName": "summerset",
+      "logoName": "private.png"
+    },
+    {
+      "id": "winterfall",
+      "displayName": "winterfall",
+      "logoName": "private.png"
+    },
+    {
+      "id": "spey",
+      "displayName": "spey",
+      "logoName": "private.png"
+    },
+    {
+      "id": "atrato",
+      "displayName": "atrato",
+      "logoName": "private.png"
+    },
+    {
+      "id": "buttercup",
+      "displayName": "buttercup",
+      "logoName": "private.png"
+    },
+    {
+      "id": "mars",
+      "displayName": "mars",
+      "logoName": "private.png"
+    },
+    {
+      "id": "neptune",
+      "displayName": "neptune",
+      "logoName": "private.png"
+    },
+    {
+      "id": "alpha_centauri",
+      "displayName": "alpha_centauri",
+      "logoName": "private.png"
+    },
+    {
+      "id": "uibakery",
+      "displayName": "UI Bakery",
+      "logoName": "uibakery.png"
+    },
+    {
+      "id": "dolphin",
+      "displayName": "Dolphin",
+      "logoName": "dolphin.png"
+    },
+    {
+      "id": "robin",
+      "displayName": "Robin",
+      "logoName": "private.png"
+    },
+    {
+      "id": "cardinal",
+      "displayName": "Cardinal",
+      "logoName": "private.png"
+    },
+    {
+      "id": "sparrow",
+      "displayName": "Sparrow",
+      "logoName": "private.png"
+    },
+    {
+      "id": "bluebird",
+      "displayName": "Bluebird",
+      "logoName": "private.png"
+    },
+    {
+      "id": "nvidia",
+      "displayName": "NVIDIA",
+      "logoName": "nvidialogo.png",
+      "website": "https://nvidia.com"
+    },
+    {
+      "id": "emperor",
+      "displayName": "Emperor",
+      "logoName": "private.png"
+    },
+    {
+      "id": "rockhopper",
+      "displayName": "Rockhopper",
+      "logoName": "private.png"
+    },
+    {
+      "id": "macaroni",
+      "displayName": "Macaroni",
+      "logoName": "private.png"
+    },
+    {
+      "id": "mumble",
+      "displayName": "Mumble",
+      "logoName": "private.png"
+    },
+    {
+      "id": "hazel",
+      "displayName": "Hazel",
+      "logoName": "private.png"
+    },
+    {
+      "id": "cherryblossom",
+      "displayName": "Cherry Blossom",
+      "logoName": "private.png"
+    },
+    {
+      "id": "hazelnut",
+      "displayName": "Hazelnut",
+      "logoName": "private.png"
+    },
+    {
+      "id": "chestnut",
+      "displayName": "Chestnut",
+      "logoName": "private.png"
+    },
+    {
+      "id": "honeycomb",
+      "displayName": "Honeycomb",
+      "logoName": "private.png"
+    },
+    {
+      "id": "candycane",
+      "displayName": "Candycane",
+      "logoName": "private.png"
+    },
+    {
+      "id": "marble",
+      "displayName": "Marble",
+      "logoName": "private.png"
+    },
+    {
+      "id": "ruby",
+      "displayName": "Ruby",
+      "logoName": "private.png"
+    },
+    {
+      "id": "cactus",
+      "displayName": "Cactus",
+      "logoName": "private.png"
+    },
+    {
+      "id": "lotus",
+      "displayName": "Lotus",
+      "logoName": "private.png"
+    },
+    {
+      "id": "pluto",
+      "displayName": "Pluto",
+      "logoName": "private.png"
+    },
+    {
+      "id": "jupiter",
+      "displayName": "Jupiter",
+      "logoName": "private.png"
+    },
+    {
+      "id": "saturn",
+      "displayName": "Saturn",
+      "logoName": "private.png"
+    },
+    {
+      "id": "sourceful",
+      "displayName": "Sourceful",
+      "logoName": "sourceful.png"
+    },
+    {
+      "id": "andromeda",
+      "displayName": "Andromeda",
+      "logoName": "private.png"
+    },
+    {
+      "id": "callisto",
+      "displayName": "Callisto",
+      "logoName": "private.png"
+    },
+    {
+      "id": "indigo",
+      "displayName": "Indigo",
+      "logoName": "private.png"
+    },
+    {
+      "id": "peppermint",
+      "displayName": "Peppermint",
+      "logoName": "private.png"
+    },
+    {
+      "id": "honeydew",
+      "displayName": "Honeydew",
+      "logoName": "private.png"
+    },
+    {
+      "id": "lemonade",
+      "displayName": "Lemonade",
+      "logoName": "private.png"
+    },
+    {
+      "id": "vortex",
+      "displayName": "Vortex",
+      "logoName": "private.png"
+    },
+    {
+      "id": "violet",
+      "displayName": "Violet",
+      "logoName": "private.png"
+    },
+    {
+      "id": "lavender",
+      "displayName": "Lavender",
+      "logoName": "private.png"
+    },
+    {
+      "id": "stalker",
+      "displayName": "stalker",
+      "logoName": "private.png"
+    },
+    {
+      "id": "salt",
+      "displayName": "salt",
+      "logoName": "private.png"
+    },
+    {
+      "id": "pepper",
+      "displayName": "pepper",
+      "logoName": "private.png"
+    },
+    {
+      "id": "observer",
+      "displayName": "observer",
+      "logoName": "private.png"
+    },
+    {
+      "id": "argon",
+      "displayName": "argon",
+      "logoName": "private.png"
+    },
+    {
+      "id": "krypton",
+      "displayName": "krypton",
+      "logoName": "private.png"
+    },
+    {
+      "id": "xenon",
+      "displayName": "xenon",
+      "logoName": "private.png"
+    },
+    {
+      "id": "jumbo-dungeness",
+      "displayName": "jumbo-dungeness",
+      "logoName": "private.png"
+    },
+    {
+      "id": "radon",
+      "displayName": "radon",
+      "logoName": "private.png"
+    },
+    {
+      "id": "smallestai",
+      "displayName": "Smallest AI",
+      "logoName": "smallest.jpeg"
+    },
+    {
+      "id": "coconut",
+      "displayName": "coconut",
+      "logoName": "private.png"
+    },
+    {
+      "id": "moda",
+      "displayName": "Moda",
+      "logoName": "moda-logo.svg",
+      "website": "https://moda.app"
+    }
+  ],
+  "pricing": [
+    {
+      "id": "qwen3-coder-480b-a35b-instruct",
+      "text": {
+        "input": 0.861,
+        "output": 3.441
+      }
+    },
+    {
+      "id": "qwen3-235B-a22B-thinking-2507",
+      "text": {
+        "input": 0.2,
+        "output": 0.8
+      }
+    },
+    {
+      "id": "qwen3-30b-a3b",
+      "text": {
+        "input": 0.06,
+        "output": 0.22
+      }
+    },
+    {
+      "id": "qwen3-coder-30b-a3b-instruct",
+      "text": {
+        "input": 0.45,
+        "output": 2.25
+      }
+    },
+    {
+      "id": "qwen-image",
+      "image": {
+        "perImage": 0.04
+      }
+    },
+    {
+      "id": "wan-2.2-t2v-a14b",
+      "video": {
+        "perSecond": 0.15
+      }
+    },
+    {
+      "id": "wan2.1-t2v-14b",
+      "video": {
+        "perSecond": 0.100347
+      }
+    },
+    {
+      "id": "qwen3-max",
+      "text": {
+        "input": 1.2,
+        "output": 6
+      }
+    },
+    {
+      "id": "qwen3.5-397b-a17b",
+      "text": {
+        "input": 0.6,
+        "output": 3.6
+      }
+    },
+    {
+      "id": "qwen3.5-plus-02-15",
+      "text": {
+        "input": 0.4,
+        "output": 2.4
+      }
+    },
+    {
+      "id": "claude-opus-4-1-20250805-thinking",
+      "text": {
+        "input": 15,
+        "output": 75
+      }
+    },
+    {
+      "id": "claude-opus-4",
+      "text": {
+        "input": 15,
+        "output": 75
+      }
+    },
+    {
+      "id": "claude-opus-4-1-20250805",
+      "text": {
+        "input": 15,
+        "output": 75
+      }
+    },
+    {
+      "id": "claude-sonnet-4",
+      "text": {
+        "input": 3,
+        "output": 15
+      }
+    },
+    {
+      "id": "claude-sonnet-4-thinking",
+      "text": {
+        "input": 3,
+        "output": 15
+      }
+    },
+    {
+      "id": "flux-kontext-pro",
+      "image": {
+        "perImage": 0.04
+      }
+    },
+    {
+      "id": "flux-kontext-max",
+      "image": {
+        "perImage": 0.08
+      }
+    },
+    {
+      "id": "flux.1-krea-dev",
+      "image": {
+        "perImage": 0.03
+      }
+    },
+    {
+      "id": "flux-pro-1.1-ultra",
+      "image": {
+        "perImage": 0.06
+      }
+    },
+    {
+      "id": "flux-2-pro",
+      "image": {
+        "perImage": 0.03
+      }
+    },
+    {
+      "id": "flux-2-flex",
+      "image": {
+        "perImage": 0.05
+      }
+    },
+    {
+      "id": "flux-2-klein-4b",
+      "image": {
+        "perImage": 0.014
+      }
+    },
+    {
+      "id": "flux-2-klein-4b-distilled",
+      "image": {
+        "perImage": 0.014
+      }
+    },
+    {
+      "id": "flux-2-klein-9b",
+      "image": {
+        "perImage": 0.015
+      }
+    },
+    {
+      "id": "flux-2-klein-4b-edit",
+      "image": {
+        "perImage": 0.009
+      }
+    },
+    {
+      "id": "flux-2-klein-4b-distilled-edit",
+      "image": {
+        "perImage": 0.014
+      }
+    },
+    {
+      "id": "flux-2-klein-9b-edit",
+      "image": {
+        "perImage": 0.011
+      }
+    },
+    {
+      "id": "seedream-4.0",
+      "image": {
+        "perImage": 0.03
+      }
+    },
+    {
+      "id": "seedream-lite-5.0",
+      "image": {
+        "perImage": 0.035
+      }
+    },
+    {
+      "id": "seedream-lite-v5-edit",
+      "image": {
+        "perImage": 0.035
+      }
+    },
+    {
+      "id": "cognition",
+      "agents": {
+        "perGeneration": 2.25
+      }
+    },
+    {
+      "id": "glm-image",
+      "image": {
+        "perImage": 0.015
+      }
+    },
+    {
+      "id": "deepseek-chat",
+      "text": {
+        "input": 0.28,
+        "output": 0.42
+      }
+    },
+    {
+      "id": "deepseek-reasoner-r1",
+      "text": {
+        "input": 0.14,
+        "output": 2.19
+      }
+    },
+    {
+      "id": "deepseek-v3p1",
+      "text": {
+        "input": 0.2,
+        "output": 0.8
+      }
+    },
+    {
+      "id": "deepseek-v3p1-thinking",
+      "text": {
+        "input": 0.2,
+        "output": 0.8
+      }
+    },
+    {
+      "id": "deepseek-v3p2-exp",
+      "text": {
+        "input": 0.22,
+        "output": 0.33
+      }
+    },
+    {
+      "id": "deepseek-v3p2",
+      "text": {
+        "input": 0.28,
+        "output": 0.43
+      }
+    },
+    {
+      "id": "gamma",
+      "slides": {
+        "perDeck": 0.75
+      }
+    },
+    {
+      "id": "gemini-3.1-flash-lite-preview",
+      "text": {
+        "input": 0.25,
+        "output": 1.5
+      }
+    },
+    {
+      "id": "gemini-2.5-flash-lite-preview-09-2025",
+      "text": {
+        "input": 0.1,
+        "output": 0.4
+      }
+    },
+    {
+      "id": "gemini-2.5-flash-preview-09-2025",
+      "text": {
+        "input": 0.3,
+        "output": 2.5
+      }
+    },
+    {
+      "id": "gemini-2.5-pro",
+      "text": {
+        "input": 1.25,
+        "output": 10
+      }
+    },
+    {
+      "id": "gemini-2.5-flash",
+      "text": {
+        "input": 0.3,
+        "output": 2.5
+      }
+    },
+    {
+      "id": "imagen-4.0-generate-preview-06-06",
+      "image": {
+        "perImage": 0.04
+      }
+    },
+    {
+      "id": "imagen-4.0-ultra-generate-preview-06-06",
+      "image": {
+        "perImage": 0.06
+      }
+    },
+    {
+      "id": "imagen-4.0-generate-001",
+      "image": {
+        "perImage": 0.04
+      }
+    },
+    {
+      "id": "imagen-4.0-ultra-generate-001",
+      "image": {
+        "perImage": 0.06
+      }
+    },
+    {
+      "id": "imagen-4.0-fast-generate-001",
+      "image": {
+        "perImage": 0.02
+      }
+    },
+    {
+      "id": "gemini-2.5-flash-image-preview",
+      "image": {
+        "perImage": 0.04
+      }
+    },
+    {
+      "id": "gemini-2.5-flash-image",
+      "image": {
+        "perImage": 0.04
+      }
+    },
+    {
+      "id": "gemini-3.1-flash-image-preview",
+      "image": {
+        "perImage": 0.067
+      }
+    },
+    {
+      "id": "gemini-3.1-flash-image-gen-2k",
+      "image": {
+        "perImage": 0.101
+      }
+    },
+    {
+      "id": "gemini-3-pro-image-preview",
+      "image": {
+        "perImage": 0.134
+      }
+    },
+    {
+      "id": "gemini-2.0-flash-preview-image-generation",
+      "image": {
+        "perImage": 0.04
+      }
+    },
+    {
+      "id": "imagen-3.0-generate-002",
+      "image": {
+        "perImage": 0.03
+      }
+    },
+    {
+      "id": "veo-3.1",
+      "video": {
+        "perSecond": 0.4
+      }
+    },
+    {
+      "id": "veo-3.1-lite",
+      "video": {
+        "perSecond": 0.05
+      }
+    },
+    {
+      "id": "veo-3",
+      "video": {
+        "perSecond": 0.08
+      }
+    },
+    {
+      "id": "veo-3-fast",
+      "video": {
+        "perSecond": 0.08
+      }
+    },
+    {
+      "id": "gemini-3-pro-image-preview-2k",
+      "text": {
+        "input": 2,
+        "output": 12
+      }
+    },
+    {
+      "id": "gemini",
+      "agents": {
+        "perGeneration": 10
+      }
+    },
+    {
+      "id": "riftrunner",
+      "text": {
+        "input": 2,
+        "output": 12
+      }
+    },
+    {
+      "id": "ideogram-v3",
+      "image": {
+        "perImage": 0.06
+      }
+    },
+    {
+      "id": "kling-v2.5-turbo-pro",
+      "video": {
+        "perSecond": 0.06999999999999999
+      }
+    },
+    {
+      "id": "kling-v2.6-pro",
+      "video": {
+        "perSecond": 0.07
+      }
+    },
+    {
+      "id": "kling-v3-pro",
+      "video": {
+        "perSecond": 0.08
+      }
+    },
+    {
+      "id": "claude-3.7-sonnet",
+      "text": {
+        "input": 3,
+        "output": 15
+      }
+    },
+    {
+      "id": "claude-sonnet-4-5",
+      "text": {
+        "input": 3,
+        "output": 15
+      }
+    },
+    {
+      "id": "claude-sonnet-4-5-thinking",
+      "text": {
+        "input": 3,
+        "output": 15
+      }
+    },
+    {
+      "id": "claude-sonnet-4-6",
+      "text": {
+        "input": 3,
+        "output": 15
+      }
+    },
+    {
+      "id": "claude-haiku-4-5",
+      "text": {
+        "input": 1,
+        "output": 5
+      }
+    },
+    {
+      "id": "claude-opus-4-6",
+      "text": {
+        "input": 5,
+        "output": 25
+      }
+    },
+    {
+      "id": "claude-opus-4-6-thinking",
+      "text": {
+        "input": 5,
+        "output": 25
+      }
+    },
+    {
+      "id": "claude",
+      "agents": {
+        "perGeneration": 15
+      }
+    },
+    {
+      "id": "kling-o1-edit",
+      "video": {
+        "perSecond": 0.168
+      }
+    },
+    {
+      "id": "glm-4.5",
+      "text": {
+        "input": 0.6,
+        "output": 2.2
+      }
+    },
+    {
+      "id": "glm-4.5-air",
+      "text": {
+        "input": 0.2,
+        "output": 1.1
+      }
+    },
+    {
+      "id": "glm-4.6",
+      "text": {
+        "input": 0.6,
+        "output": 2.2
+      }
+    },
+    {
+      "id": "glm-4.7-flash",
+      "text": {
+        "input": 0.07,
+        "output": 0.4
+      }
+    },
+    {
+      "id": "ltx-2-19b-video-to-video",
+      "video": {
+        "perMegapixel": 0.0018
+      }
+    },
+    {
+      "id": "ray-flash-2",
+      "video": {
+        "perSecond": 0.03
+      }
+    },
+    {
+      "id": "ray-2",
+      "video": {
+        "perSecond": 0.1
+      }
+    },
+    {
+      "id": "minimax-m2-stable",
+      "text": {
+        "input": 0.255,
+        "output": 1
+      }
+    },
+    {
+      "id": "minimax-m2.1",
+      "text": {
+        "input": 0.3,
+        "output": 1.2
+      }
+    },
+    {
+      "id": "mistral-medium-2508",
+      "text": {
+        "input": 0.4,
+        "output": 2
+      }
+    },
+    {
+      "id": "mistral-medium-2505",
+      "text": {
+        "input": 0.4,
+        "output": 2
+      }
+    },
+    {
+      "id": "codestral-2-2501",
+      "text": {
+        "input": 0.3,
+        "output": 0.9
+      }
+    },
+    {
+      "id": "codestral-2508",
+      "text": {
+        "input": 0.3,
+        "output": 0.9
+      }
+    },
+    {
+      "id": "devstral-medium-2507",
+      "text": {
+        "input": 0.4,
+        "output": 2
+      }
+    },
+    {
+      "id": "mistral-small-2506",
+      "text": {
+        "input": 0.075,
+        "output": 0.2
+      }
+    },
+    {
+      "id": "mistral_voxtral_small_2507",
+      "text": {
+        "input": 0.1,
+        "output": 0.3
+      }
+    },
+    {
+      "id": "magistral-small-2509",
+      "text": {
+        "input": 0.5,
+        "output": 1.5
+      }
+    },
+    {
+      "id": "magistral-medium-2509",
+      "text": {
+        "input": 2,
+        "output": 5
+      }
+    },
+    {
+      "id": "ministral-3b-2512",
+      "text": {
+        "input": 0.1,
+        "output": 0.1
+      }
+    },
+    {
+      "id": "ministral-8b-2512",
+      "text": {
+        "input": 0.15,
+        "output": 0.15
+      }
+    },
+    {
+      "id": "ministral-14b-2512",
+      "text": {
+        "input": 0.2,
+        "output": 0.2
+      }
+    },
+    {
+      "id": "mistral-large-2512",
+      "text": {
+        "input": 0.5,
+        "output": 1.5
+      }
+    },
+    {
+      "id": "kimi-k2-0905-preview",
+      "text": {
+        "input": 0.6,
+        "output": 2.5
+      }
+    },
+    {
+      "id": "kimi-k2-turbo-preview",
+      "text": {
+        "input": 2.4,
+        "output": 10
+      }
+    },
+    {
+      "id": "kimi-k2-0711-preview",
+      "text": {
+        "input": 0.57,
+        "output": 2.3
+      }
+    },
+    {
+      "id": "kimi-k2-instruct-0905",
+      "text": {
+        "input": 0.4,
+        "output": 2
+      }
+    },
+    {
+      "id": "qwen3-235b-a22b",
+      "text": {
+        "input": 0.7,
+        "output": 2.8
+      }
+    },
+    {
+      "id": "qwen3-235b-a22b-instruct-2507",
+      "text": {
+        "input": 0.15,
+        "output": 0.75
+      }
+    },
+    {
+      "id": "gpt-oss-120b",
+      "text": {
+        "input": 0.15,
+        "output": 0.6
+      }
+    },
+    {
+      "id": "gpt-5",
+      "text": {
+        "input": 1.25,
+        "output": 10
+      }
+    },
+    {
+      "id": "gpt-5-high",
+      "text": {
+        "input": 1.25,
+        "output": 10
+      }
+    },
+    {
+      "id": "gpt-5.3-codex",
+      "text": {
+        "input": 1.75,
+        "output": 14
+      }
+    },
+    {
+      "id": "gpt-5.4-none",
+      "text": {
+        "input": 2.5,
+        "output": 15
+      }
+    },
+    {
+      "id": "gpt-5.4-low",
+      "text": {
+        "input": 2.5,
+        "output": 15
+      }
+    },
+    {
+      "id": "gpt-5.4-high",
+      "text": {
+        "input": 2.5,
+        "output": 15
+      }
+    },
+    {
+      "id": "gpt-5.4-xhigh",
+      "text": {
+        "input": 2.5,
+        "output": 15
+      }
+    },
+    {
+      "id": "gpt-5-mini",
+      "text": {
+        "input": 0.25,
+        "output": 2
+      }
+    },
+    {
+      "id": "gpt-5-nano",
+      "text": {
+        "input": 0.05,
+        "output": 0.4
+      }
+    },
+    {
+      "id": "gpt-image-1",
+      "text": {
+        "input": 5,
+        "output": 40
+      }
+    },
+    {
+      "id": "gpt-image-1-mini",
+      "text": {
+        "input": 2,
+        "output": 8
+      }
+    },
+    {
+      "id": "dalle-3",
+      "image": {
+        "perImage": 0.04
+      }
+    },
+    {
+      "id": "sora-2",
+      "video": {
+        "perSecond": 0.1
+      }
+    },
+    {
+      "id": "sora-2-pro",
+      "video": {
+        "perSecond": 0.5
+      }
+    },
+    {
+      "id": "openai",
+      "agents": {
+        "perGeneration": 10
+      }
+    },
+    {
+      "id": "peach",
+      "video": {
+        "perSecond": 0.04
+      }
+    },
+    {
+      "id": "pear",
+      "image": {
+        "perImage": 0.01
+      }
+    },
+    {
+      "id": "apple",
+      "image": {
+        "perImage": 0.005
+      }
+    },
+    {
+      "id": "prism",
+      "text": {
+        "input": 0,
+        "output": 0.3
+      }
+    },
+    {
+      "id": "reve-create-v1.5",
+      "image": {
+        "perImage": 0.2
+      }
+    },
+    {
+      "id": "reve-edit-fast-v1.5",
+      "image": {
+        "perImage": 0.01
+      }
+    },
+    {
+      "id": "reve-edit-v1.5",
+      "image": {
+        "perImage": 0.4
+      }
+    },
+    {
+      "id": "slidesgpt",
+      "slides": {
+        "perDeck": 0.5
+      }
+    },
+    {
+      "id": "deepocto",
+      "text": {
+        "input": 0.3,
+        "output": 1.2
+      }
+    },
+    {
+      "id": "deepmolt",
+      "text": {
+        "input": 0.3,
+        "output": 1.2
+      }
+    },
+    {
+      "id": "rockhopper",
+      "text": {
+        "input": 1.75,
+        "output": 14
+      }
+    },
+    {
+      "id": "macaroni",
+      "text": {
+        "input": 1.75,
+        "output": 14
+      }
+    },
+    {
+      "id": "mumble",
+      "text": {
+        "input": 1.75,
+        "output": 14
+      }
+    },
+    {
+      "id": "honeycomb",
+      "text": {
+        "input": 1.75,
+        "output": 14
+      }
+    },
+    {
+      "id": "candycane",
+      "text": {
+        "input": 1.75,
+        "output": 14
+      }
+    },
+    {
+      "id": "galapagos",
+      "text": {
+        "input": 2.5,
+        "output": 15
+      }
+    },
+    {
+      "id": "HunyuanImage-3.0",
+      "image": {
+        "perImage": 0.03
+      }
+    },
+    {
+      "id": "hunyuan-video",
+      "video": {
+        "perSecond": 0.08
+      }
+    },
+    {
+      "id": "grok-2-image",
+      "image": {
+        "perImage": 0.07
+      }
+    },
+    {
+      "id": "v0-agent",
+      "builders": {
+        "perGeneration": 7.5
+      }
+    },
+    {
+      "id": "viduq2-image",
+      "image": {
+        "perImage": 0.03
+      }
+    },
+    {
+      "id": "grok-3",
+      "text": {
+        "input": 3,
+        "output": 15
+      }
+    },
+    {
+      "id": "grok-4",
+      "text": {
+        "input": 3,
+        "output": 15
+      }
+    },
+    {
+      "id": "grok-code-fast-1",
+      "text": {
+        "input": 0.2,
+        "output": 1.5
+      }
+    },
+    {
+      "id": "grok-4-fast-reasoning",
+      "text": {
+        "input": 0.2,
+        "output": 0.5
+      }
+    },
+    {
+      "id": "grok-4-fast-non-reasoning",
+      "text": {
+        "input": 0.2,
+        "output": 0.5
+      }
+    },
+    {
+      "id": "grok-4-1-fast-reasoning",
+      "text": {
+        "input": 0.2,
+        "output": 0.5
+      }
+    },
+    {
+      "id": "grok-4-1-fast-non-reasoning",
+      "text": {
+        "input": 0.2,
+        "output": 0.5
+      }
+    },
+    {
+      "id": "grok-4-20-beta-non-reasoning",
+      "text": {
+        "input": 2,
+        "output": 6
+      }
+    },
+    {
+      "id": "grok-4-20-beta-reasoning",
+      "text": {
+        "input": 2,
+        "output": 6
+      }
+    },
+    {
+      "id": "grok-3-mini",
+      "text": {
+        "input": 0.3,
+        "output": 0.5
+      }
+    },
+    {
+      "id": "lavender",
+      "text": {
+        "input": 2.5,
+        "output": 15
+      }
+    },
+    {
+      "id": "grok-4.20-0309-reasoning",
+      "text": {
+        "input": 2,
+        "output": 6
+      }
+    },
+    {
+      "id": "gpt-5.4",
+      "text": {
+        "input": 2.5,
+        "output": 15
+      }
+    },
+    {
+      "id": "recraftv4_vector",
+      "image": {
+        "perImage": 0.08
+      }
+    },
+    {
+      "id": "recraftv4_pro_vector",
+      "image": {
+        "perImage": 0.3
+      }
+    },
+    {
+      "id": "glm-5v-turbo",
+      "text": {
+        "input": 1.2,
+        "output": 4
+      }
+    },
+    {
+      "id": "trinity-large-thinking",
+      "text": {
+        "input": 0.25,
+        "output": 0.9
+      }
+    },
+    {
+      "id": "gemma-4-31b-it",
+      "text": {
+        "input": 0.14,
+        "output": 0.4
+      }
+    },
+    {
+      "id": "gemma-4-26b-a4b-it",
+      "text": {
+        "input": 0.13,
+        "output": 0.4
+      }
+    },
+    {
+      "id": "qwen3.6-plus",
+      "text": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    {
+      "id": "wan-v2.7-t2v",
+      "video": {
+        "perSecond": 0.1
+      }
+    },
+    {
+      "id": "wan-v2.7-v2v",
+      "video": {
+        "perSecond": 0.1
+      }
+    },
+    {
+      "id": "wan-v2.7-ref",
+      "video": {
+        "perSecond": 0.1
+      }
+    },
+    {
+      "id": "wan-v2.7-pro-t2i",
+      "image": {
+        "perImage": 0.04
+      }
+    },
+    {
+      "id": "wan-v2.7-pro-edit",
+      "image": {
+        "perImage": 0.075
+      }
+    },
+    {
+      "id": "wan-v2.7-t2i",
+      "image": {
+        "perImage": 0.03
+      }
+    },
+    {
+      "id": "wan-v2.7-edit",
+      "image": {
+        "perImage": 0.04
+      }
+    },
+    {
+      "id": "glm-5-turbo",
+      "text": {
+        "input": 1.2,
+        "output": 4
+      }
+    }
+  ]
+}
