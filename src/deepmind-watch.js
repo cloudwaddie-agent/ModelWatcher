@@ -59,7 +59,7 @@ function generatePermutations(config) {
   const variants = config.variants || {};
   
   for (const pattern of patterns) {
-    const baseModel = pattern.split('-')[0];
+    const baseModel = pattern.split('{')[0].replace(/-$/, '');
     const modelVariants = variants[baseModel] || [];
     
     const hasVersion = pattern.includes('{version}');
