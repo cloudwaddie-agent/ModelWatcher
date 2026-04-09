@@ -9984,7 +9984,8 @@
             },
             "tags": [
               "vision",
-              "prompt_cache"
+              "prompt_cache",
+              "reasoning"
             ]
           }
         },
@@ -10006,7 +10007,8 @@
             },
             "tags": [
               "vision",
-              "prompt_cache"
+              "prompt_cache",
+              "reasoning"
             ]
           }
         },
