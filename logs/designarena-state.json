@@ -1,5 +1,5 @@
 {
-  "timestamp": 1775754912891,
+  "timestamp": 1775762284375,
   "models": [
     {
       "id": "qwen3-coder-480b-a35b-instruct",
@@ -220,12 +220,6 @@
         "models": [
           "tts"
         ]
-      },
-      "audio": {
-        "supportedModes": [
-          "tts"
-        ],
-        "voice": "Cherry"
       }
     },
     {
@@ -315,13 +309,6 @@
         "models": [
           "tts"
         ]
-      },
-      "audio": {
-        "supportedModes": [
-          "tts"
-        ],
-        "voice": "Joanna",
-        "supportsPrompt": true
       }
     },
     {
@@ -1250,13 +1237,6 @@
         "models": [
           "tts"
         ]
-      },
-      "audio": {
-        "supportedModes": [
-          "tts"
-        ],
-        "voice": "asteria",
-        "supportsPrompt": false
       }
     },
     {
@@ -1460,12 +1440,6 @@
         "models": [
           "music"
         ]
-      },
-      "audio": {
-        "supportedModes": [
-          "music"
-        ],
-        "voice": "stable-audio-25"
       }
     },
     {
@@ -1968,13 +1942,6 @@
         "models": [
           "tts"
         ]
-      },
-      "audio": {
-        "supportedModes": [
-          "tts"
-        ],
-        "voice": "Kore",
-        "supportsPrompt": true
       }
     },
     {
@@ -1988,13 +1955,6 @@
         "models": [
           "tts"
         ]
-      },
-      "audio": {
-        "supportedModes": [
-          "tts"
-        ],
-        "voice": "Charon",
-        "supportsPrompt": false
       }
     },
     {
@@ -2008,13 +1968,6 @@
         "models": [
           "sts"
         ]
-      },
-      "audio": {
-        "supportedModes": [
-          "sts"
-        ],
-        "voice": "Puck",
-        "supportsPrompt": true
       }
     },
     {
@@ -2028,12 +1981,6 @@
         "models": [
           "music"
         ]
-      },
-      "audio": {
-        "supportedModes": [
-          "music"
-        ],
-        "voice": "lyria-002"
       }
     },
     {
@@ -2248,13 +2195,6 @@
         "models": [
           "sts"
         ]
-      },
-      "audio": {
-        "supportedModes": [
-          "sts"
-        ],
-        "voice": "EVI",
-        "supportsPrompt": true
       }
     },
     {
@@ -2268,13 +2208,6 @@
         "models": [
           "tts"
         ]
-      },
-      "audio": {
-        "supportedModes": [
-          "tts"
-        ],
-        "voice": "Ava Song",
-        "supportsPrompt": true
       }
     },
     {
@@ -2567,13 +2500,6 @@
         "models": [
           "tts"
         ]
-      },
-      "audio": {
-        "supportedModes": [
-          "tts"
-        ],
-        "voice": "af_heart",
-        "supportsPrompt": false
       }
     },
     {
@@ -3609,13 +3535,6 @@
         "models": [
           "tts"
         ]
-      },
-      "audio": {
-        "supportedModes": [
-          "tts"
-        ],
-        "voice": "en-US-natalie",
-        "supportsPrompt": false
       }
     },
     {
@@ -3666,7 +3585,7 @@
       "id": "alai",
       "displayName": "Alai",
       "provider": "alai",
-      "active": true,
+      "active": false,
       "openSource": false,
       "router": false,
       "arenas": {
@@ -4308,13 +4227,6 @@
         "models": [
           "tts"
         ]
-      },
-      "audio": {
-        "supportedModes": [
-          "tts"
-        ],
-        "voice": "alloy",
-        "supportsPrompt": true
       }
     },
     {
@@ -4328,13 +4240,6 @@
         "models": [
           "sts"
         ]
-      },
-      "audio": {
-        "supportedModes": [
-          "sts"
-        ],
-        "voice": "gpt-realtime",
-        "supportsPrompt": true
       }
     },
     {
@@ -4737,13 +4642,6 @@
         "models": [
           "tts"
         ]
-      },
-      "audio": {
-        "supportedModes": [
-          "tts"
-        ],
-        "voice": "55592656",
-        "supportsPrompt": false
       }
     },
     {
@@ -5185,13 +5083,6 @@
         "models": [
           "tts"
         ]
-      },
-      "audio": {
-        "supportedModes": [
-          "tts"
-        ],
-        "voice": "rachel",
-        "supportsPrompt": false
       }
     },
     {
@@ -5205,12 +5096,6 @@
         "models": [
           "music"
         ]
-      },
-      "audio": {
-        "supportedModes": [
-          "music"
-        ],
-        "voice": "music_v1"
       }
     },
     {
@@ -6475,20 +6360,13 @@
       "id": "lightning_tts",
       "displayName": "Lightning TTS",
       "provider": "smallestai",
-      "active": false,
+      "active": true,
       "openSource": false,
       "router": false,
       "arenas": {
         "models": [
           "tts"
         ]
-      },
-      "audio": {
-        "supportedModes": [
-          "tts"
-        ],
-        "voice": "magnus",
-        "supportsPrompt": false
       }
     },
     {
@@ -6684,6 +6562,32 @@
       }
     },
     {
+      "id": "odyssey-2-pro",
+      "displayName": "Odyssey-2 Pro",
+      "provider": "odyssey",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "worldmodel"
+        ]
+      }
+    },
+    {
+      "id": "marble-1.1-plus",
+      "displayName": "Marble 1.1 Plus",
+      "provider": "worldlabs",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "worldmodel"
+        ]
+      }
+    },
+    {
       "id": "coconut",
       "displayName": "GLM 5.1",
       "provider": "zhipu",
@@ -6699,6 +6603,19 @@
           "uicomponent",
           "svg",
           "ascii"
+        ]
+      }
+    },
+    {
+      "id": "marble-1.1",
+      "displayName": "Marble 1.1",
+      "provider": "worldlabs",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "worldmodel"
         ]
       }
     },
@@ -7764,6 +7681,18 @@
       "id": "smallestai",
       "displayName": "Smallest AI",
       "logoName": "smallest.jpeg"
+    },
+    {
+      "id": "odyssey",
+      "displayName": "Odyssey",
+      "logoName": "odyssey.png",
+      "website": "https://odyssey.ml"
+    },
+    {
+      "id": "worldlabs",
+      "displayName": "World Labs",
+      "logoName": "worldlabs.png",
+      "website": "https://worldlabs.ai"
     },
     {
       "id": "coconut",
