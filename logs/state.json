@@ -8501,35 +8501,6 @@
           }
         },
         {
-          "id": "Virtue-AI/VirtueGuard-Text-Lite",
-          "name": "Virtue-AI/VirtueGuard-Text-Lite",
-          "uuid": "endpoint-7b619281-f83c-488a-baf9-fdcc0ddbc782",
-          "object": "model",
-          "type": "moderation",
-          "running": false,
-          "display_name": "Virtueguard Text Lite",
-          "organization": "Virtue AI",
-          "link": "https://huggingface.co/api/models/VirtueAIxTogether/VirtueGuard-Text-Lite",
-          "license": "unknown",
-          "context_length": 32768,
-          "config": {
-            "chat_template": "{%- if messages | length == 1 -%}\n    {{- messages[0].get('content', '') -}}\n{%- else -%}\n    {%- for message in messages -%}\n        {%- set role = message.get('role', '') | lower -%}\n        {%- set content = message.get('content', '') -%}\n        {%- if role == 'user' -%}\n            {{- 'User: ' + content + '\\n' -}}\n        {%- elif role == 'assistant' -%}\n            {{- 'Assistant: ' + content + '\\n' -}}\n        {%- elif role == 'system' -%}\n            {{- 'System: ' + content + '\\n' -}}\n        {%- endif -%}\n    {%- endfor -%}\n{%- endif -%}",
-            "stop": [
-              "<|im_end|>"
-            ],
-            "bos_token": null,
-            "eos_token": "<|im_end|>",
-            "max_output_length": 1
-          },
-          "pricing": {
-            "hourly": 0,
-            "input": 0.2,
-            "output": 0.2,
-            "base": 0,
-            "finetune": 0
-          }
-        },
-        {
           "id": "Wan-AI/Wan2.2-I2V-A14B",
           "name": "Wan-AI/Wan2.2-I2V-A14B",
           "uuid": "endpoint-d1d3d2e4-c683-4d11-9741-bad79b3ebfef",
@@ -12441,6 +12412,171 @@
           "deprecation": null,
           "deprecation_replacement_model": null,
           "default_model_temperature": 0.3,
+          "type": "base"
+        },
+        {
+          "id": "mistral-medium-2604",
+          "name": "mistral-medium-3.5.0",
+          "owned_by": "mistralai",
+          "object": "model",
+          "capabilities": {
+            "completion_chat": true,
+            "function_calling": true,
+            "reasoning": true,
+            "completion_fim": false,
+            "fine_tuning": false,
+            "vision": true,
+            "ocr": false,
+            "classification": false,
+            "moderation": false,
+            "audio": false,
+            "audio_transcription": false,
+            "audio_transcription_realtime": false,
+            "audio_speech": false
+          },
+          "description": "Online distillation c112->c212 (swebench top-performer into best magenta ref-fixed model)",
+          "max_context_length": 262144,
+          "aliases": [
+            "mistral-medium-3.5.0",
+            "mistral-medium-3.5",
+            "mistral-medium-3",
+            "mistral-medium-c21211-r0-75"
+          ],
+          "deprecation": null,
+          "deprecation_replacement_model": null,
+          "default_model_temperature": 0.7,
+          "type": "base"
+        },
+        {
+          "id": "mistral-medium-3",
+          "name": "mistral-medium-3.5.0",
+          "owned_by": "mistralai",
+          "object": "model",
+          "capabilities": {
+            "completion_chat": true,
+            "function_calling": true,
+            "reasoning": true,
+            "completion_fim": false,
+            "fine_tuning": false,
+            "vision": true,
+            "ocr": false,
+            "classification": false,
+            "moderation": false,
+            "audio": false,
+            "audio_transcription": false,
+            "audio_transcription_realtime": false,
+            "audio_speech": false
+          },
+          "description": "Online distillation c112->c212 (swebench top-performer into best magenta ref-fixed model)",
+          "max_context_length": 262144,
+          "aliases": [
+            "mistral-medium-3.5.0",
+            "mistral-medium-3.5",
+            "mistral-medium-2604",
+            "mistral-medium-c21211-r0-75"
+          ],
+          "deprecation": null,
+          "deprecation_replacement_model": null,
+          "default_model_temperature": 0.7,
+          "type": "base"
+        },
+        {
+          "id": "mistral-medium-3.5",
+          "name": "mistral-medium-3.5.0",
+          "owned_by": "mistralai",
+          "object": "model",
+          "capabilities": {
+            "completion_chat": true,
+            "function_calling": true,
+            "reasoning": true,
+            "completion_fim": false,
+            "fine_tuning": false,
+            "vision": true,
+            "ocr": false,
+            "classification": false,
+            "moderation": false,
+            "audio": false,
+            "audio_transcription": false,
+            "audio_transcription_realtime": false,
+            "audio_speech": false
+          },
+          "description": "Online distillation c112->c212 (swebench top-performer into best magenta ref-fixed model)",
+          "max_context_length": 262144,
+          "aliases": [
+            "mistral-medium-3.5.0",
+            "mistral-medium-3",
+            "mistral-medium-2604",
+            "mistral-medium-c21211-r0-75"
+          ],
+          "deprecation": null,
+          "deprecation_replacement_model": null,
+          "default_model_temperature": 0.7,
+          "type": "base"
+        },
+        {
+          "id": "mistral-medium-3.5.0",
+          "name": "mistral-medium-3.5.0",
+          "owned_by": "mistralai",
+          "object": "model",
+          "capabilities": {
+            "completion_chat": true,
+            "function_calling": true,
+            "reasoning": true,
+            "completion_fim": false,
+            "fine_tuning": false,
+            "vision": true,
+            "ocr": false,
+            "classification": false,
+            "moderation": false,
+            "audio": false,
+            "audio_transcription": false,
+            "audio_transcription_realtime": false,
+            "audio_speech": false
+          },
+          "description": "Online distillation c112->c212 (swebench top-performer into best magenta ref-fixed model)",
+          "max_context_length": 262144,
+          "aliases": [
+            "mistral-medium-3.5",
+            "mistral-medium-3",
+            "mistral-medium-2604",
+            "mistral-medium-c21211-r0-75"
+          ],
+          "deprecation": null,
+          "deprecation_replacement_model": null,
+          "default_model_temperature": 0.7,
+          "type": "base"
+        },
+        {
+          "id": "mistral-medium-c21211-r0-75",
+          "name": "mistral-medium-3.5.0",
+          "owned_by": "mistralai",
+          "object": "model",
+          "capabilities": {
+            "completion_chat": true,
+            "function_calling": true,
+            "reasoning": true,
+            "completion_fim": false,
+            "fine_tuning": false,
+            "vision": true,
+            "ocr": false,
+            "classification": false,
+            "moderation": false,
+            "audio": false,
+            "audio_transcription": false,
+            "audio_transcription_realtime": false,
+            "audio_speech": false
+          },
+          "description": "Online distillation c112->c212 (swebench top-performer into best magenta ref-fixed model)",
+          "max_context_length": 262144,
+          "aliases": [
+            "mistral-medium-3.5.0",
+            "mistral-medium-3.5",
+            "mistral-medium-3",
+            "mistral-medium-2604"
+          ],
+          "deprecation": null,
+          "deprecation_replacement_model": null,
+          "default_model_temperature": 0.7,
           "type": "base"
         },
         {
