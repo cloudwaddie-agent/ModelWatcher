@@ -210,6 +210,7 @@ export function createRemovedModelsEmbed(endpointName, models) {
 
 /**
  * Format a value for display in diff
+ * Escapes backticks to prevent breaking Discord code blocks
  */
 function formatValue(val) {
   if (val === null || val === undefined) return '(none)';
@@ -219,14 +220,23 @@ function formatValue(val) {
 }
 
 /**
+ * Escape backticks in a string for use in Discord code blocks
+ * @param {string} str - String to escape
+ * @returns {string} - Escaped string
+ */
+function escapeBackticks(str) {
+  return str.replace(/`/g, '`\u200b');
+}
+
+/**
  * Format a single change as a git diff style string
  * @param {string} key - Property name that changed
  * @param {Object} change - Object with old and new values
  * @returns {string} - Formatted diff string
  */
 function formatDiffLine(key, change) {
-  const oldVal = formatValue(change.old);
-  const newVal = formatValue(change.new);
+  const oldVal = escapeBackticks(formatValue(change.old));
+  const newVal = escapeBackticks(formatValue(change.new));
   return `-${key}: ${oldVal}\n+${key}: ${newVal}`;
 }
 
