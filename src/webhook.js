@@ -225,7 +225,7 @@ function formatValue(val) {
  * @returns {string} - Escaped string
  */
 function escapeBackticks(str) {
-  return str.replace(/`/g, '\\`');
+  return str.replace(/`/g, '`\u200b');
 }
 
 /**
