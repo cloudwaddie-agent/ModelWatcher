@@ -18269,7 +18269,7 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.00000013",
+            "prompt": "0.00000012",
             "completion": "0.0000004"
           },
           "top_provider": {
