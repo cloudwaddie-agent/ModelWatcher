@@ -9066,17 +9066,6 @@
           "supports_tools": false
         },
         {
-          "id": "accounts/fireworks/models/glm-4p7",
-          "name": "accounts/fireworks/models/glm-4p7",
-          "owned_by": "fireworks",
-          "object": "model",
-          "kind": "HF_BASE_MODEL",
-          "supports_chat": true,
-          "supports_image_input": false,
-          "supports_tools": true,
-          "context_length": 202752
-        },
-        {
           "id": "accounts/fireworks/models/glm-5",
           "name": "accounts/fireworks/models/glm-5",
           "owned_by": "fireworks",
