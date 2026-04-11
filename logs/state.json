@@ -21428,7 +21428,7 @@
           "canonical_slug": "mistralai/mistral-small-3.1-24b-instruct-2503",
           "hugging_face_id": "mistralai/Mistral-Small-3.1-24B-Instruct-2503",
           "description": "Mistral Small 3.1 24B Instruct is an upgraded variant of Mistral Small 3 (2501), featuring 24 billion parameters with advanced multimodal capabilities. It provides state-of-the-art performance in text-based reasoning and...",
-          "context_length": 131072,
+          "context_length": 128000,
           "architecture": {
             "modality": "text+image->text",
             "input_modalities": [
@@ -21442,13 +21442,12 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.00000003",
-            "completion": "0.00000011",
-            "input_cache_read": "0.000000015"
+            "prompt": "0.00000035",
+            "completion": "0.00000056"
           },
           "top_provider": {
-            "context_length": 131072,
-            "max_completion_tokens": 131072,
+            "context_length": 128000,
+            "max_completion_tokens": null,
             "is_moderated": false
           },
           "per_request_limits": null,
@@ -21457,10 +21456,7 @@
             "max_tokens",
             "presence_penalty",
             "repetition_penalty",
-            "response_format",
             "seed",
-            "stop",
-            "structured_outputs",
             "temperature",
             "top_k",
             "top_p"
@@ -30041,7 +30037,8 @@
           },
           "pricing": {
             "prompt": "0.0000003",
-            "completion": "0.0000005"
+            "completion": "0.0000005",
+            "input_cache_read": "0.00000015"
           },
           "top_provider": {
             "context_length": 131072,
