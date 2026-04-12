@@ -5798,6 +5798,34 @@
           }
         },
         {
+          "id": "MiniMaxAI/MiniMax-M2.7",
+          "name": "MiniMaxAI/MiniMax-M2.7",
+          "uuid": "endpoint-f657dadd-0b1a-4671-b00c-e7a14221433d",
+          "object": "model",
+          "type": "chat",
+          "running": false,
+          "display_name": "MiniMax M2.7 FP4",
+          "organization": "MiniMaxAI",
+          "link": "https://huggingface.co/api/models/togethercomputer/M2.5plus-fp4",
+          "context_length": 196608,
+          "config": {
+            "chat_template": null,
+            "stop": [
+              "[e~["
+            ],
+            "bos_token": "]~!b[",
+            "eos_token": "[e~["
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0.3,
+            "output": 1.2,
+            "base": 0,
+            "finetune": 0,
+            "cached_input": 0.060000000000000005
+          }
+        },
+        {
           "id": "mistralai/Devstral-Small-2505",
           "name": "mistralai/Devstral-Small-2505",
           "object": "model",
