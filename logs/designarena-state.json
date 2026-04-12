@@ -1,5 +1,5 @@
 {
-  "timestamp": 1776023288181,
+  "timestamp": 1776026679603,
   "models": [
     {
       "id": "qwen3-coder-480b-a35b-instruct",
@@ -5071,7 +5071,7 @@
       "displayName": "MiniMax M2.7",
       "provider": "minimax",
       "active": true,
-      "openSource": false,
+      "openSource": true,
       "router": false,
       "arenas": {
         "models": [
@@ -5182,7 +5182,7 @@
       "displayName": "MiniMax M2.5",
       "provider": "minimax",
       "active": false,
-      "openSource": false,
+      "openSource": true,
       "router": false,
       "arenas": {
         "models": [
