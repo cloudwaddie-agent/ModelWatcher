@@ -20401,7 +20401,7 @@
           "canonical_slug": "minimax/minimax-m2.7-20260318",
           "hugging_face_id": "MiniMaxAI/MiniMax-M2.7",
           "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic capabilities through multi-agent...",
-          "context_length": 204800,
+          "context_length": 196608,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -20416,22 +20416,33 @@
           "pricing": {
             "prompt": "0.0000003",
             "completion": "0.0000012",
-            "input_cache_read": "0.00000006"
+            "input_cache_read": "0.000000059"
           },
           "top_provider": {
-            "context_length": 204800,
-            "max_completion_tokens": 131072,
+            "context_length": 196608,
+            "max_completion_tokens": null,
             "is_moderated": false
           },
           "per_request_limits": null,
           "supported_parameters": [
+            "frequency_penalty",
             "include_reasoning",
+            "logit_bias",
+            "logprobs",
             "max_tokens",
+            "min_p",
+            "presence_penalty",
             "reasoning",
+            "repetition_penalty",
             "response_format",
+            "seed",
+            "stop",
+            "structured_outputs",
             "temperature",
             "tool_choice",
             "tools",
+            "top_k",
+            "top_logprobs",
             "top_p"
           ],
           "default_parameters": {
