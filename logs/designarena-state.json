@@ -1,5 +1,5 @@
 {
-  "timestamp": 1776051247424,
+  "timestamp": 1776061296060,
   "models": [
     {
       "id": "qwen3-coder-480b-a35b-instruct",
@@ -560,6 +560,19 @@
     {
       "id": "proton",
       "displayName": "Proton",
+      "provider": "internal",
+      "active": false,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps"
+        ]
+      }
+    },
+    {
+      "id": "charm",
+      "displayName": "Charm",
       "provider": "internal",
       "active": false,
       "openSource": false,
